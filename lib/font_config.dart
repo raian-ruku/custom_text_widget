@@ -1,23 +1,23 @@
-import 'package:yaml/yaml.dart';
-import 'dart:io';
+import 'package:flutter/material.dart';
 
 class CustomTextFont {
-  static String? _family;
+  static const String defaultFamily = 'CustomTextFont';
+  static String family = defaultFamily;
 
-  static String? get family => _family;
-
-  static void initFromYaml() {
-    try {
-      final pubspec = File('pubspec.yaml').readAsStringSync();
-      final yaml = loadYaml(pubspec);
-      if (yaml['flutter']?['fonts'] != null) {
-        final fonts = yaml['flutter']['fonts'] as List;
-        if (fonts.isNotEmpty) {
-          _family = fonts.first['family'];
-        }
-      }
-    } catch (e) {
-      _family = null;
-    }
+  static TextStyle getStyle({
+    required double size,
+    required FontWeight weight,
+    Color? color,
+    double? letterSpacing,
+    FontStyle? fontStyle,
+  }) {
+    return TextStyle(
+      fontFamily: family,
+      fontSize: size,
+      fontWeight: weight,
+      color: color ?? Colors.black,
+      letterSpacing: letterSpacing,
+      fontStyle: fontStyle,
+    );
   }
 }
