@@ -49,7 +49,7 @@ class CustomText extends StatelessWidget {
         letterSpacing: letterSpacing,
         fontWeight: fontWeight,
         fontStyle: fontStyle,
-        fontFamily: CustomTextFont.family,
+        fontFamily: CustomTextFont.requiredFamily,
         decoration: decoration,
         decorationThickness: decorationThickness,
         decorationColor: decorationColor,
