@@ -1,23 +1,21 @@
 import 'package:flutter/material.dart';
 
 class CustomTextFont {
-  static const String defaultFamily = 'CustomTextFont';
-  static String family = defaultFamily;
+  static const String requiredFamily =
+      'CustomTextFont'; // Users MUST use this exact name
 
   static TextStyle getStyle({
     required double size,
     required FontWeight weight,
     Color? color,
     double? letterSpacing,
-    FontStyle? fontStyle,
   }) {
     return TextStyle(
-      fontFamily: family,
+      fontFamily: requiredFamily, // Enforces the font family name
       fontSize: size,
       fontWeight: weight,
       color: color ?? Colors.black,
       letterSpacing: letterSpacing,
-      fontStyle: fontStyle,
     );
   }
 }
