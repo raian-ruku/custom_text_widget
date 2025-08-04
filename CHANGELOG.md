@@ -1,3 +1,5 @@
-## 0.0.1
+## 1.0.0
 
-* TODO: Describe initial release.
+### Added
+
+- Initial release of `custom_text_widget` package.

@@ -1,0 +1,31 @@
+name: custom_text_widget_example
+description: Example app demonstrating custom_text_widget usage
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <4.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  custom_text_widget:
+    path: ../
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Add your custom font here
+  fonts:
+    - family: CustomTextFont
+      fonts:
+        - asset: assets/fonts/CustomTextFont-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/CustomTextFont-Bold.ttf
+          weight: 700
+        # Add more font weights as needed

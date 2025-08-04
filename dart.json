@@ -1,0 +1,857 @@
+{
+  "t6w1": {
+    "prefix": "t6w1",
+    "body": ["Text6w200"],
+    "description": "Creates a text widget with font size 6 and weight w200.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t6w2": {
+    "prefix": "t6w2",
+    "body": ["Text6w200"],
+    "description": "Creates a text widget with font size 6 and weight w200.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t6w3": {
+    "prefix": "t6w3",
+    "body": ["Text6w300"],
+    "description": "Creates a text widget with font size 6 and weight w300.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t6w4": {
+    "prefix": "t6w4",
+    "body": ["Text6w400"],
+    "description": "Creates a text widget with font size 6 and weight w400.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t6w5": {
+    "prefix": "t6w5",
+    "body": ["Text6w500"],
+    "description": "Creates a text widget with font size 6 and weight w500.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t6w6": {
+    "prefix": "t6w6",
+    "body": ["Text6w600"],
+    "description": "Creates a text widget with font size 6 and weight w600.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t6w7": {
+    "prefix": "t6w7",
+    "body": ["Text6w700"],
+    "description": "Creates a text widget with font size 6 and weight w700.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t6w8": {
+    "prefix": "t6w8",
+    "body": ["Text6w800"],
+    "description": "Creates a text widget with font size 6 and weight w800.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t6w9": {
+    "prefix": "t6w9",
+    "body": ["Text6w900"],
+    "description": "Creates a text widget with font size 6 and weight w900.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t7w1": {
+    "prefix": "t7w1",
+    "body": ["Text7w100"],
+    "description": "Creates a text widget with font size 7 and weight w100.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t7w2": {
+    "prefix": "t7w2",
+    "body": ["Text7w200"],
+    "description": "Creates a text widget with font size 7 and weight w200.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t7w3": {
+    "prefix": "t7w3",
+    "body": ["Text7w300"],
+    "description": "Creates a text widget with font size 7 and weight w300.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t7w4": {
+    "prefix": "t7w4",
+    "body": ["Text7w400"],
+    "description": "Creates a text widget with font size 7 and weight w400.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t7w5": {
+    "prefix": "t7w5",
+    "body": ["Text7w500"],
+    "description": "Creates a text widget with font size 7 and weight w500.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t7w6": {
+    "prefix": "t7w6",
+    "body": ["Text7w600"],
+    "description": "Creates a text widget with font size 7 and weight w600.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t7w7": {
+    "prefix": "t7w7",
+    "body": ["Text7w700"],
+    "description": "Creates a text widget with font size 7 and weight w700.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t7w8": {
+    "prefix": "t7w8",
+    "body": ["Text7w800"],
+    "description": "Creates a text widget with font size 7 and weight w800.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t7w9": {
+    "prefix": "t7w9",
+    "body": ["Text7w900"],
+    "description": "Creates a text widget with font size 7 and weight w900.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t8w1": {
+    "prefix": "t8w1",
+    "body": ["Text8w100"],
+    "description": "Creates a text widget with font size 8 and weight w100.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t8w2": {
+    "prefix": "t8w2",
+    "body": ["Text8w200"],
+    "description": "Creates a text widget with font size 8 and weight w200.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t8w3": {
+    "prefix": "t8w3",
+    "body": ["Text8w300"],
+    "description": "Creates a text widget with font size 8 and weight w300.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t8w4": {
+    "prefix": "t8w4",
+    "body": ["Text8w400"],
+    "description": "Creates a text widget with font size 8 and weight w400.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t8w5": {
+    "prefix": "t8w5",
+    "body": ["Text8w500"],
+    "description": "Creates a text widget with font size 8 and weight w500.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t8w6": {
+    "prefix": "t8w6",
+    "body": ["Text8w600"],
+    "description": "Creates a text widget with font size 8 and weight w600.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t8w7": {
+    "prefix": "t8w7",
+    "body": ["Text8w700"],
+    "description": "Creates a text widget with font size 8 and weight w700.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t8w8": {
+    "prefix": "t8w8",
+    "body": ["Text8w800"],
+    "description": "Creates a text widget with font size 8 and weight w800.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t8w9": {
+    "prefix": "t8w9",
+    "body": ["Text8w900"],
+    "description": "Creates a text widget with font size 8 and weight w900.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t9w1": {
+    "prefix": "t9w1",
+    "body": ["Text9w100"],
+    "description": "Creates a text widget with font size 9 and weight w100.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t9w2": {
+    "prefix": "t9w2",
+    "body": ["Text9w200"],
+    "description": "Creates a text widget with font size 9 and weight w200.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t9w3": {
+    "prefix": "t9w3",
+    "body": ["Text9w300"],
+    "description": "Creates a text widget with font size 9 and weight w300.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t9w4": {
+    "prefix": "t9w4",
+    "body": ["Text9w400"],
+    "description": "Creates a text widget with font size 9 and weight w400.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t9w5": {
+    "prefix": "t9w5",
+    "body": ["Text9w500"],
+    "description": "Creates a text widget with font size 9 and weight w500.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t9w6": {
+    "prefix": "t9w6",
+    "body": ["Text9w600"],
+    "description": "Creates a text widget with font size 9 and weight w600.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t9w7": {
+    "prefix": "t9w7",
+    "body": ["Text9w700"],
+    "description": "Creates a text widget with font size 9 and weight w700.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t9w8": {
+    "prefix": "t9w8",
+    "body": ["Text9w800"],
+    "description": "Creates a text widget with font size 9 and weight w800.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t9w9": {
+    "prefix": "t9w9",
+    "body": ["Text9w900"],
+    "description": "Creates a text widget with font size 9 and weight w900.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t10w1": {
+    "prefix": "t10w1",
+    "body": ["Text10w100"],
+    "description": "Creates a text widget with font size 10 and weight w100.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t10w2": {
+    "prefix": "t10w2",
+    "body": ["Text10w200"],
+    "description": "Creates a text widget with font size 10 and weight w200.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t10w3": {
+    "prefix": "t10w3",
+    "body": ["Text10w300"],
+    "description": "Creates a text widget with font size 10 and weight w300.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t10w4": {
+    "prefix": "t10w4",
+    "body": ["Text10w400"],
+    "description": "Creates a text widget with font size 10 and weight w400.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t10w5": {
+    "prefix": "t10w5",
+    "body": ["Text10w500"],
+    "description": "Creates a text widget with font size 10 and weight w500.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t10w6": {
+    "prefix": "t10w6",
+    "body": ["Text10w600"],
+    "description": "Creates a text widget with font size 10 and weight w600.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t10w7": {
+    "prefix": "t10w7",
+    "body": ["Text10w700"],
+    "description": "Creates a text widget with font size 10 and weight w700.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t10w8": {
+    "prefix": "t10w8",
+    "body": ["Text10w800"],
+    "description": "Creates a text widget with font size 10 and weight w800.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t10w9": {
+    "prefix": "t10w9",
+    "body": ["Text10w900"],
+    "description": "Creates a text widget with font size 10 and weight w900.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t11w1": {
+    "prefix": "t11w1",
+    "body": ["Text11w100"],
+    "description": "Creates a text widget with font size 11 and weight w100.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t11w2": {
+    "prefix": "t11w2",
+    "body": ["Text11w200"],
+    "description": "Creates a text widget with font size 11 and weight w200.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t11w3": {
+    "prefix": "t11w3",
+    "body": ["Text11w300"],
+    "description": "Creates a text widget with font size 11 and weight w300.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t11w4": {
+    "prefix": "t11w4",
+    "body": ["Text11w400"],
+    "description": "Creates a text widget with font size 11 and weight w400.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t11w5": {
+    "prefix": "t11w5",
+    "body": ["Text11w500"],
+    "description": "Creates a text widget with font size 11 and weight w500.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t11w6": {
+    "prefix": "t11w6",
+    "body": ["Text11w600"],
+    "description": "Creates a text widget with font size 11 and weight w600.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t11w7": {
+    "prefix": "t11w7",
+    "body": ["Text11w700"],
+    "description": "Creates a text widget with font size 11 and weight w700.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t11w8": {
+    "prefix": "t11w8",
+    "body": ["Text11w800"],
+    "description": "Creates a text widget with font size 11 and weight w800.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t11w9": {
+    "prefix": "t11w9",
+    "body": ["Text11w900"],
+    "description": "Creates a text widget with font size 11 and weight w900.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t12w1": {
+    "prefix": "t12w1",
+    "body": ["Text12w100"],
+    "description": "Creates a text widget with font size 12 and weight w100.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t12w2": {
+    "prefix": "t12w2",
+    "body": ["Text12w200"],
+    "description": "Creates a text widget with font size 12 and weight w200.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t12w3": {
+    "prefix": "t12w3",
+    "body": ["Text12w300"],
+    "description": "Creates a text widget with font size 12 and weight w300.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t12w4": {
+    "prefix": "t12w4",
+    "body": ["Text12w400"],
+    "description": "Creates a text widget with font size 12 and weight w400.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t12w5": {
+    "prefix": "t12w5",
+    "body": ["Text12w500"],
+    "description": "Creates a text widget with font size 12 and weight w500.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t12w6": {
+    "prefix": "t12w6",
+    "body": ["Text12w600"],
+    "description": "Creates a text widget with font size 12 and weight w600.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t12w7": {
+    "prefix": "t12w7",
+    "body": ["Text12w700"],
+    "description": "Creates a text widget with font size 12 and weight w700.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t12w8": {
+    "prefix": "t12w8",
+    "body": ["Text12w800"],
+    "description": "Creates a text widget with font size 12 and weight w800.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t12w9": {
+    "prefix": "t12w9",
+    "body": ["Text12w900"],
+    "description": "Creates a text widget with font size 12 and weight w900.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t13w1": {
+    "prefix": "t13w1",
+    "body": ["Text13w100"],
+    "description": "Creates a text widget with font size 13 and weight w100.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t13w2": {
+    "prefix": "t13w2",
+    "body": ["Text13w200"],
+    "description": "Creates a text widget with font size 13 and weight w200.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t13w3": {
+    "prefix": "t13w3",
+    "body": ["Text13w300"],
+    "description": "Creates a text widget with font size 13 and weight w300.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t13w4": {
+    "prefix": "t13w4",
+    "body": ["Text13w400"],
+    "description": "Creates a text widget with font size 13 and weight w400.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t13w5": {
+    "prefix": "t13w5",
+    "body": ["Text13w500"],
+    "description": "Creates a text widget with font size 13 and weight w500.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t13w6": {
+    "prefix": "t13w6",
+    "body": ["Text13w600"],
+    "description": "Creates a text widget with font size 13 and weight w600.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t13w7": {
+    "prefix": "t13w7",
+    "body": ["Text13w700"],
+    "description": "Creates a text widget with font size 13 and weight w700.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t13w8": {
+    "prefix": "t13w8",
+    "body": ["Text13w800"],
+    "description": "Creates a text widget with font size 13 and weight w800.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t13w9": {
+    "prefix": "t13w9",
+    "body": ["Text13w900"],
+    "description": "Creates a text widget with font size 13 and weight w900.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t14w1": {
+    "prefix": "t14w1",
+    "body": ["Text14w100"],
+    "description": "Creates a text widget with font size 14 and weight w100.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t14w2": {
+    "prefix": "t14w2",
+    "body": ["Text14w200"],
+    "description": "Creates a text widget with font size 14 and weight w200.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t14w3": {
+    "prefix": "t14w3",
+    "body": ["Text14w300"],
+    "description": "Creates a text widget with font size 14 and weight w300.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t14w4": {
+    "prefix": "t14w4",
+    "body": ["Text14w400"],
+    "description": "Creates a text widget with font size 14 and weight w400.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t14w5": {
+    "prefix": "t14w5",
+    "body": ["Text14w500"],
+    "description": "Creates a text widget with font size 14 and weight w500.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t14w6": {
+    "prefix": "t14w6",
+    "body": ["Text14w600"],
+    "description": "Creates a text widget with font size 14 and weight w600.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t14w7": {
+    "prefix": "t14w7",
+    "body": ["Text14w700"],
+    "description": "Creates a text widget with font size 14 and weight w700.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t14w8": {
+    "prefix": "t14w8",
+    "body": ["Text14w800"],
+    "description": "Creates a text widget with font size 14 and weight w800.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t14w9": {
+    "prefix": "t14w9",
+    "body": ["Text14w900"],
+    "description": "Creates a text widget with font size 14 and weight w900.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t15w1": {
+    "prefix": "t15w1",
+    "body": ["Text15w100"],
+    "description": "Creates a text widget with font size 15 and weight w100.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t15w2": {
+    "prefix": "t15w2",
+    "body": ["Text15w200"],
+    "description": "Creates a text widget with font size 15 and weight w200.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t15w3": {
+    "prefix": "t15w3",
+    "body": ["Text15w300"],
+    "description": "Creates a text widget with font size 15 and weight w300.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t15w4": {
+    "prefix": "t15w4",
+    "body": ["Text15w400"],
+    "description": "Creates a text widget with font size 15 and weight w400.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t15w5": {
+    "prefix": "t15w5",
+    "body": ["Text15w500"],
+    "description": "Creates a text widget with font size 15 and weight w500.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t15w6": {
+    "prefix": "t15w6",
+    "body": ["Text15w600"],
+    "description": "Creates a text widget with font size 15 and weight w600.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t15w7": {
+    "prefix": "t15w7",
+    "body": ["Text15w700"],
+    "description": "Creates a text widget with font size 15 and weight w700.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t15w8": {
+    "prefix": "t15w8",
+    "body": ["Text15w800"],
+    "description": "Creates a text widget with font size 15 and weight w800.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t15w9": {
+    "prefix": "t15w9",
+    "body": ["Text15w900"],
+    "description": "Creates a text widget with font size 15 and weight w900.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t16w1": {
+    "prefix": "t16w1",
+    "body": ["Text16w100"],
+    "description": "Creates a text widget with font size 16 and weight w100.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t16w2": {
+    "prefix": "t16w2",
+    "body": ["Text16w200"],
+    "description": "Creates a text widget with font size 16 and weight w200.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t16w3": {
+    "prefix": "t16w3",
+    "body": ["Text16w300"],
+    "description": "Creates a text widget with font size 16 and weight w300.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t16w4": {
+    "prefix": "t16w4",
+    "body": ["Text16w400"],
+    "description": "Creates a text widget with font size 16 and weight w400.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t16w5": {
+    "prefix": "t16w5",
+    "body": ["Text16w500"],
+    "description": "Creates a text widget with font size 16 and weight w500.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t16w6": {
+    "prefix": "t16w6",
+    "body": ["Text16w600"],
+    "description": "Creates a text widget with font size 16 and weight w600.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t16w7": {
+    "prefix": "t16w7",
+    "body": ["Text16w700"],
+    "description": "Creates a text widget with font size 16 and weight w700.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t16w8": {
+    "prefix": "t16w8",
+    "body": ["Text16w800"],
+    "description": "Creates a text widget with font size 16 and weight w800.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t16w9": {
+    "prefix": "t16w9",
+    "body": ["Text16w900"],
+    "description": "Creates a text widget with font size 16 and weight w900.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t17w1": {
+    "prefix": "t17w1",
+    "body": ["Text17w100"],
+    "description": "Creates a text widget with font size 17 and weight w100.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t17w2": {
+    "prefix": "t17w2",
+    "body": ["Text17w200"],
+    "description": "Creates a text widget with font size 17 and weight w200.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t17w3": {
+    "prefix": "t17w3",
+    "body": ["Text17w300"],
+    "description": "Creates a text widget with font size 17 and weight w300.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t17w4": {
+    "prefix": "t17w4",
+    "body": ["Text17w400"],
+    "description": "Creates a text widget with font size 17 and weight w400.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t17w5": {
+    "prefix": "t17w5",
+    "body": ["Text17w500"],
+    "description": "Creates a text widget with font size 17 and weight w500.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t17w6": {
+    "prefix": "t17w6",
+    "body": ["Text17w600"],
+    "description": "Creates a text widget with font size 17 and weight w600.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t17w7": {
+    "prefix": "t17w7",
+    "body": ["Text17w700"],
+    "description": "Creates a text widget with font size 17 and weight w700.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t17w8": {
+    "prefix": "t17w8",
+    "body": ["Text17w800"],
+    "description": "Creates a text widget with font size 17 and weight w800.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t17w9": {
+    "prefix": "t17w9",
+    "body": ["Text17w900"],
+    "description": "Creates a text widget with font size 17 and weight w900.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t18w1": {
+    "prefix": "t18w1",
+    "body": ["Text18w100"],
+    "description": "Creates a text widget with font size 18 and weight w100.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t18w2": {
+    "prefix": "t18w2",
+    "body": ["Text18w200"],
+    "description": "Creates a text widget with font size 18 and weight w200.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t18w3": {
+    "prefix": "t18w3",
+    "body": ["Text18w300"],
+    "description": "Creates a text widget with font size 18 and weight w300.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t18w4": {
+    "prefix": "t18w4",
+    "body": ["Text18w400"],
+    "description": "Creates a text widget with font size 18 and weight w400.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t18w5": {
+    "prefix": "t18w5",
+    "body": ["Text18w500"],
+    "description": "Creates a text widget with font size 18 and weight w500.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t18w6": {
+    "prefix": "t18w6",
+    "body": ["Text18w600"],
+    "description": "Creates a text widget with font size 18 and weight w600.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t18w7": {
+    "prefix": "t18w7",
+    "body": ["Text18w700"],
+    "description": "Creates a text widget with font size 18 and weight w700.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t18w8": {
+    "prefix": "t18w8",
+    "body": ["Text18w800"],
+    "description": "Creates a text widget with font size 18 and weight w800.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t18w9": {
+    "prefix": "t18w9",
+    "body": ["Text18w900"],
+    "description": "Creates a text widget with font size 18 and weight w900.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t19w1": {
+    "prefix": "t19w1",
+    "body": ["Text19w100"],
+    "description": "Creates a text widget with font size 19 and weight w100.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t19w2": {
+    "prefix": "t19w2",
+    "body": ["Text19w200"],
+    "description": "Creates a text widget with font size 19 and weight w200.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t19w3": {
+    "prefix": "t19w3",
+    "body": ["Text19w300"],
+    "description": "Creates a text widget with font size 19 and weight w300.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t19w4": {
+    "prefix": "t19w4",
+    "body": ["Text19w400"],
+    "description": "Creates a text widget with font size 19 and weight w400.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t19w5": {
+    "prefix": "t19w5",
+    "body": ["Text19w500"],
+    "description": "Creates a text widget with font size 19 and weight w500.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t19w6": {
+    "prefix": "t19w6",
+    "body": ["Text19w600"],
+    "description": "Creates a text widget with font size 19 and weight w600.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t19w7": {
+    "prefix": "t19w7",
+    "body": ["Text19w700"],
+    "description": "Creates a text widget with font size 19 and weight w700.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t19w8": {
+    "prefix": "t19w8",
+    "body": ["Text19w800"],
+    "description": "Creates a text widget with font size 19 and weight w800.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t19w9": {
+    "prefix": "t19w9",
+    "body": ["Text19w900"],
+    "description": "Creates a text widget with font size 19 and weight w900.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t20w1": {
+    "prefix": "t20w1",
+    "body": ["Text20w100"],
+    "description": "Creates a text widget with font size 20 and weight w100.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t20w2": {
+    "prefix": "t20w2",
+    "body": ["Text20w200"],
+    "description": "Creates a text widget with font size 20 and weight w200.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t20w3": {
+    "prefix": "t20w3",
+    "body": ["Text20w300"],
+    "description": "Creates a text widget with font size 20 and weight w300.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t20w4": {
+    "prefix": "t20w4",
+    "body": ["Text20w400"],
+    "description": "Creates a text widget with font size 20 and weight w400.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t20w5": {
+    "prefix": "t20w5",
+    "body": ["Text20w500"],
+    "description": "Creates a text widget with font size 20 and weight w500.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t20w6": {
+    "prefix": "t20w6",
+    "body": ["Text20w600"],
+    "description": "Creates a text widget with font size 20 and weight w600.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t20w7": {
+    "prefix": "t20w7",
+    "body": ["Text20w700"],
+    "description": "Creates a text widget with font size 20 and weight w700.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t20w8": {
+    "prefix": "t20w8",
+    "body": ["Text20w800"],
+    "description": "Creates a text widget with font size 20 and weight w800.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t20w9": {
+    "prefix": "t20w9",
+    "body": ["Text20w900"],
+    "description": "Creates a text widget with font size 20 and weight w900.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t21w1": {
+    "prefix": "t21w1",
+    "body": ["Text21w100"],
+    "description": "Creates a text widget with font size 21 and weight w100.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t21w2": {
+    "prefix": "t21w2",
+    "body": ["Text21w200"],
+    "description": "Creates a text widget with font size 21 and weight w200.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t21w3": {
+    "prefix": "t21w3",
+    "body": ["Text21w300"],
+    "description": "Creates a text widget with font size 21 and weight w300.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t21w4": {
+    "prefix": "t21w4",
+    "body": ["Text21w400"],
+    "description": "Creates a text widget with font size 21 and weight w400.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t21w5": {
+    "prefix": "t21w5",
+    "body": ["Text21w500"],
+    "description": "Creates a text widget with font size 21 and weight w500.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t21w6": {
+    "prefix": "t21w6",
+    "body": ["Text21w600"],
+    "description": "Creates a text widget with font size 21 and weight w600.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t21w7": {
+    "prefix": "t21w7",
+    "body": ["Text21w700"],
+    "description": "Creates a text widget with font size 21 and weight w700.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t21w8": {
+    "prefix": "t21w8",
+    "body": ["Text21w800"],
+    "description": "Creates a text widget with font size 21 and weight w800.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t21w9": {
+    "prefix": "t21w9",
+    "body": ["Text21w900"],
+    "description": "Creates a text widget with font size 21 and weight w900.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t22w1": {
+    "prefix": "t22w1",
+    "body": ["Text22w100"],
+    "description": "Creates a text widget with font size 22 and weight w100.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t22w2": {
+    "prefix": "t22w2",
+    "body": ["Text22w200"],
+    "description": "Creates a text widget with font size 22 and weight w200.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t22w3": {
+    "prefix": "t22w3",
+    "body": ["Text22w300"],
+    "description": "Creates a text widget with font size 22 and weight w300.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t22w4": {
+    "prefix": "t22w4",
+    "body": ["Text22w400"],
+    "description": "Creates a text widget with font size 22 and weight w400.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t22w5": {
+    "prefix": "t22w5",
+    "body": ["Text22w500"],
+    "description": "Creates a text widget with font size 22 and weight w500.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t22w6": {
+    "prefix": "t22w6",
+    "body": ["Text22w600"],
+    "description": "Creates a text widget with font size 22 and weight w600.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t22w7": {
+    "prefix": "t22w7",
+    "body": ["Text22w700"],
+    "description": "Creates a text widget with font size 22 and weight w700.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t22w8": {
+    "prefix": "t22w8",
+    "body": ["Text22w800"],
+    "description": "Creates a text widget with font size 22 and weight w800.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t22w9": {
+    "prefix": "t22w9",
+    "body": ["Text22w900"],
+    "description": "Creates a text widget with font size 22 and weight w900.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t23w1": {
+    "prefix": "t23w1",
+    "body": ["Text23w100"],
+    "description": "Creates a text widget with font size 23 and weight w100.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t23w2": {
+    "prefix": "t23w2",
+    "body": ["Text23w200"],
+    "description": "Creates a text widget with font size 23 and weight w200.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t23w3": {
+    "prefix": "t23w3",
+    "body": ["Text23w300"],
+    "description": "Creates a text widget with font size 23 and weight w300.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t23w4": {
+    "prefix": "t23w4",
+    "body": ["Text23w400"],
+    "description": "Creates a text widget with font size 23 and weight w400.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t23w5": {
+    "prefix": "t23w5",
+    "body": ["Text23w500"],
+    "description": "Creates a text widget with font size 23 and weight w500.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t23w6": {
+    "prefix": "t23w6",
+    "body": ["Text23w600"],
+    "description": "Creates a text widget with font size 23 and weight w600.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t23w7": {
+    "prefix": "t23w7",
+    "body": ["Text23w700"],
+    "description": "Creates a text widget with font size 23 and weight w700.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t23w8": {
+    "prefix": "t23w8",
+    "body": ["Text23w800"],
+    "description": "Creates a text widget with font size 23 and weight w800.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t23w9": {
+    "prefix": "t23w9",
+    "body": ["Text23w900"],
+    "description": "Creates a text widget with font size 23 and weight w900.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t24w1": {
+    "prefix": "t24w1",
+    "body": ["Text24w100"],
+    "description": "Creates a text widget with font size 24 and weight w100.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t24w2": {
+    "prefix": "t24w2",
+    "body": ["Text24w200"],
+    "description": "Creates a text widget with font size 24 and weight w200.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t24w3": {
+    "prefix": "t24w3",
+    "body": ["Text24w300"],
+    "description": "Creates a text widget with font size 24 and weight w300.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t24w4": {
+    "prefix": "t24w4",
+    "body": ["Text24w400"],
+    "description": "Creates a text widget with font size 24 and weight w400.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t24w5": {
+    "prefix": "t24w5",
+    "body": ["Text24w500"],
+    "description": "Creates a text widget with font size 24 and weight w500.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t24w6": {
+    "prefix": "t24w6",
+    "body": ["Text24w600"],
+    "description": "Creates a text widget with font size 24 and weight w600.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t24w7": {
+    "prefix": "t24w7",
+    "body": ["Text24w700"],
+    "description": "Creates a text widget with font size 24 and weight w700.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t24w8": {
+    "prefix": "t24w8",
+    "body": ["Text24w800"],
+    "description": "Creates a text widget with font size 24 and weight w800.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  },
+  "t24w9": {
+    "prefix": "t24w9",
+    "body": ["Text24w900"],
+    "description": "Creates a text widget with font size 24 and weight w900.\n\nOptional named parameters:\n• color\n• letterSpacing, wordSpacing\n• textBaseline, fontStyle\n• overflow, maxLines, textAlign, textDirection\n• locale, softWrap, strutStyle\n• textWidthBasis, textHeightBehavior\n• foreground, background, shadows\n• decoration (+ color/style/thickness)\n• height, debugLabel, package, style, semanticsLabel"
+  }
+}
