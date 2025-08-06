@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../custom_text_widget.dart';
+import '../simplified_text_widget.dart';
 
 // Helper function to generate all variants
 CustomText _textVariant(

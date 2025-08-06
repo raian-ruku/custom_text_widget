@@ -1,5 +1,5 @@
-name: custom_text_widget_example
-description: Example app demonstrating custom_text_widget usage
+name: simplified_text_widget_example
+description: Example app demonstrating simplified_text_widget usage
 version: 1.0.0+1
 
 environment:
@@ -9,7 +9,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  custom_text_widget:
+  simplified_text_widget:
     path: ../
 
 dev_dependencies:

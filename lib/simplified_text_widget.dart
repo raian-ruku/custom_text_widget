@@ -1,6 +1,6 @@
-library custom_text_widget;
+library simplified_text_widget;
 
-import 'package:custom_text_widget/font_config.dart';
+import 'package:simplified_text_widget/font_config.dart';
 import 'package:flutter/material.dart';
 
 export 'src/text_variants.dart';

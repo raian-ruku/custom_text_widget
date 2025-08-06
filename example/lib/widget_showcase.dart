@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:custom_text_widget/custom_text_widget.dart';
+import 'package:simplified_text_widget/simplified_text_widget.dart';
 
 class WidgetShowcase extends StatelessWidget {
   const WidgetShowcase({Key? key}) : super(key: key);
