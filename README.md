@@ -1,30 +1,27 @@
-`````markdown
-# Simplified Text Widget Package
+**# Simplified Text Widget Package**
 
 ![Pub Version](https://img.shields.io/pub/v/simplified_text_widget)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
 A Flutter package that provides beautifully styled text widgets with enforced font consistency.
 
-## 📦 Installation
+**## 📦 Installation**
 
-### Use this package as a library
+**### Use this package as a library**
 
-#### 🔗 Depend on it
+**#### 🔗 Depend on it**
 
 Run this command:
 
 With Flutter:
 
 ```bash
-$ flutter pub add simplified_text_widget
-
-
+ flutter pub add simplified_text_widget
 ```
 
-## 🛠️ Setup Your Font
+**## 🛠️ Setup Your Font**
 
-### 1. Add Font Files
+**### 1. Add Font Files**
 
 Place your font files in:
 
@@ -32,47 +29,37 @@ Place your font files in:
 your_project/
 └── assets/
     └── fonts/
-        ├── YourFont-Regular.ttf
-        └── YourFont-Bold.ttf
+        ├── YourFont.ttf
 ```
 
-### 2. Configure `pubspec.yaml`
+**### 2. Configure** **`pubspec.yaml`**
 
 Add this configuration (must use exact family name):
 
 ```yaml
-flutter:
-  assets:
-    - assets/fonts/YourFont-Regular.ttf
-    - assets/fonts/YourFont-Bold.ttf
-
-  fonts:
-    - family: CustomTextFont # ← REQUIRED NAME
-      fonts:
-        - asset: assets/fonts/YourFont-Regular.ttf
-          weight: 400
-        - asset: assets/fonts/YourFont-Bold.ttf
-          weight: 700
+fonts:
+  - family: CustomTextFont _# ← REQUIRED NAME_
+    fonts:
+      - asset: assets/fonts/YourFont.ttf
 ```
 
-### 3. Clean & Rebuild
+**### 3. Clean & Rebuild**
 
 ```bash
-flutter clean
 flutter pub get
 ```
 
-## 🎯 Basic Usage
+**## 🎯 Basic Usage**
 
 ```dart
 import 'package:simplified_text_widget/simplified_text_widget.dart';
 
-// Available variants: Text[Size]w[Weight]
+_// Available variants: Text[Size]w[Weight]_
 Text14w400('Regular 14px text');
 Text16w700('Bold 16px text', color: Colors.blue);
 ```
 
-## ✨ All Customization Options
+**## ✨ All Customization Options**
 
 ```dart
 Text18w500(
@@ -85,7 +72,7 @@ Text18w500(
 );
 ```
 
-## 📏 Available Text Variants
+**## 📏 Available Text Variants**
 
 | Size | Weights Available | Example      |
 | ---- | ----------------- | ------------ |
@@ -95,24 +82,26 @@ Text18w500(
 | ...  | ...               | ...          |
 | 24   | 100-900           | `Text24w900` |
 
-## 🧠 VS Code Snippets (Optional but Recommended)
+**## 🧠 VS Code Snippets (Optional but Recommended)**
 
 To boost your productivity and ensure consistency, we've included a set of VS Code snippets to instantly generate styled text widgets with predefined font sizes and weights.
 
-### ✅ How to Use
+**### ✅ How to Use**
 
+```
 1. Open VS Code
 2. Go to `Preferences` → `Configure Snippets`
 3. Choose `dart.json` (or create if it doesn't exist)
-4. Copy contents from the provided `dart.json` file
+4. Copy contents from the provided `dart.json` file (available in package github)
 5. Save and restart VS Code
+```
 
 Now you can type shortcuts like:
 
-````dart
+```dart
 t14w4 → Text14w400('Your text here')
 t18w7 → Text18w700('Bold title')
-
+```
 
 ## 🚨 Troubleshooting
 
@@ -122,27 +111,19 @@ t18w7 → Text18w700('Bold title')
 2. Check family name is exactly `CustomTextFont`
 3. Ensure proper indentation in `pubspec.yaml`
 4. Run:
-   ```bash
+
+```bash
    flutter clean
    flutter pub get
-````
-`````
+```
 
-### Error: "Unable to locate asset"
+**### Error: "Unable to locate asset"**
 
 - Double-check your font files exist at the specified path
 - File names are case-sensitive
 
-## 📜 License
+**## 📜 License**
 
 MIT - See [LICENSE](LICENSE) for details.
 
----
-
 Made with ❤️ by [Raian Ruku](github.com/raian-ruku). Enjoy consistent typography in your Flutter apps!
-
-```
-
-
-
-```
