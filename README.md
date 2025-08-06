@@ -1,7 +1,7 @@
 `````markdown
-# Custom Text Widget Package
+# Simplified Text Widget Package
 
-![Pub Version](https://img.shields.io/pub/v/custom_text_widget)
+![Pub Version](https://img.shields.io/pub/v/simplified_text_widget)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
 A Flutter package that provides beautifully styled text widgets with enforced font consistency.
@@ -17,7 +17,7 @@ Run this command:
 With Flutter:
 
 ```bash
-$ flutter pub add custom_text_widget
+$ flutter pub add simplified_text_widget
 
 
 ```
@@ -65,7 +65,7 @@ flutter pub get
 ## 🎯 Basic Usage
 
 ```dart
-import 'package:custom_text_widget/custom_text_widget.dart';
+import 'package:simplified_text_widget/simplified_text_widget.dart';
 
 // Available variants: Text[Size]w[Weight]
 Text14w400('Regular 14px text');
