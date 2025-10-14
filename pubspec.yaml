@@ -1,16 +1,16 @@
 name: simplified_text_widget
 description: A customizable text widget package with pre-defined font weights and easy styling options.
-version: 1.0.1
+version: 1.2.0
 homepage: https://github.com/raian-ruku/custom_text_widget
 
 environment:
-  sdk: ">=2.12.0 <4.0.0"
+  sdk: ">=3.0.0 <4.0.0"
   flutter: ">=2.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  flutter_dotenv: ^5.0.2
+  flutter_dotenv: ^6.0.0
 
 dev_dependencies:
   flutter_test:

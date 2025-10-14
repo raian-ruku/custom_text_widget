@@ -1,3 +1,9 @@
+## 1.2.0
+
+### Added
+
+- font size supported upto `48`
+
 ## 1.0.1
 
 ### Added
