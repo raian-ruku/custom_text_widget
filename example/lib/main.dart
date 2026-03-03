@@ -2,6 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:simplified_text_widget/simplified_text_widget.dart';
 
 void main() {
+  // Required initialization for the library
+  SimplifiedTextWidgetConfig.config(
+    responsiveFonts: true,
+    defaultFontWeight: DefaultFontWeight.w500,
+  );
   runApp(const MyApp());
 }
 
@@ -41,6 +46,8 @@ class ExampleHomePage extends StatelessWidget {
             _PrebuiltVariantsSection(),
             SizedBox(height: 32),
             _StylingOptionsSection(),
+            SizedBox(height: 32),
+            _ColorsUtilitySection(),
             SizedBox(height: 32),
             _ResponsiveTextSection(),
           ],
@@ -194,6 +201,71 @@ class _StylingOptionsSection extends StatelessWidget {
           ),
         ),
       ],
+    );
+  }
+}
+
+class _ColorsUtilitySection extends StatelessWidget {
+  const _ColorsUtilitySection();
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text(
+          'Colors Utility (v1.3.0)',
+          style: Theme.of(context).textTheme.headlineSmall?.copyWith(
+                fontWeight: FontWeight.bold,
+              ),
+        ),
+        const SizedBox(height: 16),
+        const Card(
+          child: Padding(
+            padding: EdgeInsets.all(16.0),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text('Get color names for debugging:'),
+                SizedBox(height: 12),
+                _ColorNameRow(color: Colors.red),
+                _ColorNameRow(color: Colors.blueAccent),
+                _ColorNameRow(color: Colors.amber),
+                _ColorNameRow(color: Colors.teal),
+                _ColorNameRow(color: Color(0xFF123456)),
+              ],
+            ),
+          ),
+        ),
+      ],
+    );
+  }
+}
+
+class _ColorNameRow extends StatelessWidget {
+  final Color color;
+  const _ColorNameRow({required this.color});
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.only(bottom: 8.0),
+      child: Row(
+        children: [
+          Container(
+            width: 24,
+            height: 24,
+            color: color,
+          ),
+          const SizedBox(width: 12),
+          Expanded(
+            child: Text14w500(
+              getColorName(color),
+              color: Colors.black87,
+            ),
+          ),
+        ],
+      ),
     );
   }
 }

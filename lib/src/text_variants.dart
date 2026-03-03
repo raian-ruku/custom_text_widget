@@ -66,6 +66,98 @@ CustomText _textVariant(
     );
 
 // Text widgets for font size 6
+class Text6 extends StatelessWidget {
+  final String text;
+  final Color? color;
+  final double? letterSpacing;
+  final double? wordSpacing;
+  final TextBaseline? textBaseline;
+  final FontStyle? fontStyle;
+  final TextOverflow? overflow;
+  final int? maxLines;
+  final TextAlign? textAlign;
+  final TextDirection? textDirection;
+  final Locale? locale;
+  final bool? softWrap;
+  final StrutStyle? strutStyle;
+  final TextWidthBasis? textWidthBasis;
+  final TextHeightBehavior? textHeightBehavior;
+  final Paint? foreground;
+  final Paint? background;
+  final List<Shadow>? shadows;
+  final TextDecoration? decoration;
+  final double? decorationThickness;
+  final Color? decorationColor;
+  final TextDecorationStyle? decorationStyle;
+  final double? height;
+  final String? debugLabel;
+  final String? package;
+  final TextStyle? style;
+  final String? semanticsLabel;
+  const Text6(
+    this.text, {
+    Key? key,
+    this.color,
+    this.letterSpacing,
+    this.wordSpacing,
+    this.textBaseline,
+    this.fontStyle,
+    this.overflow,
+    this.maxLines,
+    this.textAlign,
+    this.textDirection,
+    this.locale,
+    this.softWrap,
+    this.strutStyle,
+    this.textWidthBasis,
+    this.textHeightBehavior,
+    this.foreground,
+    this.background,
+    this.shadows,
+    this.decoration,
+    this.decorationThickness,
+    this.decorationColor,
+    this.decorationStyle,
+    this.height,
+    this.debugLabel,
+    this.package,
+    this.style,
+    this.semanticsLabel,
+  }) : super(key: key);
+  @override
+  Widget build(BuildContext context) => _textVariant(
+        text,
+        size: size(context: context, size: 6),
+        weight: SimplifiedTextWidgetConfig.defaultFontWeight,
+        color: color,
+        letterSpacing: letterSpacing,
+        fontStyle: fontStyle,
+        overflow: overflow,
+        maxLines: maxLines,
+        textAlign: textAlign,
+        decoration: decoration,
+        decorationThickness: decorationThickness,
+        decorationColor: decorationColor,
+        decorationStyle: decorationStyle,
+        height: height,
+        wordSpacing: wordSpacing,
+        textBaseline: textBaseline,
+        textDirection: textDirection,
+        locale: locale,
+        softWrap: softWrap,
+        strutStyle: strutStyle,
+        textWidthBasis: textWidthBasis,
+        textHeightBehavior: textHeightBehavior,
+        foreground: foreground,
+        background: background,
+        shadows: shadows,
+        debugLabel: debugLabel,
+        package: package,
+        style: style,
+        semanticsLabel: semanticsLabel,
+      );
+}
+
 class Text6w100 extends StatelessWidget {
   final String text;
   final Color? color;
@@ -127,7 +219,7 @@ class Text6w100 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 6,
+        size: size(context: context, size: 6),
         weight: FontWeight.w100,
         color: color,
         letterSpacing: letterSpacing,
@@ -219,7 +311,7 @@ class Text6w200 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 6,
+        size: size(context: context, size: 6),
         weight: FontWeight.w200,
         color: color,
         letterSpacing: letterSpacing,
@@ -311,7 +403,7 @@ class Text6w300 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 6,
+        size: size(context: context, size: 6),
         weight: FontWeight.w300,
         color: color,
         letterSpacing: letterSpacing,
@@ -403,7 +495,7 @@ class Text6w400 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 6,
+        size: size(context: context, size: 6),
         weight: FontWeight.w400,
         color: color,
         letterSpacing: letterSpacing,
@@ -495,7 +587,7 @@ class Text6w500 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 6,
+        size: size(context: context, size: 6),
         weight: FontWeight.w500,
         color: color,
         letterSpacing: letterSpacing,
@@ -587,7 +679,7 @@ class Text6w600 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 6,
+        size: size(context: context, size: 6),
         weight: FontWeight.w600,
         color: color,
         letterSpacing: letterSpacing,
@@ -679,7 +771,7 @@ class Text6w700 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 6,
+        size: size(context: context, size: 6),
         weight: FontWeight.w700,
         color: color,
         letterSpacing: letterSpacing,
@@ -771,7 +863,7 @@ class Text6w800 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 6,
+        size: size(context: context, size: 6),
         weight: FontWeight.w800,
         color: color,
         letterSpacing: letterSpacing,
@@ -863,7 +955,7 @@ class Text6w900 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 6,
+        size: size(context: context, size: 6),
         weight: FontWeight.w900,
         color: color,
         letterSpacing: letterSpacing,
@@ -895,6 +987,98 @@ class Text6w900 extends StatelessWidget {
 }
 
 // Text widgets for font size 7
+class Text7 extends StatelessWidget {
+  final String text;
+  final Color? color;
+  final double? letterSpacing;
+  final double? wordSpacing;
+  final TextBaseline? textBaseline;
+  final FontStyle? fontStyle;
+  final TextOverflow? overflow;
+  final int? maxLines;
+  final TextAlign? textAlign;
+  final TextDirection? textDirection;
+  final Locale? locale;
+  final bool? softWrap;
+  final StrutStyle? strutStyle;
+  final TextWidthBasis? textWidthBasis;
+  final TextHeightBehavior? textHeightBehavior;
+  final Paint? foreground;
+  final Paint? background;
+  final List<Shadow>? shadows;
+  final TextDecoration? decoration;
+  final double? decorationThickness;
+  final Color? decorationColor;
+  final TextDecorationStyle? decorationStyle;
+  final double? height;
+  final String? debugLabel;
+  final String? package;
+  final TextStyle? style;
+  final String? semanticsLabel;
+  const Text7(
+    this.text, {
+    Key? key,
+    this.color,
+    this.letterSpacing,
+    this.wordSpacing,
+    this.textBaseline,
+    this.fontStyle,
+    this.overflow,
+    this.maxLines,
+    this.textAlign,
+    this.textDirection,
+    this.locale,
+    this.softWrap,
+    this.strutStyle,
+    this.textWidthBasis,
+    this.textHeightBehavior,
+    this.foreground,
+    this.background,
+    this.shadows,
+    this.decoration,
+    this.decorationThickness,
+    this.decorationColor,
+    this.decorationStyle,
+    this.height,
+    this.debugLabel,
+    this.package,
+    this.style,
+    this.semanticsLabel,
+  }) : super(key: key);
+  @override
+  Widget build(BuildContext context) => _textVariant(
+        text,
+        size: size(context: context, size: 7),
+        weight: SimplifiedTextWidgetConfig.defaultFontWeight,
+        color: color,
+        letterSpacing: letterSpacing,
+        fontStyle: fontStyle,
+        overflow: overflow,
+        maxLines: maxLines,
+        textAlign: textAlign,
+        decoration: decoration,
+        decorationThickness: decorationThickness,
+        decorationColor: decorationColor,
+        decorationStyle: decorationStyle,
+        height: height,
+        wordSpacing: wordSpacing,
+        textBaseline: textBaseline,
+        textDirection: textDirection,
+        locale: locale,
+        softWrap: softWrap,
+        strutStyle: strutStyle,
+        textWidthBasis: textWidthBasis,
+        textHeightBehavior: textHeightBehavior,
+        foreground: foreground,
+        background: background,
+        shadows: shadows,
+        debugLabel: debugLabel,
+        package: package,
+        style: style,
+        semanticsLabel: semanticsLabel,
+      );
+}
+
 class Text7w100 extends StatelessWidget {
   final String text;
   final Color? color;
@@ -956,7 +1140,7 @@ class Text7w100 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 7,
+        size: size(context: context, size: 7),
         weight: FontWeight.w100,
         color: color,
         letterSpacing: letterSpacing,
@@ -1048,7 +1232,7 @@ class Text7w200 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 7,
+        size: size(context: context, size: 7),
         weight: FontWeight.w200,
         color: color,
         letterSpacing: letterSpacing,
@@ -1140,7 +1324,7 @@ class Text7w300 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 7,
+        size: size(context: context, size: 7),
         weight: FontWeight.w300,
         color: color,
         letterSpacing: letterSpacing,
@@ -1232,7 +1416,7 @@ class Text7w400 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 7,
+        size: size(context: context, size: 7),
         weight: FontWeight.w400,
         color: color,
         letterSpacing: letterSpacing,
@@ -1324,7 +1508,7 @@ class Text7w500 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 7,
+        size: size(context: context, size: 7),
         weight: FontWeight.w500,
         color: color,
         letterSpacing: letterSpacing,
@@ -1416,7 +1600,7 @@ class Text7w600 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 7,
+        size: size(context: context, size: 7),
         weight: FontWeight.w600,
         color: color,
         letterSpacing: letterSpacing,
@@ -1508,7 +1692,7 @@ class Text7w700 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 7,
+        size: size(context: context, size: 7),
         weight: FontWeight.w700,
         color: color,
         letterSpacing: letterSpacing,
@@ -1600,7 +1784,7 @@ class Text7w800 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 7,
+        size: size(context: context, size: 7),
         weight: FontWeight.w800,
         color: color,
         letterSpacing: letterSpacing,
@@ -1692,7 +1876,7 @@ class Text7w900 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 7,
+        size: size(context: context, size: 7),
         weight: FontWeight.w900,
         color: color,
         letterSpacing: letterSpacing,
@@ -1724,6 +1908,98 @@ class Text7w900 extends StatelessWidget {
 }
 
 // Text widgets for font size 8
+class Text8 extends StatelessWidget {
+  final String text;
+  final Color? color;
+  final double? letterSpacing;
+  final double? wordSpacing;
+  final TextBaseline? textBaseline;
+  final FontStyle? fontStyle;
+  final TextOverflow? overflow;
+  final int? maxLines;
+  final TextAlign? textAlign;
+  final TextDirection? textDirection;
+  final Locale? locale;
+  final bool? softWrap;
+  final StrutStyle? strutStyle;
+  final TextWidthBasis? textWidthBasis;
+  final TextHeightBehavior? textHeightBehavior;
+  final Paint? foreground;
+  final Paint? background;
+  final List<Shadow>? shadows;
+  final TextDecoration? decoration;
+  final double? decorationThickness;
+  final Color? decorationColor;
+  final TextDecorationStyle? decorationStyle;
+  final double? height;
+  final String? debugLabel;
+  final String? package;
+  final TextStyle? style;
+  final String? semanticsLabel;
+  const Text8(
+    this.text, {
+    Key? key,
+    this.color,
+    this.letterSpacing,
+    this.wordSpacing,
+    this.textBaseline,
+    this.fontStyle,
+    this.overflow,
+    this.maxLines,
+    this.textAlign,
+    this.textDirection,
+    this.locale,
+    this.softWrap,
+    this.strutStyle,
+    this.textWidthBasis,
+    this.textHeightBehavior,
+    this.foreground,
+    this.background,
+    this.shadows,
+    this.decoration,
+    this.decorationThickness,
+    this.decorationColor,
+    this.decorationStyle,
+    this.height,
+    this.debugLabel,
+    this.package,
+    this.style,
+    this.semanticsLabel,
+  }) : super(key: key);
+  @override
+  Widget build(BuildContext context) => _textVariant(
+        text,
+        size: size(context: context, size: 8),
+        weight: SimplifiedTextWidgetConfig.defaultFontWeight,
+        color: color,
+        letterSpacing: letterSpacing,
+        fontStyle: fontStyle,
+        overflow: overflow,
+        maxLines: maxLines,
+        textAlign: textAlign,
+        decoration: decoration,
+        decorationThickness: decorationThickness,
+        decorationColor: decorationColor,
+        decorationStyle: decorationStyle,
+        height: height,
+        wordSpacing: wordSpacing,
+        textBaseline: textBaseline,
+        textDirection: textDirection,
+        locale: locale,
+        softWrap: softWrap,
+        strutStyle: strutStyle,
+        textWidthBasis: textWidthBasis,
+        textHeightBehavior: textHeightBehavior,
+        foreground: foreground,
+        background: background,
+        shadows: shadows,
+        debugLabel: debugLabel,
+        package: package,
+        style: style,
+        semanticsLabel: semanticsLabel,
+      );
+}
+
 class Text8w100 extends StatelessWidget {
   final String text;
   final Color? color;
@@ -1785,7 +2061,7 @@ class Text8w100 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 8,
+        size: size(context: context, size: 8),
         weight: FontWeight.w100,
         color: color,
         letterSpacing: letterSpacing,
@@ -1877,7 +2153,7 @@ class Text8w200 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 8,
+        size: size(context: context, size: 8),
         weight: FontWeight.w200,
         color: color,
         letterSpacing: letterSpacing,
@@ -1969,7 +2245,7 @@ class Text8w300 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 8,
+        size: size(context: context, size: 8),
         weight: FontWeight.w300,
         color: color,
         letterSpacing: letterSpacing,
@@ -2061,7 +2337,7 @@ class Text8w400 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 8,
+        size: size(context: context, size: 8),
         weight: FontWeight.w400,
         color: color,
         letterSpacing: letterSpacing,
@@ -2153,7 +2429,7 @@ class Text8w500 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 8,
+        size: size(context: context, size: 8),
         weight: FontWeight.w500,
         color: color,
         letterSpacing: letterSpacing,
@@ -2245,7 +2521,7 @@ class Text8w600 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 8,
+        size: size(context: context, size: 8),
         weight: FontWeight.w600,
         color: color,
         letterSpacing: letterSpacing,
@@ -2337,7 +2613,7 @@ class Text8w700 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 8,
+        size: size(context: context, size: 8),
         weight: FontWeight.w700,
         color: color,
         letterSpacing: letterSpacing,
@@ -2429,7 +2705,7 @@ class Text8w800 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 8,
+        size: size(context: context, size: 8),
         weight: FontWeight.w800,
         color: color,
         letterSpacing: letterSpacing,
@@ -2521,7 +2797,7 @@ class Text8w900 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 8,
+        size: size(context: context, size: 8),
         weight: FontWeight.w900,
         color: color,
         letterSpacing: letterSpacing,
@@ -2553,6 +2829,98 @@ class Text8w900 extends StatelessWidget {
 }
 
 // Text widgets for font size 9
+class Text9 extends StatelessWidget {
+  final String text;
+  final Color? color;
+  final double? letterSpacing;
+  final double? wordSpacing;
+  final TextBaseline? textBaseline;
+  final FontStyle? fontStyle;
+  final TextOverflow? overflow;
+  final int? maxLines;
+  final TextAlign? textAlign;
+  final TextDirection? textDirection;
+  final Locale? locale;
+  final bool? softWrap;
+  final StrutStyle? strutStyle;
+  final TextWidthBasis? textWidthBasis;
+  final TextHeightBehavior? textHeightBehavior;
+  final Paint? foreground;
+  final Paint? background;
+  final List<Shadow>? shadows;
+  final TextDecoration? decoration;
+  final double? decorationThickness;
+  final Color? decorationColor;
+  final TextDecorationStyle? decorationStyle;
+  final double? height;
+  final String? debugLabel;
+  final String? package;
+  final TextStyle? style;
+  final String? semanticsLabel;
+  const Text9(
+    this.text, {
+    Key? key,
+    this.color,
+    this.letterSpacing,
+    this.wordSpacing,
+    this.textBaseline,
+    this.fontStyle,
+    this.overflow,
+    this.maxLines,
+    this.textAlign,
+    this.textDirection,
+    this.locale,
+    this.softWrap,
+    this.strutStyle,
+    this.textWidthBasis,
+    this.textHeightBehavior,
+    this.foreground,
+    this.background,
+    this.shadows,
+    this.decoration,
+    this.decorationThickness,
+    this.decorationColor,
+    this.decorationStyle,
+    this.height,
+    this.debugLabel,
+    this.package,
+    this.style,
+    this.semanticsLabel,
+  }) : super(key: key);
+  @override
+  Widget build(BuildContext context) => _textVariant(
+        text,
+        size: size(context: context, size: 9),
+        weight: SimplifiedTextWidgetConfig.defaultFontWeight,
+        color: color,
+        letterSpacing: letterSpacing,
+        fontStyle: fontStyle,
+        overflow: overflow,
+        maxLines: maxLines,
+        textAlign: textAlign,
+        decoration: decoration,
+        decorationThickness: decorationThickness,
+        decorationColor: decorationColor,
+        decorationStyle: decorationStyle,
+        height: height,
+        wordSpacing: wordSpacing,
+        textBaseline: textBaseline,
+        textDirection: textDirection,
+        locale: locale,
+        softWrap: softWrap,
+        strutStyle: strutStyle,
+        textWidthBasis: textWidthBasis,
+        textHeightBehavior: textHeightBehavior,
+        foreground: foreground,
+        background: background,
+        shadows: shadows,
+        debugLabel: debugLabel,
+        package: package,
+        style: style,
+        semanticsLabel: semanticsLabel,
+      );
+}
+
 class Text9w100 extends StatelessWidget {
   final String text;
   final Color? color;
@@ -2614,7 +2982,7 @@ class Text9w100 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 9,
+        size: size(context: context, size: 9),
         weight: FontWeight.w100,
         color: color,
         letterSpacing: letterSpacing,
@@ -2706,7 +3074,7 @@ class Text9w200 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 9,
+        size: size(context: context, size: 9),
         weight: FontWeight.w200,
         color: color,
         letterSpacing: letterSpacing,
@@ -2798,7 +3166,7 @@ class Text9w300 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 9,
+        size: size(context: context, size: 9),
         weight: FontWeight.w300,
         color: color,
         letterSpacing: letterSpacing,
@@ -2890,7 +3258,7 @@ class Text9w400 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 9,
+        size: size(context: context, size: 9),
         weight: FontWeight.w400,
         color: color,
         letterSpacing: letterSpacing,
@@ -2982,7 +3350,7 @@ class Text9w500 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 9,
+        size: size(context: context, size: 9),
         weight: FontWeight.w500,
         color: color,
         letterSpacing: letterSpacing,
@@ -3074,7 +3442,7 @@ class Text9w600 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 9,
+        size: size(context: context, size: 9),
         weight: FontWeight.w600,
         color: color,
         letterSpacing: letterSpacing,
@@ -3166,7 +3534,7 @@ class Text9w700 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 9,
+        size: size(context: context, size: 9),
         weight: FontWeight.w700,
         color: color,
         letterSpacing: letterSpacing,
@@ -3258,7 +3626,7 @@ class Text9w800 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 9,
+        size: size(context: context, size: 9),
         weight: FontWeight.w800,
         color: color,
         letterSpacing: letterSpacing,
@@ -3350,7 +3718,7 @@ class Text9w900 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 9,
+        size: size(context: context, size: 9),
         weight: FontWeight.w900,
         color: color,
         letterSpacing: letterSpacing,
@@ -3382,6 +3750,98 @@ class Text9w900 extends StatelessWidget {
 }
 
 // Text widgets for font size 10
+class Text10 extends StatelessWidget {
+  final String text;
+  final Color? color;
+  final double? letterSpacing;
+  final double? wordSpacing;
+  final TextBaseline? textBaseline;
+  final FontStyle? fontStyle;
+  final TextOverflow? overflow;
+  final int? maxLines;
+  final TextAlign? textAlign;
+  final TextDirection? textDirection;
+  final Locale? locale;
+  final bool? softWrap;
+  final StrutStyle? strutStyle;
+  final TextWidthBasis? textWidthBasis;
+  final TextHeightBehavior? textHeightBehavior;
+  final Paint? foreground;
+  final Paint? background;
+  final List<Shadow>? shadows;
+  final TextDecoration? decoration;
+  final double? decorationThickness;
+  final Color? decorationColor;
+  final TextDecorationStyle? decorationStyle;
+  final double? height;
+  final String? debugLabel;
+  final String? package;
+  final TextStyle? style;
+  final String? semanticsLabel;
+  const Text10(
+    this.text, {
+    Key? key,
+    this.color,
+    this.letterSpacing,
+    this.wordSpacing,
+    this.textBaseline,
+    this.fontStyle,
+    this.overflow,
+    this.maxLines,
+    this.textAlign,
+    this.textDirection,
+    this.locale,
+    this.softWrap,
+    this.strutStyle,
+    this.textWidthBasis,
+    this.textHeightBehavior,
+    this.foreground,
+    this.background,
+    this.shadows,
+    this.decoration,
+    this.decorationThickness,
+    this.decorationColor,
+    this.decorationStyle,
+    this.height,
+    this.debugLabel,
+    this.package,
+    this.style,
+    this.semanticsLabel,
+  }) : super(key: key);
+  @override
+  Widget build(BuildContext context) => _textVariant(
+        text,
+        size: size(context: context, size: 10),
+        weight: SimplifiedTextWidgetConfig.defaultFontWeight,
+        color: color,
+        letterSpacing: letterSpacing,
+        fontStyle: fontStyle,
+        overflow: overflow,
+        maxLines: maxLines,
+        textAlign: textAlign,
+        decoration: decoration,
+        decorationThickness: decorationThickness,
+        decorationColor: decorationColor,
+        decorationStyle: decorationStyle,
+        height: height,
+        wordSpacing: wordSpacing,
+        textBaseline: textBaseline,
+        textDirection: textDirection,
+        locale: locale,
+        softWrap: softWrap,
+        strutStyle: strutStyle,
+        textWidthBasis: textWidthBasis,
+        textHeightBehavior: textHeightBehavior,
+        foreground: foreground,
+        background: background,
+        shadows: shadows,
+        debugLabel: debugLabel,
+        package: package,
+        style: style,
+        semanticsLabel: semanticsLabel,
+      );
+}
+
 class Text10w100 extends StatelessWidget {
   final String text;
   final Color? color;
@@ -3443,7 +3903,7 @@ class Text10w100 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 10,
+        size: size(context: context, size: 10),
         weight: FontWeight.w100,
         color: color,
         letterSpacing: letterSpacing,
@@ -3535,7 +3995,7 @@ class Text10w200 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 10,
+        size: size(context: context, size: 10),
         weight: FontWeight.w200,
         color: color,
         letterSpacing: letterSpacing,
@@ -3627,7 +4087,7 @@ class Text10w300 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 10,
+        size: size(context: context, size: 10),
         weight: FontWeight.w300,
         color: color,
         letterSpacing: letterSpacing,
@@ -3719,7 +4179,7 @@ class Text10w400 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 10,
+        size: size(context: context, size: 10),
         weight: FontWeight.w400,
         color: color,
         letterSpacing: letterSpacing,
@@ -3811,7 +4271,7 @@ class Text10w500 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 10,
+        size: size(context: context, size: 10),
         weight: FontWeight.w500,
         color: color,
         letterSpacing: letterSpacing,
@@ -3903,7 +4363,7 @@ class Text10w600 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 10,
+        size: size(context: context, size: 10),
         weight: FontWeight.w600,
         color: color,
         letterSpacing: letterSpacing,
@@ -3995,7 +4455,7 @@ class Text10w700 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 10,
+        size: size(context: context, size: 10),
         weight: FontWeight.w700,
         color: color,
         letterSpacing: letterSpacing,
@@ -4087,7 +4547,7 @@ class Text10w800 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 10,
+        size: size(context: context, size: 10),
         weight: FontWeight.w800,
         color: color,
         letterSpacing: letterSpacing,
@@ -4179,7 +4639,7 @@ class Text10w900 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 10,
+        size: size(context: context, size: 10),
         weight: FontWeight.w900,
         color: color,
         letterSpacing: letterSpacing,
@@ -4211,6 +4671,98 @@ class Text10w900 extends StatelessWidget {
 }
 
 // Text widgets for font size 11
+class Text11 extends StatelessWidget {
+  final String text;
+  final Color? color;
+  final double? letterSpacing;
+  final double? wordSpacing;
+  final TextBaseline? textBaseline;
+  final FontStyle? fontStyle;
+  final TextOverflow? overflow;
+  final int? maxLines;
+  final TextAlign? textAlign;
+  final TextDirection? textDirection;
+  final Locale? locale;
+  final bool? softWrap;
+  final StrutStyle? strutStyle;
+  final TextWidthBasis? textWidthBasis;
+  final TextHeightBehavior? textHeightBehavior;
+  final Paint? foreground;
+  final Paint? background;
+  final List<Shadow>? shadows;
+  final TextDecoration? decoration;
+  final double? decorationThickness;
+  final Color? decorationColor;
+  final TextDecorationStyle? decorationStyle;
+  final double? height;
+  final String? debugLabel;
+  final String? package;
+  final TextStyle? style;
+  final String? semanticsLabel;
+  const Text11(
+    this.text, {
+    Key? key,
+    this.color,
+    this.letterSpacing,
+    this.wordSpacing,
+    this.textBaseline,
+    this.fontStyle,
+    this.overflow,
+    this.maxLines,
+    this.textAlign,
+    this.textDirection,
+    this.locale,
+    this.softWrap,
+    this.strutStyle,
+    this.textWidthBasis,
+    this.textHeightBehavior,
+    this.foreground,
+    this.background,
+    this.shadows,
+    this.decoration,
+    this.decorationThickness,
+    this.decorationColor,
+    this.decorationStyle,
+    this.height,
+    this.debugLabel,
+    this.package,
+    this.style,
+    this.semanticsLabel,
+  }) : super(key: key);
+  @override
+  Widget build(BuildContext context) => _textVariant(
+        text,
+        size: size(context: context, size: 11),
+        weight: SimplifiedTextWidgetConfig.defaultFontWeight,
+        color: color,
+        letterSpacing: letterSpacing,
+        fontStyle: fontStyle,
+        overflow: overflow,
+        maxLines: maxLines,
+        textAlign: textAlign,
+        decoration: decoration,
+        decorationThickness: decorationThickness,
+        decorationColor: decorationColor,
+        decorationStyle: decorationStyle,
+        height: height,
+        wordSpacing: wordSpacing,
+        textBaseline: textBaseline,
+        textDirection: textDirection,
+        locale: locale,
+        softWrap: softWrap,
+        strutStyle: strutStyle,
+        textWidthBasis: textWidthBasis,
+        textHeightBehavior: textHeightBehavior,
+        foreground: foreground,
+        background: background,
+        shadows: shadows,
+        debugLabel: debugLabel,
+        package: package,
+        style: style,
+        semanticsLabel: semanticsLabel,
+      );
+}
+
 class Text11w100 extends StatelessWidget {
   final String text;
   final Color? color;
@@ -4272,7 +4824,7 @@ class Text11w100 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 11,
+        size: size(context: context, size: 11),
         weight: FontWeight.w100,
         color: color,
         letterSpacing: letterSpacing,
@@ -4364,7 +4916,7 @@ class Text11w200 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 11,
+        size: size(context: context, size: 11),
         weight: FontWeight.w200,
         color: color,
         letterSpacing: letterSpacing,
@@ -4456,7 +5008,7 @@ class Text11w300 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 11,
+        size: size(context: context, size: 11),
         weight: FontWeight.w300,
         color: color,
         letterSpacing: letterSpacing,
@@ -4548,7 +5100,7 @@ class Text11w400 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 11,
+        size: size(context: context, size: 11),
         weight: FontWeight.w400,
         color: color,
         letterSpacing: letterSpacing,
@@ -4640,7 +5192,7 @@ class Text11w500 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 11,
+        size: size(context: context, size: 11),
         weight: FontWeight.w500,
         color: color,
         letterSpacing: letterSpacing,
@@ -4732,7 +5284,7 @@ class Text11w600 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 11,
+        size: size(context: context, size: 11),
         weight: FontWeight.w600,
         color: color,
         letterSpacing: letterSpacing,
@@ -4824,7 +5376,7 @@ class Text11w700 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 11,
+        size: size(context: context, size: 11),
         weight: FontWeight.w700,
         color: color,
         letterSpacing: letterSpacing,
@@ -4916,7 +5468,7 @@ class Text11w800 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 11,
+        size: size(context: context, size: 11),
         weight: FontWeight.w800,
         color: color,
         letterSpacing: letterSpacing,
@@ -5008,7 +5560,7 @@ class Text11w900 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 11,
+        size: size(context: context, size: 11),
         weight: FontWeight.w900,
         color: color,
         letterSpacing: letterSpacing,
@@ -5040,6 +5592,98 @@ class Text11w900 extends StatelessWidget {
 }
 
 // Text widgets for font size 12
+class Text12 extends StatelessWidget {
+  final String text;
+  final Color? color;
+  final double? letterSpacing;
+  final double? wordSpacing;
+  final TextBaseline? textBaseline;
+  final FontStyle? fontStyle;
+  final TextOverflow? overflow;
+  final int? maxLines;
+  final TextAlign? textAlign;
+  final TextDirection? textDirection;
+  final Locale? locale;
+  final bool? softWrap;
+  final StrutStyle? strutStyle;
+  final TextWidthBasis? textWidthBasis;
+  final TextHeightBehavior? textHeightBehavior;
+  final Paint? foreground;
+  final Paint? background;
+  final List<Shadow>? shadows;
+  final TextDecoration? decoration;
+  final double? decorationThickness;
+  final Color? decorationColor;
+  final TextDecorationStyle? decorationStyle;
+  final double? height;
+  final String? debugLabel;
+  final String? package;
+  final TextStyle? style;
+  final String? semanticsLabel;
+  const Text12(
+    this.text, {
+    Key? key,
+    this.color,
+    this.letterSpacing,
+    this.wordSpacing,
+    this.textBaseline,
+    this.fontStyle,
+    this.overflow,
+    this.maxLines,
+    this.textAlign,
+    this.textDirection,
+    this.locale,
+    this.softWrap,
+    this.strutStyle,
+    this.textWidthBasis,
+    this.textHeightBehavior,
+    this.foreground,
+    this.background,
+    this.shadows,
+    this.decoration,
+    this.decorationThickness,
+    this.decorationColor,
+    this.decorationStyle,
+    this.height,
+    this.debugLabel,
+    this.package,
+    this.style,
+    this.semanticsLabel,
+  }) : super(key: key);
+  @override
+  Widget build(BuildContext context) => _textVariant(
+        text,
+        size: size(context: context, size: 12),
+        weight: SimplifiedTextWidgetConfig.defaultFontWeight,
+        color: color,
+        letterSpacing: letterSpacing,
+        fontStyle: fontStyle,
+        overflow: overflow,
+        maxLines: maxLines,
+        textAlign: textAlign,
+        decoration: decoration,
+        decorationThickness: decorationThickness,
+        decorationColor: decorationColor,
+        decorationStyle: decorationStyle,
+        height: height,
+        wordSpacing: wordSpacing,
+        textBaseline: textBaseline,
+        textDirection: textDirection,
+        locale: locale,
+        softWrap: softWrap,
+        strutStyle: strutStyle,
+        textWidthBasis: textWidthBasis,
+        textHeightBehavior: textHeightBehavior,
+        foreground: foreground,
+        background: background,
+        shadows: shadows,
+        debugLabel: debugLabel,
+        package: package,
+        style: style,
+        semanticsLabel: semanticsLabel,
+      );
+}
+
 class Text12w100 extends StatelessWidget {
   final String text;
   final Color? color;
@@ -5101,7 +5745,7 @@ class Text12w100 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 12,
+        size: size(context: context, size: 12),
         weight: FontWeight.w100,
         color: color,
         letterSpacing: letterSpacing,
@@ -5193,7 +5837,7 @@ class Text12w200 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 12,
+        size: size(context: context, size: 12),
         weight: FontWeight.w200,
         color: color,
         letterSpacing: letterSpacing,
@@ -5285,7 +5929,7 @@ class Text12w300 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 12,
+        size: size(context: context, size: 12),
         weight: FontWeight.w300,
         color: color,
         letterSpacing: letterSpacing,
@@ -5377,7 +6021,7 @@ class Text12w400 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 12,
+        size: size(context: context, size: 12),
         weight: FontWeight.w400,
         color: color,
         letterSpacing: letterSpacing,
@@ -5469,7 +6113,7 @@ class Text12w500 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 12,
+        size: size(context: context, size: 12),
         weight: FontWeight.w500,
         color: color,
         letterSpacing: letterSpacing,
@@ -5561,7 +6205,7 @@ class Text12w600 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 12,
+        size: size(context: context, size: 12),
         weight: FontWeight.w600,
         color: color,
         letterSpacing: letterSpacing,
@@ -5653,7 +6297,7 @@ class Text12w700 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 12,
+        size: size(context: context, size: 12),
         weight: FontWeight.w700,
         color: color,
         letterSpacing: letterSpacing,
@@ -5745,7 +6389,7 @@ class Text12w800 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 12,
+        size: size(context: context, size: 12),
         weight: FontWeight.w800,
         color: color,
         letterSpacing: letterSpacing,
@@ -5837,7 +6481,7 @@ class Text12w900 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 12,
+        size: size(context: context, size: 12),
         weight: FontWeight.w900,
         color: color,
         letterSpacing: letterSpacing,
@@ -5869,6 +6513,98 @@ class Text12w900 extends StatelessWidget {
 }
 
 // Text widgets for font size 13
+class Text13 extends StatelessWidget {
+  final String text;
+  final Color? color;
+  final double? letterSpacing;
+  final double? wordSpacing;
+  final TextBaseline? textBaseline;
+  final FontStyle? fontStyle;
+  final TextOverflow? overflow;
+  final int? maxLines;
+  final TextAlign? textAlign;
+  final TextDirection? textDirection;
+  final Locale? locale;
+  final bool? softWrap;
+  final StrutStyle? strutStyle;
+  final TextWidthBasis? textWidthBasis;
+  final TextHeightBehavior? textHeightBehavior;
+  final Paint? foreground;
+  final Paint? background;
+  final List<Shadow>? shadows;
+  final TextDecoration? decoration;
+  final double? decorationThickness;
+  final Color? decorationColor;
+  final TextDecorationStyle? decorationStyle;
+  final double? height;
+  final String? debugLabel;
+  final String? package;
+  final TextStyle? style;
+  final String? semanticsLabel;
+  const Text13(
+    this.text, {
+    Key? key,
+    this.color,
+    this.letterSpacing,
+    this.wordSpacing,
+    this.textBaseline,
+    this.fontStyle,
+    this.overflow,
+    this.maxLines,
+    this.textAlign,
+    this.textDirection,
+    this.locale,
+    this.softWrap,
+    this.strutStyle,
+    this.textWidthBasis,
+    this.textHeightBehavior,
+    this.foreground,
+    this.background,
+    this.shadows,
+    this.decoration,
+    this.decorationThickness,
+    this.decorationColor,
+    this.decorationStyle,
+    this.height,
+    this.debugLabel,
+    this.package,
+    this.style,
+    this.semanticsLabel,
+  }) : super(key: key);
+  @override
+  Widget build(BuildContext context) => _textVariant(
+        text,
+        size: size(context: context, size: 13),
+        weight: SimplifiedTextWidgetConfig.defaultFontWeight,
+        color: color,
+        letterSpacing: letterSpacing,
+        fontStyle: fontStyle,
+        overflow: overflow,
+        maxLines: maxLines,
+        textAlign: textAlign,
+        decoration: decoration,
+        decorationThickness: decorationThickness,
+        decorationColor: decorationColor,
+        decorationStyle: decorationStyle,
+        height: height,
+        wordSpacing: wordSpacing,
+        textBaseline: textBaseline,
+        textDirection: textDirection,
+        locale: locale,
+        softWrap: softWrap,
+        strutStyle: strutStyle,
+        textWidthBasis: textWidthBasis,
+        textHeightBehavior: textHeightBehavior,
+        foreground: foreground,
+        background: background,
+        shadows: shadows,
+        debugLabel: debugLabel,
+        package: package,
+        style: style,
+        semanticsLabel: semanticsLabel,
+      );
+}
+
 class Text13w100 extends StatelessWidget {
   final String text;
   final Color? color;
@@ -5930,7 +6666,7 @@ class Text13w100 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 13,
+        size: size(context: context, size: 13),
         weight: FontWeight.w100,
         color: color,
         letterSpacing: letterSpacing,
@@ -6022,7 +6758,7 @@ class Text13w200 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 13,
+        size: size(context: context, size: 13),
         weight: FontWeight.w200,
         color: color,
         letterSpacing: letterSpacing,
@@ -6114,7 +6850,7 @@ class Text13w300 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 13,
+        size: size(context: context, size: 13),
         weight: FontWeight.w300,
         color: color,
         letterSpacing: letterSpacing,
@@ -6206,7 +6942,7 @@ class Text13w400 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 13,
+        size: size(context: context, size: 13),
         weight: FontWeight.w400,
         color: color,
         letterSpacing: letterSpacing,
@@ -6298,7 +7034,7 @@ class Text13w500 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 13,
+        size: size(context: context, size: 13),
         weight: FontWeight.w500,
         color: color,
         letterSpacing: letterSpacing,
@@ -6390,7 +7126,7 @@ class Text13w600 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 13,
+        size: size(context: context, size: 13),
         weight: FontWeight.w600,
         color: color,
         letterSpacing: letterSpacing,
@@ -6482,7 +7218,7 @@ class Text13w700 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 13,
+        size: size(context: context, size: 13),
         weight: FontWeight.w700,
         color: color,
         letterSpacing: letterSpacing,
@@ -6574,7 +7310,7 @@ class Text13w800 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 13,
+        size: size(context: context, size: 13),
         weight: FontWeight.w800,
         color: color,
         letterSpacing: letterSpacing,
@@ -6666,7 +7402,7 @@ class Text13w900 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 13,
+        size: size(context: context, size: 13),
         weight: FontWeight.w900,
         color: color,
         letterSpacing: letterSpacing,
@@ -6698,6 +7434,98 @@ class Text13w900 extends StatelessWidget {
 }
 
 // Text widgets for font size 14
+class Text14 extends StatelessWidget {
+  final String text;
+  final Color? color;
+  final double? letterSpacing;
+  final double? wordSpacing;
+  final TextBaseline? textBaseline;
+  final FontStyle? fontStyle;
+  final TextOverflow? overflow;
+  final int? maxLines;
+  final TextAlign? textAlign;
+  final TextDirection? textDirection;
+  final Locale? locale;
+  final bool? softWrap;
+  final StrutStyle? strutStyle;
+  final TextWidthBasis? textWidthBasis;
+  final TextHeightBehavior? textHeightBehavior;
+  final Paint? foreground;
+  final Paint? background;
+  final List<Shadow>? shadows;
+  final TextDecoration? decoration;
+  final double? decorationThickness;
+  final Color? decorationColor;
+  final TextDecorationStyle? decorationStyle;
+  final double? height;
+  final String? debugLabel;
+  final String? package;
+  final TextStyle? style;
+  final String? semanticsLabel;
+  const Text14(
+    this.text, {
+    Key? key,
+    this.color,
+    this.letterSpacing,
+    this.wordSpacing,
+    this.textBaseline,
+    this.fontStyle,
+    this.overflow,
+    this.maxLines,
+    this.textAlign,
+    this.textDirection,
+    this.locale,
+    this.softWrap,
+    this.strutStyle,
+    this.textWidthBasis,
+    this.textHeightBehavior,
+    this.foreground,
+    this.background,
+    this.shadows,
+    this.decoration,
+    this.decorationThickness,
+    this.decorationColor,
+    this.decorationStyle,
+    this.height,
+    this.debugLabel,
+    this.package,
+    this.style,
+    this.semanticsLabel,
+  }) : super(key: key);
+  @override
+  Widget build(BuildContext context) => _textVariant(
+        text,
+        size: size(context: context, size: 14),
+        weight: SimplifiedTextWidgetConfig.defaultFontWeight,
+        color: color,
+        letterSpacing: letterSpacing,
+        fontStyle: fontStyle,
+        overflow: overflow,
+        maxLines: maxLines,
+        textAlign: textAlign,
+        decoration: decoration,
+        decorationThickness: decorationThickness,
+        decorationColor: decorationColor,
+        decorationStyle: decorationStyle,
+        height: height,
+        wordSpacing: wordSpacing,
+        textBaseline: textBaseline,
+        textDirection: textDirection,
+        locale: locale,
+        softWrap: softWrap,
+        strutStyle: strutStyle,
+        textWidthBasis: textWidthBasis,
+        textHeightBehavior: textHeightBehavior,
+        foreground: foreground,
+        background: background,
+        shadows: shadows,
+        debugLabel: debugLabel,
+        package: package,
+        style: style,
+        semanticsLabel: semanticsLabel,
+      );
+}
+
 class Text14w100 extends StatelessWidget {
   final String text;
   final Color? color;
@@ -6759,7 +7587,7 @@ class Text14w100 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 14,
+        size: size(context: context, size: 14),
         weight: FontWeight.w100,
         color: color,
         letterSpacing: letterSpacing,
@@ -6851,7 +7679,7 @@ class Text14w200 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 14,
+        size: size(context: context, size: 14),
         weight: FontWeight.w200,
         color: color,
         letterSpacing: letterSpacing,
@@ -6943,7 +7771,7 @@ class Text14w300 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 14,
+        size: size(context: context, size: 14),
         weight: FontWeight.w300,
         color: color,
         letterSpacing: letterSpacing,
@@ -7035,7 +7863,7 @@ class Text14w400 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 14,
+        size: size(context: context, size: 14),
         weight: FontWeight.w400,
         color: color,
         letterSpacing: letterSpacing,
@@ -7127,7 +7955,7 @@ class Text14w500 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 14,
+        size: size(context: context, size: 14),
         weight: FontWeight.w500,
         color: color,
         letterSpacing: letterSpacing,
@@ -7219,7 +8047,7 @@ class Text14w600 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 14,
+        size: size(context: context, size: 14),
         weight: FontWeight.w600,
         color: color,
         letterSpacing: letterSpacing,
@@ -7311,7 +8139,7 @@ class Text14w700 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 14,
+        size: size(context: context, size: 14),
         weight: FontWeight.w700,
         color: color,
         letterSpacing: letterSpacing,
@@ -7403,7 +8231,7 @@ class Text14w800 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 14,
+        size: size(context: context, size: 14),
         weight: FontWeight.w800,
         color: color,
         letterSpacing: letterSpacing,
@@ -7495,7 +8323,7 @@ class Text14w900 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 14,
+        size: size(context: context, size: 14),
         weight: FontWeight.w900,
         color: color,
         letterSpacing: letterSpacing,
@@ -7527,6 +8355,98 @@ class Text14w900 extends StatelessWidget {
 }
 
 // Text widgets for font size 15
+class Text15 extends StatelessWidget {
+  final String text;
+  final Color? color;
+  final double? letterSpacing;
+  final double? wordSpacing;
+  final TextBaseline? textBaseline;
+  final FontStyle? fontStyle;
+  final TextOverflow? overflow;
+  final int? maxLines;
+  final TextAlign? textAlign;
+  final TextDirection? textDirection;
+  final Locale? locale;
+  final bool? softWrap;
+  final StrutStyle? strutStyle;
+  final TextWidthBasis? textWidthBasis;
+  final TextHeightBehavior? textHeightBehavior;
+  final Paint? foreground;
+  final Paint? background;
+  final List<Shadow>? shadows;
+  final TextDecoration? decoration;
+  final double? decorationThickness;
+  final Color? decorationColor;
+  final TextDecorationStyle? decorationStyle;
+  final double? height;
+  final String? debugLabel;
+  final String? package;
+  final TextStyle? style;
+  final String? semanticsLabel;
+  const Text15(
+    this.text, {
+    Key? key,
+    this.color,
+    this.letterSpacing,
+    this.wordSpacing,
+    this.textBaseline,
+    this.fontStyle,
+    this.overflow,
+    this.maxLines,
+    this.textAlign,
+    this.textDirection,
+    this.locale,
+    this.softWrap,
+    this.strutStyle,
+    this.textWidthBasis,
+    this.textHeightBehavior,
+    this.foreground,
+    this.background,
+    this.shadows,
+    this.decoration,
+    this.decorationThickness,
+    this.decorationColor,
+    this.decorationStyle,
+    this.height,
+    this.debugLabel,
+    this.package,
+    this.style,
+    this.semanticsLabel,
+  }) : super(key: key);
+  @override
+  Widget build(BuildContext context) => _textVariant(
+        text,
+        size: size(context: context, size: 15),
+        weight: SimplifiedTextWidgetConfig.defaultFontWeight,
+        color: color,
+        letterSpacing: letterSpacing,
+        fontStyle: fontStyle,
+        overflow: overflow,
+        maxLines: maxLines,
+        textAlign: textAlign,
+        decoration: decoration,
+        decorationThickness: decorationThickness,
+        decorationColor: decorationColor,
+        decorationStyle: decorationStyle,
+        height: height,
+        wordSpacing: wordSpacing,
+        textBaseline: textBaseline,
+        textDirection: textDirection,
+        locale: locale,
+        softWrap: softWrap,
+        strutStyle: strutStyle,
+        textWidthBasis: textWidthBasis,
+        textHeightBehavior: textHeightBehavior,
+        foreground: foreground,
+        background: background,
+        shadows: shadows,
+        debugLabel: debugLabel,
+        package: package,
+        style: style,
+        semanticsLabel: semanticsLabel,
+      );
+}
+
 class Text15w100 extends StatelessWidget {
   final String text;
   final Color? color;
@@ -7588,7 +8508,7 @@ class Text15w100 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 15,
+        size: size(context: context, size: 15),
         weight: FontWeight.w100,
         color: color,
         letterSpacing: letterSpacing,
@@ -7680,7 +8600,7 @@ class Text15w200 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 15,
+        size: size(context: context, size: 15),
         weight: FontWeight.w200,
         color: color,
         letterSpacing: letterSpacing,
@@ -7772,7 +8692,7 @@ class Text15w300 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 15,
+        size: size(context: context, size: 15),
         weight: FontWeight.w300,
         color: color,
         letterSpacing: letterSpacing,
@@ -7864,7 +8784,7 @@ class Text15w400 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 15,
+        size: size(context: context, size: 15),
         weight: FontWeight.w400,
         color: color,
         letterSpacing: letterSpacing,
@@ -7956,7 +8876,7 @@ class Text15w500 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 15,
+        size: size(context: context, size: 15),
         weight: FontWeight.w500,
         color: color,
         letterSpacing: letterSpacing,
@@ -8048,7 +8968,7 @@ class Text15w600 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 15,
+        size: size(context: context, size: 15),
         weight: FontWeight.w600,
         color: color,
         letterSpacing: letterSpacing,
@@ -8140,7 +9060,7 @@ class Text15w700 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 15,
+        size: size(context: context, size: 15),
         weight: FontWeight.w700,
         color: color,
         letterSpacing: letterSpacing,
@@ -8232,7 +9152,7 @@ class Text15w800 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 15,
+        size: size(context: context, size: 15),
         weight: FontWeight.w800,
         color: color,
         letterSpacing: letterSpacing,
@@ -8324,7 +9244,7 @@ class Text15w900 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 15,
+        size: size(context: context, size: 15),
         weight: FontWeight.w900,
         color: color,
         letterSpacing: letterSpacing,
@@ -8356,6 +9276,98 @@ class Text15w900 extends StatelessWidget {
 }
 
 // Text widgets for font size 16
+class Text16 extends StatelessWidget {
+  final String text;
+  final Color? color;
+  final double? letterSpacing;
+  final double? wordSpacing;
+  final TextBaseline? textBaseline;
+  final FontStyle? fontStyle;
+  final TextOverflow? overflow;
+  final int? maxLines;
+  final TextAlign? textAlign;
+  final TextDirection? textDirection;
+  final Locale? locale;
+  final bool? softWrap;
+  final StrutStyle? strutStyle;
+  final TextWidthBasis? textWidthBasis;
+  final TextHeightBehavior? textHeightBehavior;
+  final Paint? foreground;
+  final Paint? background;
+  final List<Shadow>? shadows;
+  final TextDecoration? decoration;
+  final double? decorationThickness;
+  final Color? decorationColor;
+  final TextDecorationStyle? decorationStyle;
+  final double? height;
+  final String? debugLabel;
+  final String? package;
+  final TextStyle? style;
+  final String? semanticsLabel;
+  const Text16(
+    this.text, {
+    Key? key,
+    this.color,
+    this.letterSpacing,
+    this.wordSpacing,
+    this.textBaseline,
+    this.fontStyle,
+    this.overflow,
+    this.maxLines,
+    this.textAlign,
+    this.textDirection,
+    this.locale,
+    this.softWrap,
+    this.strutStyle,
+    this.textWidthBasis,
+    this.textHeightBehavior,
+    this.foreground,
+    this.background,
+    this.shadows,
+    this.decoration,
+    this.decorationThickness,
+    this.decorationColor,
+    this.decorationStyle,
+    this.height,
+    this.debugLabel,
+    this.package,
+    this.style,
+    this.semanticsLabel,
+  }) : super(key: key);
+  @override
+  Widget build(BuildContext context) => _textVariant(
+        text,
+        size: size(context: context, size: 16),
+        weight: SimplifiedTextWidgetConfig.defaultFontWeight,
+        color: color,
+        letterSpacing: letterSpacing,
+        fontStyle: fontStyle,
+        overflow: overflow,
+        maxLines: maxLines,
+        textAlign: textAlign,
+        decoration: decoration,
+        decorationThickness: decorationThickness,
+        decorationColor: decorationColor,
+        decorationStyle: decorationStyle,
+        height: height,
+        wordSpacing: wordSpacing,
+        textBaseline: textBaseline,
+        textDirection: textDirection,
+        locale: locale,
+        softWrap: softWrap,
+        strutStyle: strutStyle,
+        textWidthBasis: textWidthBasis,
+        textHeightBehavior: textHeightBehavior,
+        foreground: foreground,
+        background: background,
+        shadows: shadows,
+        debugLabel: debugLabel,
+        package: package,
+        style: style,
+        semanticsLabel: semanticsLabel,
+      );
+}
+
 class Text16w100 extends StatelessWidget {
   final String text;
   final Color? color;
@@ -8417,7 +9429,7 @@ class Text16w100 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 16,
+        size: size(context: context, size: 16),
         weight: FontWeight.w100,
         color: color,
         letterSpacing: letterSpacing,
@@ -8509,7 +9521,7 @@ class Text16w200 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 16,
+        size: size(context: context, size: 16),
         weight: FontWeight.w200,
         color: color,
         letterSpacing: letterSpacing,
@@ -8601,7 +9613,7 @@ class Text16w300 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 16,
+        size: size(context: context, size: 16),
         weight: FontWeight.w300,
         color: color,
         letterSpacing: letterSpacing,
@@ -8693,7 +9705,7 @@ class Text16w400 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 16,
+        size: size(context: context, size: 16),
         weight: FontWeight.w400,
         color: color,
         letterSpacing: letterSpacing,
@@ -8785,7 +9797,7 @@ class Text16w500 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 16,
+        size: size(context: context, size: 16),
         weight: FontWeight.w500,
         color: color,
         letterSpacing: letterSpacing,
@@ -8877,7 +9889,7 @@ class Text16w600 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 16,
+        size: size(context: context, size: 16),
         weight: FontWeight.w600,
         color: color,
         letterSpacing: letterSpacing,
@@ -8969,7 +9981,7 @@ class Text16w700 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 16,
+        size: size(context: context, size: 16),
         weight: FontWeight.w700,
         color: color,
         letterSpacing: letterSpacing,
@@ -9061,7 +10073,7 @@ class Text16w800 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 16,
+        size: size(context: context, size: 16),
         weight: FontWeight.w800,
         color: color,
         letterSpacing: letterSpacing,
@@ -9153,7 +10165,7 @@ class Text16w900 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 16,
+        size: size(context: context, size: 16),
         weight: FontWeight.w900,
         color: color,
         letterSpacing: letterSpacing,
@@ -9185,6 +10197,98 @@ class Text16w900 extends StatelessWidget {
 }
 
 // Text widgets for font size 17
+class Text17 extends StatelessWidget {
+  final String text;
+  final Color? color;
+  final double? letterSpacing;
+  final double? wordSpacing;
+  final TextBaseline? textBaseline;
+  final FontStyle? fontStyle;
+  final TextOverflow? overflow;
+  final int? maxLines;
+  final TextAlign? textAlign;
+  final TextDirection? textDirection;
+  final Locale? locale;
+  final bool? softWrap;
+  final StrutStyle? strutStyle;
+  final TextWidthBasis? textWidthBasis;
+  final TextHeightBehavior? textHeightBehavior;
+  final Paint? foreground;
+  final Paint? background;
+  final List<Shadow>? shadows;
+  final TextDecoration? decoration;
+  final double? decorationThickness;
+  final Color? decorationColor;
+  final TextDecorationStyle? decorationStyle;
+  final double? height;
+  final String? debugLabel;
+  final String? package;
+  final TextStyle? style;
+  final String? semanticsLabel;
+  const Text17(
+    this.text, {
+    Key? key,
+    this.color,
+    this.letterSpacing,
+    this.wordSpacing,
+    this.textBaseline,
+    this.fontStyle,
+    this.overflow,
+    this.maxLines,
+    this.textAlign,
+    this.textDirection,
+    this.locale,
+    this.softWrap,
+    this.strutStyle,
+    this.textWidthBasis,
+    this.textHeightBehavior,
+    this.foreground,
+    this.background,
+    this.shadows,
+    this.decoration,
+    this.decorationThickness,
+    this.decorationColor,
+    this.decorationStyle,
+    this.height,
+    this.debugLabel,
+    this.package,
+    this.style,
+    this.semanticsLabel,
+  }) : super(key: key);
+  @override
+  Widget build(BuildContext context) => _textVariant(
+        text,
+        size: size(context: context, size: 17),
+        weight: SimplifiedTextWidgetConfig.defaultFontWeight,
+        color: color,
+        letterSpacing: letterSpacing,
+        fontStyle: fontStyle,
+        overflow: overflow,
+        maxLines: maxLines,
+        textAlign: textAlign,
+        decoration: decoration,
+        decorationThickness: decorationThickness,
+        decorationColor: decorationColor,
+        decorationStyle: decorationStyle,
+        height: height,
+        wordSpacing: wordSpacing,
+        textBaseline: textBaseline,
+        textDirection: textDirection,
+        locale: locale,
+        softWrap: softWrap,
+        strutStyle: strutStyle,
+        textWidthBasis: textWidthBasis,
+        textHeightBehavior: textHeightBehavior,
+        foreground: foreground,
+        background: background,
+        shadows: shadows,
+        debugLabel: debugLabel,
+        package: package,
+        style: style,
+        semanticsLabel: semanticsLabel,
+      );
+}
+
 class Text17w100 extends StatelessWidget {
   final String text;
   final Color? color;
@@ -9246,7 +10350,7 @@ class Text17w100 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 17,
+        size: size(context: context, size: 17),
         weight: FontWeight.w100,
         color: color,
         letterSpacing: letterSpacing,
@@ -9338,7 +10442,7 @@ class Text17w200 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 17,
+        size: size(context: context, size: 17),
         weight: FontWeight.w200,
         color: color,
         letterSpacing: letterSpacing,
@@ -9430,7 +10534,7 @@ class Text17w300 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 17,
+        size: size(context: context, size: 17),
         weight: FontWeight.w300,
         color: color,
         letterSpacing: letterSpacing,
@@ -9522,7 +10626,7 @@ class Text17w400 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 17,
+        size: size(context: context, size: 17),
         weight: FontWeight.w400,
         color: color,
         letterSpacing: letterSpacing,
@@ -9614,7 +10718,7 @@ class Text17w500 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 17,
+        size: size(context: context, size: 17),
         weight: FontWeight.w500,
         color: color,
         letterSpacing: letterSpacing,
@@ -9706,7 +10810,7 @@ class Text17w600 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 17,
+        size: size(context: context, size: 17),
         weight: FontWeight.w600,
         color: color,
         letterSpacing: letterSpacing,
@@ -9798,7 +10902,7 @@ class Text17w700 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 17,
+        size: size(context: context, size: 17),
         weight: FontWeight.w700,
         color: color,
         letterSpacing: letterSpacing,
@@ -9890,7 +10994,7 @@ class Text17w800 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 17,
+        size: size(context: context, size: 17),
         weight: FontWeight.w800,
         color: color,
         letterSpacing: letterSpacing,
@@ -9982,7 +11086,7 @@ class Text17w900 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 17,
+        size: size(context: context, size: 17),
         weight: FontWeight.w900,
         color: color,
         letterSpacing: letterSpacing,
@@ -10014,6 +11118,98 @@ class Text17w900 extends StatelessWidget {
 }
 
 // Text widgets for font size 18
+class Text18 extends StatelessWidget {
+  final String text;
+  final Color? color;
+  final double? letterSpacing;
+  final double? wordSpacing;
+  final TextBaseline? textBaseline;
+  final FontStyle? fontStyle;
+  final TextOverflow? overflow;
+  final int? maxLines;
+  final TextAlign? textAlign;
+  final TextDirection? textDirection;
+  final Locale? locale;
+  final bool? softWrap;
+  final StrutStyle? strutStyle;
+  final TextWidthBasis? textWidthBasis;
+  final TextHeightBehavior? textHeightBehavior;
+  final Paint? foreground;
+  final Paint? background;
+  final List<Shadow>? shadows;
+  final TextDecoration? decoration;
+  final double? decorationThickness;
+  final Color? decorationColor;
+  final TextDecorationStyle? decorationStyle;
+  final double? height;
+  final String? debugLabel;
+  final String? package;
+  final TextStyle? style;
+  final String? semanticsLabel;
+  const Text18(
+    this.text, {
+    Key? key,
+    this.color,
+    this.letterSpacing,
+    this.wordSpacing,
+    this.textBaseline,
+    this.fontStyle,
+    this.overflow,
+    this.maxLines,
+    this.textAlign,
+    this.textDirection,
+    this.locale,
+    this.softWrap,
+    this.strutStyle,
+    this.textWidthBasis,
+    this.textHeightBehavior,
+    this.foreground,
+    this.background,
+    this.shadows,
+    this.decoration,
+    this.decorationThickness,
+    this.decorationColor,
+    this.decorationStyle,
+    this.height,
+    this.debugLabel,
+    this.package,
+    this.style,
+    this.semanticsLabel,
+  }) : super(key: key);
+  @override
+  Widget build(BuildContext context) => _textVariant(
+        text,
+        size: size(context: context, size: 18),
+        weight: SimplifiedTextWidgetConfig.defaultFontWeight,
+        color: color,
+        letterSpacing: letterSpacing,
+        fontStyle: fontStyle,
+        overflow: overflow,
+        maxLines: maxLines,
+        textAlign: textAlign,
+        decoration: decoration,
+        decorationThickness: decorationThickness,
+        decorationColor: decorationColor,
+        decorationStyle: decorationStyle,
+        height: height,
+        wordSpacing: wordSpacing,
+        textBaseline: textBaseline,
+        textDirection: textDirection,
+        locale: locale,
+        softWrap: softWrap,
+        strutStyle: strutStyle,
+        textWidthBasis: textWidthBasis,
+        textHeightBehavior: textHeightBehavior,
+        foreground: foreground,
+        background: background,
+        shadows: shadows,
+        debugLabel: debugLabel,
+        package: package,
+        style: style,
+        semanticsLabel: semanticsLabel,
+      );
+}
+
 class Text18w100 extends StatelessWidget {
   final String text;
   final Color? color;
@@ -10075,7 +11271,7 @@ class Text18w100 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 18,
+        size: size(context: context, size: 18),
         weight: FontWeight.w100,
         color: color,
         letterSpacing: letterSpacing,
@@ -10167,7 +11363,7 @@ class Text18w200 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 18,
+        size: size(context: context, size: 18),
         weight: FontWeight.w200,
         color: color,
         letterSpacing: letterSpacing,
@@ -10259,7 +11455,7 @@ class Text18w300 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 18,
+        size: size(context: context, size: 18),
         weight: FontWeight.w300,
         color: color,
         letterSpacing: letterSpacing,
@@ -10351,7 +11547,7 @@ class Text18w400 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 18,
+        size: size(context: context, size: 18),
         weight: FontWeight.w400,
         color: color,
         letterSpacing: letterSpacing,
@@ -10443,7 +11639,7 @@ class Text18w500 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 18,
+        size: size(context: context, size: 18),
         weight: FontWeight.w500,
         color: color,
         letterSpacing: letterSpacing,
@@ -10535,7 +11731,7 @@ class Text18w600 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 18,
+        size: size(context: context, size: 18),
         weight: FontWeight.w600,
         color: color,
         letterSpacing: letterSpacing,
@@ -10627,7 +11823,7 @@ class Text18w700 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 18,
+        size: size(context: context, size: 18),
         weight: FontWeight.w700,
         color: color,
         letterSpacing: letterSpacing,
@@ -10719,7 +11915,7 @@ class Text18w800 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 18,
+        size: size(context: context, size: 18),
         weight: FontWeight.w800,
         color: color,
         letterSpacing: letterSpacing,
@@ -10811,7 +12007,7 @@ class Text18w900 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 18,
+        size: size(context: context, size: 18),
         weight: FontWeight.w900,
         color: color,
         letterSpacing: letterSpacing,
@@ -10843,6 +12039,98 @@ class Text18w900 extends StatelessWidget {
 }
 
 // Text widgets for font size 19
+class Text19 extends StatelessWidget {
+  final String text;
+  final Color? color;
+  final double? letterSpacing;
+  final double? wordSpacing;
+  final TextBaseline? textBaseline;
+  final FontStyle? fontStyle;
+  final TextOverflow? overflow;
+  final int? maxLines;
+  final TextAlign? textAlign;
+  final TextDirection? textDirection;
+  final Locale? locale;
+  final bool? softWrap;
+  final StrutStyle? strutStyle;
+  final TextWidthBasis? textWidthBasis;
+  final TextHeightBehavior? textHeightBehavior;
+  final Paint? foreground;
+  final Paint? background;
+  final List<Shadow>? shadows;
+  final TextDecoration? decoration;
+  final double? decorationThickness;
+  final Color? decorationColor;
+  final TextDecorationStyle? decorationStyle;
+  final double? height;
+  final String? debugLabel;
+  final String? package;
+  final TextStyle? style;
+  final String? semanticsLabel;
+  const Text19(
+    this.text, {
+    Key? key,
+    this.color,
+    this.letterSpacing,
+    this.wordSpacing,
+    this.textBaseline,
+    this.fontStyle,
+    this.overflow,
+    this.maxLines,
+    this.textAlign,
+    this.textDirection,
+    this.locale,
+    this.softWrap,
+    this.strutStyle,
+    this.textWidthBasis,
+    this.textHeightBehavior,
+    this.foreground,
+    this.background,
+    this.shadows,
+    this.decoration,
+    this.decorationThickness,
+    this.decorationColor,
+    this.decorationStyle,
+    this.height,
+    this.debugLabel,
+    this.package,
+    this.style,
+    this.semanticsLabel,
+  }) : super(key: key);
+  @override
+  Widget build(BuildContext context) => _textVariant(
+        text,
+        size: size(context: context, size: 19),
+        weight: SimplifiedTextWidgetConfig.defaultFontWeight,
+        color: color,
+        letterSpacing: letterSpacing,
+        fontStyle: fontStyle,
+        overflow: overflow,
+        maxLines: maxLines,
+        textAlign: textAlign,
+        decoration: decoration,
+        decorationThickness: decorationThickness,
+        decorationColor: decorationColor,
+        decorationStyle: decorationStyle,
+        height: height,
+        wordSpacing: wordSpacing,
+        textBaseline: textBaseline,
+        textDirection: textDirection,
+        locale: locale,
+        softWrap: softWrap,
+        strutStyle: strutStyle,
+        textWidthBasis: textWidthBasis,
+        textHeightBehavior: textHeightBehavior,
+        foreground: foreground,
+        background: background,
+        shadows: shadows,
+        debugLabel: debugLabel,
+        package: package,
+        style: style,
+        semanticsLabel: semanticsLabel,
+      );
+}
+
 class Text19w100 extends StatelessWidget {
   final String text;
   final Color? color;
@@ -10904,7 +12192,7 @@ class Text19w100 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 19,
+        size: size(context: context, size: 19),
         weight: FontWeight.w100,
         color: color,
         letterSpacing: letterSpacing,
@@ -10996,7 +12284,7 @@ class Text19w200 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 19,
+        size: size(context: context, size: 19),
         weight: FontWeight.w200,
         color: color,
         letterSpacing: letterSpacing,
@@ -11088,7 +12376,7 @@ class Text19w300 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 19,
+        size: size(context: context, size: 19),
         weight: FontWeight.w300,
         color: color,
         letterSpacing: letterSpacing,
@@ -11180,7 +12468,7 @@ class Text19w400 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 19,
+        size: size(context: context, size: 19),
         weight: FontWeight.w400,
         color: color,
         letterSpacing: letterSpacing,
@@ -11272,7 +12560,7 @@ class Text19w500 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 19,
+        size: size(context: context, size: 19),
         weight: FontWeight.w500,
         color: color,
         letterSpacing: letterSpacing,
@@ -11364,7 +12652,7 @@ class Text19w600 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 19,
+        size: size(context: context, size: 19),
         weight: FontWeight.w600,
         color: color,
         letterSpacing: letterSpacing,
@@ -11456,7 +12744,7 @@ class Text19w700 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 19,
+        size: size(context: context, size: 19),
         weight: FontWeight.w700,
         color: color,
         letterSpacing: letterSpacing,
@@ -11548,7 +12836,7 @@ class Text19w800 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 19,
+        size: size(context: context, size: 19),
         weight: FontWeight.w800,
         color: color,
         letterSpacing: letterSpacing,
@@ -11640,7 +12928,7 @@ class Text19w900 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 19,
+        size: size(context: context, size: 19),
         weight: FontWeight.w900,
         color: color,
         letterSpacing: letterSpacing,
@@ -11672,6 +12960,98 @@ class Text19w900 extends StatelessWidget {
 }
 
 // Text widgets for font size 20
+class Text20 extends StatelessWidget {
+  final String text;
+  final Color? color;
+  final double? letterSpacing;
+  final double? wordSpacing;
+  final TextBaseline? textBaseline;
+  final FontStyle? fontStyle;
+  final TextOverflow? overflow;
+  final int? maxLines;
+  final TextAlign? textAlign;
+  final TextDirection? textDirection;
+  final Locale? locale;
+  final bool? softWrap;
+  final StrutStyle? strutStyle;
+  final TextWidthBasis? textWidthBasis;
+  final TextHeightBehavior? textHeightBehavior;
+  final Paint? foreground;
+  final Paint? background;
+  final List<Shadow>? shadows;
+  final TextDecoration? decoration;
+  final double? decorationThickness;
+  final Color? decorationColor;
+  final TextDecorationStyle? decorationStyle;
+  final double? height;
+  final String? debugLabel;
+  final String? package;
+  final TextStyle? style;
+  final String? semanticsLabel;
+  const Text20(
+    this.text, {
+    Key? key,
+    this.color,
+    this.letterSpacing,
+    this.wordSpacing,
+    this.textBaseline,
+    this.fontStyle,
+    this.overflow,
+    this.maxLines,
+    this.textAlign,
+    this.textDirection,
+    this.locale,
+    this.softWrap,
+    this.strutStyle,
+    this.textWidthBasis,
+    this.textHeightBehavior,
+    this.foreground,
+    this.background,
+    this.shadows,
+    this.decoration,
+    this.decorationThickness,
+    this.decorationColor,
+    this.decorationStyle,
+    this.height,
+    this.debugLabel,
+    this.package,
+    this.style,
+    this.semanticsLabel,
+  }) : super(key: key);
+  @override
+  Widget build(BuildContext context) => _textVariant(
+        text,
+        size: size(context: context, size: 20),
+        weight: SimplifiedTextWidgetConfig.defaultFontWeight,
+        color: color,
+        letterSpacing: letterSpacing,
+        fontStyle: fontStyle,
+        overflow: overflow,
+        maxLines: maxLines,
+        textAlign: textAlign,
+        decoration: decoration,
+        decorationThickness: decorationThickness,
+        decorationColor: decorationColor,
+        decorationStyle: decorationStyle,
+        height: height,
+        wordSpacing: wordSpacing,
+        textBaseline: textBaseline,
+        textDirection: textDirection,
+        locale: locale,
+        softWrap: softWrap,
+        strutStyle: strutStyle,
+        textWidthBasis: textWidthBasis,
+        textHeightBehavior: textHeightBehavior,
+        foreground: foreground,
+        background: background,
+        shadows: shadows,
+        debugLabel: debugLabel,
+        package: package,
+        style: style,
+        semanticsLabel: semanticsLabel,
+      );
+}
+
 class Text20w100 extends StatelessWidget {
   final String text;
   final Color? color;
@@ -11733,7 +13113,7 @@ class Text20w100 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 20,
+        size: size(context: context, size: 20),
         weight: FontWeight.w100,
         color: color,
         letterSpacing: letterSpacing,
@@ -11825,7 +13205,7 @@ class Text20w200 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 20,
+        size: size(context: context, size: 20),
         weight: FontWeight.w200,
         color: color,
         letterSpacing: letterSpacing,
@@ -11917,7 +13297,7 @@ class Text20w300 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 20,
+        size: size(context: context, size: 20),
         weight: FontWeight.w300,
         color: color,
         letterSpacing: letterSpacing,
@@ -12009,7 +13389,7 @@ class Text20w400 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 20,
+        size: size(context: context, size: 20),
         weight: FontWeight.w400,
         color: color,
         letterSpacing: letterSpacing,
@@ -12101,7 +13481,7 @@ class Text20w500 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 20,
+        size: size(context: context, size: 20),
         weight: FontWeight.w500,
         color: color,
         letterSpacing: letterSpacing,
@@ -12193,7 +13573,7 @@ class Text20w600 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 20,
+        size: size(context: context, size: 20),
         weight: FontWeight.w600,
         color: color,
         letterSpacing: letterSpacing,
@@ -12285,7 +13665,7 @@ class Text20w700 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 20,
+        size: size(context: context, size: 20),
         weight: FontWeight.w700,
         color: color,
         letterSpacing: letterSpacing,
@@ -12377,7 +13757,7 @@ class Text20w800 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 20,
+        size: size(context: context, size: 20),
         weight: FontWeight.w800,
         color: color,
         letterSpacing: letterSpacing,
@@ -12469,7 +13849,7 @@ class Text20w900 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 20,
+        size: size(context: context, size: 20),
         weight: FontWeight.w900,
         color: color,
         letterSpacing: letterSpacing,
@@ -12501,6 +13881,98 @@ class Text20w900 extends StatelessWidget {
 }
 
 // Text widgets for font size 21
+class Text21 extends StatelessWidget {
+  final String text;
+  final Color? color;
+  final double? letterSpacing;
+  final double? wordSpacing;
+  final TextBaseline? textBaseline;
+  final FontStyle? fontStyle;
+  final TextOverflow? overflow;
+  final int? maxLines;
+  final TextAlign? textAlign;
+  final TextDirection? textDirection;
+  final Locale? locale;
+  final bool? softWrap;
+  final StrutStyle? strutStyle;
+  final TextWidthBasis? textWidthBasis;
+  final TextHeightBehavior? textHeightBehavior;
+  final Paint? foreground;
+  final Paint? background;
+  final List<Shadow>? shadows;
+  final TextDecoration? decoration;
+  final double? decorationThickness;
+  final Color? decorationColor;
+  final TextDecorationStyle? decorationStyle;
+  final double? height;
+  final String? debugLabel;
+  final String? package;
+  final TextStyle? style;
+  final String? semanticsLabel;
+  const Text21(
+    this.text, {
+    Key? key,
+    this.color,
+    this.letterSpacing,
+    this.wordSpacing,
+    this.textBaseline,
+    this.fontStyle,
+    this.overflow,
+    this.maxLines,
+    this.textAlign,
+    this.textDirection,
+    this.locale,
+    this.softWrap,
+    this.strutStyle,
+    this.textWidthBasis,
+    this.textHeightBehavior,
+    this.foreground,
+    this.background,
+    this.shadows,
+    this.decoration,
+    this.decorationThickness,
+    this.decorationColor,
+    this.decorationStyle,
+    this.height,
+    this.debugLabel,
+    this.package,
+    this.style,
+    this.semanticsLabel,
+  }) : super(key: key);
+  @override
+  Widget build(BuildContext context) => _textVariant(
+        text,
+        size: size(context: context, size: 21),
+        weight: SimplifiedTextWidgetConfig.defaultFontWeight,
+        color: color,
+        letterSpacing: letterSpacing,
+        fontStyle: fontStyle,
+        overflow: overflow,
+        maxLines: maxLines,
+        textAlign: textAlign,
+        decoration: decoration,
+        decorationThickness: decorationThickness,
+        decorationColor: decorationColor,
+        decorationStyle: decorationStyle,
+        height: height,
+        wordSpacing: wordSpacing,
+        textBaseline: textBaseline,
+        textDirection: textDirection,
+        locale: locale,
+        softWrap: softWrap,
+        strutStyle: strutStyle,
+        textWidthBasis: textWidthBasis,
+        textHeightBehavior: textHeightBehavior,
+        foreground: foreground,
+        background: background,
+        shadows: shadows,
+        debugLabel: debugLabel,
+        package: package,
+        style: style,
+        semanticsLabel: semanticsLabel,
+      );
+}
+
 class Text21w100 extends StatelessWidget {
   final String text;
   final Color? color;
@@ -12562,7 +14034,7 @@ class Text21w100 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 21,
+        size: size(context: context, size: 21),
         weight: FontWeight.w100,
         color: color,
         letterSpacing: letterSpacing,
@@ -12654,7 +14126,7 @@ class Text21w200 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 21,
+        size: size(context: context, size: 21),
         weight: FontWeight.w200,
         color: color,
         letterSpacing: letterSpacing,
@@ -12746,7 +14218,7 @@ class Text21w300 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 21,
+        size: size(context: context, size: 21),
         weight: FontWeight.w300,
         color: color,
         letterSpacing: letterSpacing,
@@ -12838,7 +14310,7 @@ class Text21w400 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 21,
+        size: size(context: context, size: 21),
         weight: FontWeight.w400,
         color: color,
         letterSpacing: letterSpacing,
@@ -12930,7 +14402,7 @@ class Text21w500 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 21,
+        size: size(context: context, size: 21),
         weight: FontWeight.w500,
         color: color,
         letterSpacing: letterSpacing,
@@ -13022,7 +14494,7 @@ class Text21w600 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 21,
+        size: size(context: context, size: 21),
         weight: FontWeight.w600,
         color: color,
         letterSpacing: letterSpacing,
@@ -13114,7 +14586,7 @@ class Text21w700 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 21,
+        size: size(context: context, size: 21),
         weight: FontWeight.w700,
         color: color,
         letterSpacing: letterSpacing,
@@ -13206,7 +14678,7 @@ class Text21w800 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 21,
+        size: size(context: context, size: 21),
         weight: FontWeight.w800,
         color: color,
         letterSpacing: letterSpacing,
@@ -13298,7 +14770,7 @@ class Text21w900 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 21,
+        size: size(context: context, size: 21),
         weight: FontWeight.w900,
         color: color,
         letterSpacing: letterSpacing,
@@ -13330,6 +14802,98 @@ class Text21w900 extends StatelessWidget {
 }
 
 // Text widgets for font size 22
+class Text22 extends StatelessWidget {
+  final String text;
+  final Color? color;
+  final double? letterSpacing;
+  final double? wordSpacing;
+  final TextBaseline? textBaseline;
+  final FontStyle? fontStyle;
+  final TextOverflow? overflow;
+  final int? maxLines;
+  final TextAlign? textAlign;
+  final TextDirection? textDirection;
+  final Locale? locale;
+  final bool? softWrap;
+  final StrutStyle? strutStyle;
+  final TextWidthBasis? textWidthBasis;
+  final TextHeightBehavior? textHeightBehavior;
+  final Paint? foreground;
+  final Paint? background;
+  final List<Shadow>? shadows;
+  final TextDecoration? decoration;
+  final double? decorationThickness;
+  final Color? decorationColor;
+  final TextDecorationStyle? decorationStyle;
+  final double? height;
+  final String? debugLabel;
+  final String? package;
+  final TextStyle? style;
+  final String? semanticsLabel;
+  const Text22(
+    this.text, {
+    Key? key,
+    this.color,
+    this.letterSpacing,
+    this.wordSpacing,
+    this.textBaseline,
+    this.fontStyle,
+    this.overflow,
+    this.maxLines,
+    this.textAlign,
+    this.textDirection,
+    this.locale,
+    this.softWrap,
+    this.strutStyle,
+    this.textWidthBasis,
+    this.textHeightBehavior,
+    this.foreground,
+    this.background,
+    this.shadows,
+    this.decoration,
+    this.decorationThickness,
+    this.decorationColor,
+    this.decorationStyle,
+    this.height,
+    this.debugLabel,
+    this.package,
+    this.style,
+    this.semanticsLabel,
+  }) : super(key: key);
+  @override
+  Widget build(BuildContext context) => _textVariant(
+        text,
+        size: size(context: context, size: 22),
+        weight: SimplifiedTextWidgetConfig.defaultFontWeight,
+        color: color,
+        letterSpacing: letterSpacing,
+        fontStyle: fontStyle,
+        overflow: overflow,
+        maxLines: maxLines,
+        textAlign: textAlign,
+        decoration: decoration,
+        decorationThickness: decorationThickness,
+        decorationColor: decorationColor,
+        decorationStyle: decorationStyle,
+        height: height,
+        wordSpacing: wordSpacing,
+        textBaseline: textBaseline,
+        textDirection: textDirection,
+        locale: locale,
+        softWrap: softWrap,
+        strutStyle: strutStyle,
+        textWidthBasis: textWidthBasis,
+        textHeightBehavior: textHeightBehavior,
+        foreground: foreground,
+        background: background,
+        shadows: shadows,
+        debugLabel: debugLabel,
+        package: package,
+        style: style,
+        semanticsLabel: semanticsLabel,
+      );
+}
+
 class Text22w100 extends StatelessWidget {
   final String text;
   final Color? color;
@@ -13391,7 +14955,7 @@ class Text22w100 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 22,
+        size: size(context: context, size: 22),
         weight: FontWeight.w100,
         color: color,
         letterSpacing: letterSpacing,
@@ -13483,7 +15047,7 @@ class Text22w200 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 22,
+        size: size(context: context, size: 22),
         weight: FontWeight.w200,
         color: color,
         letterSpacing: letterSpacing,
@@ -13575,7 +15139,7 @@ class Text22w300 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 22,
+        size: size(context: context, size: 22),
         weight: FontWeight.w300,
         color: color,
         letterSpacing: letterSpacing,
@@ -13667,7 +15231,7 @@ class Text22w400 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 22,
+        size: size(context: context, size: 22),
         weight: FontWeight.w400,
         color: color,
         letterSpacing: letterSpacing,
@@ -13759,7 +15323,7 @@ class Text22w500 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 22,
+        size: size(context: context, size: 22),
         weight: FontWeight.w500,
         color: color,
         letterSpacing: letterSpacing,
@@ -13851,7 +15415,7 @@ class Text22w600 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 22,
+        size: size(context: context, size: 22),
         weight: FontWeight.w600,
         color: color,
         letterSpacing: letterSpacing,
@@ -13943,7 +15507,7 @@ class Text22w700 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 22,
+        size: size(context: context, size: 22),
         weight: FontWeight.w700,
         color: color,
         letterSpacing: letterSpacing,
@@ -14035,7 +15599,7 @@ class Text22w800 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 22,
+        size: size(context: context, size: 22),
         weight: FontWeight.w800,
         color: color,
         letterSpacing: letterSpacing,
@@ -14127,7 +15691,7 @@ class Text22w900 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 22,
+        size: size(context: context, size: 22),
         weight: FontWeight.w900,
         color: color,
         letterSpacing: letterSpacing,
@@ -14159,6 +15723,98 @@ class Text22w900 extends StatelessWidget {
 }
 
 // Text widgets for font size 23
+class Text23 extends StatelessWidget {
+  final String text;
+  final Color? color;
+  final double? letterSpacing;
+  final double? wordSpacing;
+  final TextBaseline? textBaseline;
+  final FontStyle? fontStyle;
+  final TextOverflow? overflow;
+  final int? maxLines;
+  final TextAlign? textAlign;
+  final TextDirection? textDirection;
+  final Locale? locale;
+  final bool? softWrap;
+  final StrutStyle? strutStyle;
+  final TextWidthBasis? textWidthBasis;
+  final TextHeightBehavior? textHeightBehavior;
+  final Paint? foreground;
+  final Paint? background;
+  final List<Shadow>? shadows;
+  final TextDecoration? decoration;
+  final double? decorationThickness;
+  final Color? decorationColor;
+  final TextDecorationStyle? decorationStyle;
+  final double? height;
+  final String? debugLabel;
+  final String? package;
+  final TextStyle? style;
+  final String? semanticsLabel;
+  const Text23(
+    this.text, {
+    Key? key,
+    this.color,
+    this.letterSpacing,
+    this.wordSpacing,
+    this.textBaseline,
+    this.fontStyle,
+    this.overflow,
+    this.maxLines,
+    this.textAlign,
+    this.textDirection,
+    this.locale,
+    this.softWrap,
+    this.strutStyle,
+    this.textWidthBasis,
+    this.textHeightBehavior,
+    this.foreground,
+    this.background,
+    this.shadows,
+    this.decoration,
+    this.decorationThickness,
+    this.decorationColor,
+    this.decorationStyle,
+    this.height,
+    this.debugLabel,
+    this.package,
+    this.style,
+    this.semanticsLabel,
+  }) : super(key: key);
+  @override
+  Widget build(BuildContext context) => _textVariant(
+        text,
+        size: size(context: context, size: 23),
+        weight: SimplifiedTextWidgetConfig.defaultFontWeight,
+        color: color,
+        letterSpacing: letterSpacing,
+        fontStyle: fontStyle,
+        overflow: overflow,
+        maxLines: maxLines,
+        textAlign: textAlign,
+        decoration: decoration,
+        decorationThickness: decorationThickness,
+        decorationColor: decorationColor,
+        decorationStyle: decorationStyle,
+        height: height,
+        wordSpacing: wordSpacing,
+        textBaseline: textBaseline,
+        textDirection: textDirection,
+        locale: locale,
+        softWrap: softWrap,
+        strutStyle: strutStyle,
+        textWidthBasis: textWidthBasis,
+        textHeightBehavior: textHeightBehavior,
+        foreground: foreground,
+        background: background,
+        shadows: shadows,
+        debugLabel: debugLabel,
+        package: package,
+        style: style,
+        semanticsLabel: semanticsLabel,
+      );
+}
+
 class Text23w100 extends StatelessWidget {
   final String text;
   final Color? color;
@@ -14220,7 +15876,7 @@ class Text23w100 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 23,
+        size: size(context: context, size: 23),
         weight: FontWeight.w100,
         color: color,
         letterSpacing: letterSpacing,
@@ -14312,7 +15968,7 @@ class Text23w200 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 23,
+        size: size(context: context, size: 23),
         weight: FontWeight.w200,
         color: color,
         letterSpacing: letterSpacing,
@@ -14404,7 +16060,7 @@ class Text23w300 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 23,
+        size: size(context: context, size: 23),
         weight: FontWeight.w300,
         color: color,
         letterSpacing: letterSpacing,
@@ -14496,7 +16152,7 @@ class Text23w400 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 23,
+        size: size(context: context, size: 23),
         weight: FontWeight.w400,
         color: color,
         letterSpacing: letterSpacing,
@@ -14588,7 +16244,7 @@ class Text23w500 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 23,
+        size: size(context: context, size: 23),
         weight: FontWeight.w500,
         color: color,
         letterSpacing: letterSpacing,
@@ -14680,7 +16336,7 @@ class Text23w600 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 23,
+        size: size(context: context, size: 23),
         weight: FontWeight.w600,
         color: color,
         letterSpacing: letterSpacing,
@@ -14772,7 +16428,7 @@ class Text23w700 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 23,
+        size: size(context: context, size: 23),
         weight: FontWeight.w700,
         color: color,
         letterSpacing: letterSpacing,
@@ -14864,7 +16520,7 @@ class Text23w800 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 23,
+        size: size(context: context, size: 23),
         weight: FontWeight.w800,
         color: color,
         letterSpacing: letterSpacing,
@@ -14956,7 +16612,7 @@ class Text23w900 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 23,
+        size: size(context: context, size: 23),
         weight: FontWeight.w900,
         color: color,
         letterSpacing: letterSpacing,
@@ -14988,6 +16644,98 @@ class Text23w900 extends StatelessWidget {
 }
 
 // Text widgets for font size 24
+class Text24 extends StatelessWidget {
+  final String text;
+  final Color? color;
+  final double? letterSpacing;
+  final double? wordSpacing;
+  final TextBaseline? textBaseline;
+  final FontStyle? fontStyle;
+  final TextOverflow? overflow;
+  final int? maxLines;
+  final TextAlign? textAlign;
+  final TextDirection? textDirection;
+  final Locale? locale;
+  final bool? softWrap;
+  final StrutStyle? strutStyle;
+  final TextWidthBasis? textWidthBasis;
+  final TextHeightBehavior? textHeightBehavior;
+  final Paint? foreground;
+  final Paint? background;
+  final List<Shadow>? shadows;
+  final TextDecoration? decoration;
+  final double? decorationThickness;
+  final Color? decorationColor;
+  final TextDecorationStyle? decorationStyle;
+  final double? height;
+  final String? debugLabel;
+  final String? package;
+  final TextStyle? style;
+  final String? semanticsLabel;
+  const Text24(
+    this.text, {
+    Key? key,
+    this.color,
+    this.letterSpacing,
+    this.wordSpacing,
+    this.textBaseline,
+    this.fontStyle,
+    this.overflow,
+    this.maxLines,
+    this.textAlign,
+    this.textDirection,
+    this.locale,
+    this.softWrap,
+    this.strutStyle,
+    this.textWidthBasis,
+    this.textHeightBehavior,
+    this.foreground,
+    this.background,
+    this.shadows,
+    this.decoration,
+    this.decorationThickness,
+    this.decorationColor,
+    this.decorationStyle,
+    this.height,
+    this.debugLabel,
+    this.package,
+    this.style,
+    this.semanticsLabel,
+  }) : super(key: key);
+  @override
+  Widget build(BuildContext context) => _textVariant(
+        text,
+        size: size(context: context, size: 24),
+        weight: SimplifiedTextWidgetConfig.defaultFontWeight,
+        color: color,
+        letterSpacing: letterSpacing,
+        fontStyle: fontStyle,
+        overflow: overflow,
+        maxLines: maxLines,
+        textAlign: textAlign,
+        decoration: decoration,
+        decorationThickness: decorationThickness,
+        decorationColor: decorationColor,
+        decorationStyle: decorationStyle,
+        height: height,
+        wordSpacing: wordSpacing,
+        textBaseline: textBaseline,
+        textDirection: textDirection,
+        locale: locale,
+        softWrap: softWrap,
+        strutStyle: strutStyle,
+        textWidthBasis: textWidthBasis,
+        textHeightBehavior: textHeightBehavior,
+        foreground: foreground,
+        background: background,
+        shadows: shadows,
+        debugLabel: debugLabel,
+        package: package,
+        style: style,
+        semanticsLabel: semanticsLabel,
+      );
+}
+
 class Text24w100 extends StatelessWidget {
   final String text;
   final Color? color;
@@ -15049,7 +16797,7 @@ class Text24w100 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 24,
+        size: size(context: context, size: 24),
         weight: FontWeight.w100,
         color: color,
         letterSpacing: letterSpacing,
@@ -15141,7 +16889,7 @@ class Text24w200 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 24,
+        size: size(context: context, size: 24),
         weight: FontWeight.w200,
         color: color,
         letterSpacing: letterSpacing,
@@ -15233,7 +16981,7 @@ class Text24w300 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 24,
+        size: size(context: context, size: 24),
         weight: FontWeight.w300,
         color: color,
         letterSpacing: letterSpacing,
@@ -15325,7 +17073,7 @@ class Text24w400 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 24,
+        size: size(context: context, size: 24),
         weight: FontWeight.w400,
         color: color,
         letterSpacing: letterSpacing,
@@ -15417,7 +17165,7 @@ class Text24w500 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 24,
+        size: size(context: context, size: 24),
         weight: FontWeight.w500,
         color: color,
         letterSpacing: letterSpacing,
@@ -15509,7 +17257,7 @@ class Text24w600 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 24,
+        size: size(context: context, size: 24),
         weight: FontWeight.w600,
         color: color,
         letterSpacing: letterSpacing,
@@ -15601,7 +17349,7 @@ class Text24w700 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 24,
+        size: size(context: context, size: 24),
         weight: FontWeight.w700,
         color: color,
         letterSpacing: letterSpacing,
@@ -15693,7 +17441,7 @@ class Text24w800 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 24,
+        size: size(context: context, size: 24),
         weight: FontWeight.w800,
         color: color,
         letterSpacing: letterSpacing,
@@ -15785,7 +17533,7 @@ class Text24w900 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 24,
+        size: size(context: context, size: 24),
         weight: FontWeight.w900,
         color: color,
         letterSpacing: letterSpacing,
@@ -15817,6 +17565,98 @@ class Text24w900 extends StatelessWidget {
 }
 
 // Text widgets for font size 25
+class Text25 extends StatelessWidget {
+  final String text;
+  final Color? color;
+  final double? letterSpacing;
+  final double? wordSpacing;
+  final TextBaseline? textBaseline;
+  final FontStyle? fontStyle;
+  final TextOverflow? overflow;
+  final int? maxLines;
+  final TextAlign? textAlign;
+  final TextDirection? textDirection;
+  final Locale? locale;
+  final bool? softWrap;
+  final StrutStyle? strutStyle;
+  final TextWidthBasis? textWidthBasis;
+  final TextHeightBehavior? textHeightBehavior;
+  final Paint? foreground;
+  final Paint? background;
+  final List<Shadow>? shadows;
+  final TextDecoration? decoration;
+  final double? decorationThickness;
+  final Color? decorationColor;
+  final TextDecorationStyle? decorationStyle;
+  final double? height;
+  final String? debugLabel;
+  final String? package;
+  final TextStyle? style;
+  final String? semanticsLabel;
+  const Text25(
+    this.text, {
+    Key? key,
+    this.color,
+    this.letterSpacing,
+    this.wordSpacing,
+    this.textBaseline,
+    this.fontStyle,
+    this.overflow,
+    this.maxLines,
+    this.textAlign,
+    this.textDirection,
+    this.locale,
+    this.softWrap,
+    this.strutStyle,
+    this.textWidthBasis,
+    this.textHeightBehavior,
+    this.foreground,
+    this.background,
+    this.shadows,
+    this.decoration,
+    this.decorationThickness,
+    this.decorationColor,
+    this.decorationStyle,
+    this.height,
+    this.debugLabel,
+    this.package,
+    this.style,
+    this.semanticsLabel,
+  }) : super(key: key);
+  @override
+  Widget build(BuildContext context) => _textVariant(
+        text,
+        size: size(context: context, size: 25),
+        weight: SimplifiedTextWidgetConfig.defaultFontWeight,
+        color: color,
+        letterSpacing: letterSpacing,
+        fontStyle: fontStyle,
+        overflow: overflow,
+        maxLines: maxLines,
+        textAlign: textAlign,
+        decoration: decoration,
+        decorationThickness: decorationThickness,
+        decorationColor: decorationColor,
+        decorationStyle: decorationStyle,
+        height: height,
+        wordSpacing: wordSpacing,
+        textBaseline: textBaseline,
+        textDirection: textDirection,
+        locale: locale,
+        softWrap: softWrap,
+        strutStyle: strutStyle,
+        textWidthBasis: textWidthBasis,
+        textHeightBehavior: textHeightBehavior,
+        foreground: foreground,
+        background: background,
+        shadows: shadows,
+        debugLabel: debugLabel,
+        package: package,
+        style: style,
+        semanticsLabel: semanticsLabel,
+      );
+}
+
 class Text25w100 extends StatelessWidget {
   final String text;
   final Color? color;
@@ -15878,7 +17718,7 @@ class Text25w100 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 25,
+        size: size(context: context, size: 25),
         weight: FontWeight.w100,
         color: color,
         letterSpacing: letterSpacing,
@@ -15970,7 +17810,7 @@ class Text25w200 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 25,
+        size: size(context: context, size: 25),
         weight: FontWeight.w200,
         color: color,
         letterSpacing: letterSpacing,
@@ -16062,7 +17902,7 @@ class Text25w300 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 25,
+        size: size(context: context, size: 25),
         weight: FontWeight.w300,
         color: color,
         letterSpacing: letterSpacing,
@@ -16154,7 +17994,7 @@ class Text25w400 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 25,
+        size: size(context: context, size: 25),
         weight: FontWeight.w400,
         color: color,
         letterSpacing: letterSpacing,
@@ -16246,7 +18086,7 @@ class Text25w500 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 25,
+        size: size(context: context, size: 25),
         weight: FontWeight.w500,
         color: color,
         letterSpacing: letterSpacing,
@@ -16338,7 +18178,7 @@ class Text25w600 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 25,
+        size: size(context: context, size: 25),
         weight: FontWeight.w600,
         color: color,
         letterSpacing: letterSpacing,
@@ -16430,7 +18270,7 @@ class Text25w700 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 25,
+        size: size(context: context, size: 25),
         weight: FontWeight.w700,
         color: color,
         letterSpacing: letterSpacing,
@@ -16522,7 +18362,7 @@ class Text25w800 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 25,
+        size: size(context: context, size: 25),
         weight: FontWeight.w800,
         color: color,
         letterSpacing: letterSpacing,
@@ -16614,7 +18454,7 @@ class Text25w900 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 25,
+        size: size(context: context, size: 25),
         weight: FontWeight.w900,
         color: color,
         letterSpacing: letterSpacing,
@@ -16646,6 +18486,98 @@ class Text25w900 extends StatelessWidget {
 }
 
 // Text widgets for font size 26
+class Text26 extends StatelessWidget {
+  final String text;
+  final Color? color;
+  final double? letterSpacing;
+  final double? wordSpacing;
+  final TextBaseline? textBaseline;
+  final FontStyle? fontStyle;
+  final TextOverflow? overflow;
+  final int? maxLines;
+  final TextAlign? textAlign;
+  final TextDirection? textDirection;
+  final Locale? locale;
+  final bool? softWrap;
+  final StrutStyle? strutStyle;
+  final TextWidthBasis? textWidthBasis;
+  final TextHeightBehavior? textHeightBehavior;
+  final Paint? foreground;
+  final Paint? background;
+  final List<Shadow>? shadows;
+  final TextDecoration? decoration;
+  final double? decorationThickness;
+  final Color? decorationColor;
+  final TextDecorationStyle? decorationStyle;
+  final double? height;
+  final String? debugLabel;
+  final String? package;
+  final TextStyle? style;
+  final String? semanticsLabel;
+  const Text26(
+    this.text, {
+    Key? key,
+    this.color,
+    this.letterSpacing,
+    this.wordSpacing,
+    this.textBaseline,
+    this.fontStyle,
+    this.overflow,
+    this.maxLines,
+    this.textAlign,
+    this.textDirection,
+    this.locale,
+    this.softWrap,
+    this.strutStyle,
+    this.textWidthBasis,
+    this.textHeightBehavior,
+    this.foreground,
+    this.background,
+    this.shadows,
+    this.decoration,
+    this.decorationThickness,
+    this.decorationColor,
+    this.decorationStyle,
+    this.height,
+    this.debugLabel,
+    this.package,
+    this.style,
+    this.semanticsLabel,
+  }) : super(key: key);
+  @override
+  Widget build(BuildContext context) => _textVariant(
+        text,
+        size: size(context: context, size: 26),
+        weight: SimplifiedTextWidgetConfig.defaultFontWeight,
+        color: color,
+        letterSpacing: letterSpacing,
+        fontStyle: fontStyle,
+        overflow: overflow,
+        maxLines: maxLines,
+        textAlign: textAlign,
+        decoration: decoration,
+        decorationThickness: decorationThickness,
+        decorationColor: decorationColor,
+        decorationStyle: decorationStyle,
+        height: height,
+        wordSpacing: wordSpacing,
+        textBaseline: textBaseline,
+        textDirection: textDirection,
+        locale: locale,
+        softWrap: softWrap,
+        strutStyle: strutStyle,
+        textWidthBasis: textWidthBasis,
+        textHeightBehavior: textHeightBehavior,
+        foreground: foreground,
+        background: background,
+        shadows: shadows,
+        debugLabel: debugLabel,
+        package: package,
+        style: style,
+        semanticsLabel: semanticsLabel,
+      );
+}
+
 class Text26w100 extends StatelessWidget {
   final String text;
   final Color? color;
@@ -16707,7 +18639,7 @@ class Text26w100 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 26,
+        size: size(context: context, size: 26),
         weight: FontWeight.w100,
         color: color,
         letterSpacing: letterSpacing,
@@ -16799,7 +18731,7 @@ class Text26w200 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 26,
+        size: size(context: context, size: 26),
         weight: FontWeight.w200,
         color: color,
         letterSpacing: letterSpacing,
@@ -16891,7 +18823,7 @@ class Text26w300 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 26,
+        size: size(context: context, size: 26),
         weight: FontWeight.w300,
         color: color,
         letterSpacing: letterSpacing,
@@ -16983,7 +18915,7 @@ class Text26w400 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 26,
+        size: size(context: context, size: 26),
         weight: FontWeight.w400,
         color: color,
         letterSpacing: letterSpacing,
@@ -17075,7 +19007,7 @@ class Text26w500 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 26,
+        size: size(context: context, size: 26),
         weight: FontWeight.w500,
         color: color,
         letterSpacing: letterSpacing,
@@ -17167,7 +19099,7 @@ class Text26w600 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 26,
+        size: size(context: context, size: 26),
         weight: FontWeight.w600,
         color: color,
         letterSpacing: letterSpacing,
@@ -17259,7 +19191,7 @@ class Text26w700 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 26,
+        size: size(context: context, size: 26),
         weight: FontWeight.w700,
         color: color,
         letterSpacing: letterSpacing,
@@ -17351,7 +19283,7 @@ class Text26w800 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 26,
+        size: size(context: context, size: 26),
         weight: FontWeight.w800,
         color: color,
         letterSpacing: letterSpacing,
@@ -17443,7 +19375,7 @@ class Text26w900 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 26,
+        size: size(context: context, size: 26),
         weight: FontWeight.w900,
         color: color,
         letterSpacing: letterSpacing,
@@ -17475,6 +19407,98 @@ class Text26w900 extends StatelessWidget {
 }
 
 // Text widgets for font size 27
+class Text27 extends StatelessWidget {
+  final String text;
+  final Color? color;
+  final double? letterSpacing;
+  final double? wordSpacing;
+  final TextBaseline? textBaseline;
+  final FontStyle? fontStyle;
+  final TextOverflow? overflow;
+  final int? maxLines;
+  final TextAlign? textAlign;
+  final TextDirection? textDirection;
+  final Locale? locale;
+  final bool? softWrap;
+  final StrutStyle? strutStyle;
+  final TextWidthBasis? textWidthBasis;
+  final TextHeightBehavior? textHeightBehavior;
+  final Paint? foreground;
+  final Paint? background;
+  final List<Shadow>? shadows;
+  final TextDecoration? decoration;
+  final double? decorationThickness;
+  final Color? decorationColor;
+  final TextDecorationStyle? decorationStyle;
+  final double? height;
+  final String? debugLabel;
+  final String? package;
+  final TextStyle? style;
+  final String? semanticsLabel;
+  const Text27(
+    this.text, {
+    Key? key,
+    this.color,
+    this.letterSpacing,
+    this.wordSpacing,
+    this.textBaseline,
+    this.fontStyle,
+    this.overflow,
+    this.maxLines,
+    this.textAlign,
+    this.textDirection,
+    this.locale,
+    this.softWrap,
+    this.strutStyle,
+    this.textWidthBasis,
+    this.textHeightBehavior,
+    this.foreground,
+    this.background,
+    this.shadows,
+    this.decoration,
+    this.decorationThickness,
+    this.decorationColor,
+    this.decorationStyle,
+    this.height,
+    this.debugLabel,
+    this.package,
+    this.style,
+    this.semanticsLabel,
+  }) : super(key: key);
+  @override
+  Widget build(BuildContext context) => _textVariant(
+        text,
+        size: size(context: context, size: 27),
+        weight: SimplifiedTextWidgetConfig.defaultFontWeight,
+        color: color,
+        letterSpacing: letterSpacing,
+        fontStyle: fontStyle,
+        overflow: overflow,
+        maxLines: maxLines,
+        textAlign: textAlign,
+        decoration: decoration,
+        decorationThickness: decorationThickness,
+        decorationColor: decorationColor,
+        decorationStyle: decorationStyle,
+        height: height,
+        wordSpacing: wordSpacing,
+        textBaseline: textBaseline,
+        textDirection: textDirection,
+        locale: locale,
+        softWrap: softWrap,
+        strutStyle: strutStyle,
+        textWidthBasis: textWidthBasis,
+        textHeightBehavior: textHeightBehavior,
+        foreground: foreground,
+        background: background,
+        shadows: shadows,
+        debugLabel: debugLabel,
+        package: package,
+        style: style,
+        semanticsLabel: semanticsLabel,
+      );
+}
+
 class Text27w100 extends StatelessWidget {
   final String text;
   final Color? color;
@@ -17536,7 +19560,7 @@ class Text27w100 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 27,
+        size: size(context: context, size: 27),
         weight: FontWeight.w100,
         color: color,
         letterSpacing: letterSpacing,
@@ -17628,7 +19652,7 @@ class Text27w200 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 27,
+        size: size(context: context, size: 27),
         weight: FontWeight.w200,
         color: color,
         letterSpacing: letterSpacing,
@@ -17720,7 +19744,7 @@ class Text27w300 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 27,
+        size: size(context: context, size: 27),
         weight: FontWeight.w300,
         color: color,
         letterSpacing: letterSpacing,
@@ -17812,7 +19836,7 @@ class Text27w400 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 27,
+        size: size(context: context, size: 27),
         weight: FontWeight.w400,
         color: color,
         letterSpacing: letterSpacing,
@@ -17904,7 +19928,7 @@ class Text27w500 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 27,
+        size: size(context: context, size: 27),
         weight: FontWeight.w500,
         color: color,
         letterSpacing: letterSpacing,
@@ -17996,7 +20020,7 @@ class Text27w600 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 27,
+        size: size(context: context, size: 27),
         weight: FontWeight.w600,
         color: color,
         letterSpacing: letterSpacing,
@@ -18088,7 +20112,7 @@ class Text27w700 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 27,
+        size: size(context: context, size: 27),
         weight: FontWeight.w700,
         color: color,
         letterSpacing: letterSpacing,
@@ -18180,7 +20204,7 @@ class Text27w800 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 27,
+        size: size(context: context, size: 27),
         weight: FontWeight.w800,
         color: color,
         letterSpacing: letterSpacing,
@@ -18272,7 +20296,7 @@ class Text27w900 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 27,
+        size: size(context: context, size: 27),
         weight: FontWeight.w900,
         color: color,
         letterSpacing: letterSpacing,
@@ -18304,6 +20328,98 @@ class Text27w900 extends StatelessWidget {
 }
 
 // Text widgets for font size 28
+class Text28 extends StatelessWidget {
+  final String text;
+  final Color? color;
+  final double? letterSpacing;
+  final double? wordSpacing;
+  final TextBaseline? textBaseline;
+  final FontStyle? fontStyle;
+  final TextOverflow? overflow;
+  final int? maxLines;
+  final TextAlign? textAlign;
+  final TextDirection? textDirection;
+  final Locale? locale;
+  final bool? softWrap;
+  final StrutStyle? strutStyle;
+  final TextWidthBasis? textWidthBasis;
+  final TextHeightBehavior? textHeightBehavior;
+  final Paint? foreground;
+  final Paint? background;
+  final List<Shadow>? shadows;
+  final TextDecoration? decoration;
+  final double? decorationThickness;
+  final Color? decorationColor;
+  final TextDecorationStyle? decorationStyle;
+  final double? height;
+  final String? debugLabel;
+  final String? package;
+  final TextStyle? style;
+  final String? semanticsLabel;
+  const Text28(
+    this.text, {
+    Key? key,
+    this.color,
+    this.letterSpacing,
+    this.wordSpacing,
+    this.textBaseline,
+    this.fontStyle,
+    this.overflow,
+    this.maxLines,
+    this.textAlign,
+    this.textDirection,
+    this.locale,
+    this.softWrap,
+    this.strutStyle,
+    this.textWidthBasis,
+    this.textHeightBehavior,
+    this.foreground,
+    this.background,
+    this.shadows,
+    this.decoration,
+    this.decorationThickness,
+    this.decorationColor,
+    this.decorationStyle,
+    this.height,
+    this.debugLabel,
+    this.package,
+    this.style,
+    this.semanticsLabel,
+  }) : super(key: key);
+  @override
+  Widget build(BuildContext context) => _textVariant(
+        text,
+        size: size(context: context, size: 28),
+        weight: SimplifiedTextWidgetConfig.defaultFontWeight,
+        color: color,
+        letterSpacing: letterSpacing,
+        fontStyle: fontStyle,
+        overflow: overflow,
+        maxLines: maxLines,
+        textAlign: textAlign,
+        decoration: decoration,
+        decorationThickness: decorationThickness,
+        decorationColor: decorationColor,
+        decorationStyle: decorationStyle,
+        height: height,
+        wordSpacing: wordSpacing,
+        textBaseline: textBaseline,
+        textDirection: textDirection,
+        locale: locale,
+        softWrap: softWrap,
+        strutStyle: strutStyle,
+        textWidthBasis: textWidthBasis,
+        textHeightBehavior: textHeightBehavior,
+        foreground: foreground,
+        background: background,
+        shadows: shadows,
+        debugLabel: debugLabel,
+        package: package,
+        style: style,
+        semanticsLabel: semanticsLabel,
+      );
+}
+
 class Text28w100 extends StatelessWidget {
   final String text;
   final Color? color;
@@ -18365,7 +20481,7 @@ class Text28w100 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 28,
+        size: size(context: context, size: 28),
         weight: FontWeight.w100,
         color: color,
         letterSpacing: letterSpacing,
@@ -18457,7 +20573,7 @@ class Text28w200 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 28,
+        size: size(context: context, size: 28),
         weight: FontWeight.w200,
         color: color,
         letterSpacing: letterSpacing,
@@ -18549,7 +20665,7 @@ class Text28w300 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 28,
+        size: size(context: context, size: 28),
         weight: FontWeight.w300,
         color: color,
         letterSpacing: letterSpacing,
@@ -18641,7 +20757,7 @@ class Text28w400 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 28,
+        size: size(context: context, size: 28),
         weight: FontWeight.w400,
         color: color,
         letterSpacing: letterSpacing,
@@ -18733,7 +20849,7 @@ class Text28w500 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 28,
+        size: size(context: context, size: 28),
         weight: FontWeight.w500,
         color: color,
         letterSpacing: letterSpacing,
@@ -18825,7 +20941,7 @@ class Text28w600 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 28,
+        size: size(context: context, size: 28),
         weight: FontWeight.w600,
         color: color,
         letterSpacing: letterSpacing,
@@ -18917,7 +21033,7 @@ class Text28w700 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 28,
+        size: size(context: context, size: 28),
         weight: FontWeight.w700,
         color: color,
         letterSpacing: letterSpacing,
@@ -19009,7 +21125,7 @@ class Text28w800 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 28,
+        size: size(context: context, size: 28),
         weight: FontWeight.w800,
         color: color,
         letterSpacing: letterSpacing,
@@ -19101,7 +21217,7 @@ class Text28w900 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 28,
+        size: size(context: context, size: 28),
         weight: FontWeight.w900,
         color: color,
         letterSpacing: letterSpacing,
@@ -19133,6 +21249,98 @@ class Text28w900 extends StatelessWidget {
 }
 
 // Text widgets for font size 29
+class Text29 extends StatelessWidget {
+  final String text;
+  final Color? color;
+  final double? letterSpacing;
+  final double? wordSpacing;
+  final TextBaseline? textBaseline;
+  final FontStyle? fontStyle;
+  final TextOverflow? overflow;
+  final int? maxLines;
+  final TextAlign? textAlign;
+  final TextDirection? textDirection;
+  final Locale? locale;
+  final bool? softWrap;
+  final StrutStyle? strutStyle;
+  final TextWidthBasis? textWidthBasis;
+  final TextHeightBehavior? textHeightBehavior;
+  final Paint? foreground;
+  final Paint? background;
+  final List<Shadow>? shadows;
+  final TextDecoration? decoration;
+  final double? decorationThickness;
+  final Color? decorationColor;
+  final TextDecorationStyle? decorationStyle;
+  final double? height;
+  final String? debugLabel;
+  final String? package;
+  final TextStyle? style;
+  final String? semanticsLabel;
+  const Text29(
+    this.text, {
+    Key? key,
+    this.color,
+    this.letterSpacing,
+    this.wordSpacing,
+    this.textBaseline,
+    this.fontStyle,
+    this.overflow,
+    this.maxLines,
+    this.textAlign,
+    this.textDirection,
+    this.locale,
+    this.softWrap,
+    this.strutStyle,
+    this.textWidthBasis,
+    this.textHeightBehavior,
+    this.foreground,
+    this.background,
+    this.shadows,
+    this.decoration,
+    this.decorationThickness,
+    this.decorationColor,
+    this.decorationStyle,
+    this.height,
+    this.debugLabel,
+    this.package,
+    this.style,
+    this.semanticsLabel,
+  }) : super(key: key);
+  @override
+  Widget build(BuildContext context) => _textVariant(
+        text,
+        size: size(context: context, size: 29),
+        weight: SimplifiedTextWidgetConfig.defaultFontWeight,
+        color: color,
+        letterSpacing: letterSpacing,
+        fontStyle: fontStyle,
+        overflow: overflow,
+        maxLines: maxLines,
+        textAlign: textAlign,
+        decoration: decoration,
+        decorationThickness: decorationThickness,
+        decorationColor: decorationColor,
+        decorationStyle: decorationStyle,
+        height: height,
+        wordSpacing: wordSpacing,
+        textBaseline: textBaseline,
+        textDirection: textDirection,
+        locale: locale,
+        softWrap: softWrap,
+        strutStyle: strutStyle,
+        textWidthBasis: textWidthBasis,
+        textHeightBehavior: textHeightBehavior,
+        foreground: foreground,
+        background: background,
+        shadows: shadows,
+        debugLabel: debugLabel,
+        package: package,
+        style: style,
+        semanticsLabel: semanticsLabel,
+      );
+}
+
 class Text29w100 extends StatelessWidget {
   final String text;
   final Color? color;
@@ -19194,7 +21402,7 @@ class Text29w100 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 29,
+        size: size(context: context, size: 29),
         weight: FontWeight.w100,
         color: color,
         letterSpacing: letterSpacing,
@@ -19286,7 +21494,7 @@ class Text29w200 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 29,
+        size: size(context: context, size: 29),
         weight: FontWeight.w200,
         color: color,
         letterSpacing: letterSpacing,
@@ -19378,7 +21586,7 @@ class Text29w300 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 29,
+        size: size(context: context, size: 29),
         weight: FontWeight.w300,
         color: color,
         letterSpacing: letterSpacing,
@@ -19470,7 +21678,7 @@ class Text29w400 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 29,
+        size: size(context: context, size: 29),
         weight: FontWeight.w400,
         color: color,
         letterSpacing: letterSpacing,
@@ -19562,7 +21770,7 @@ class Text29w500 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 29,
+        size: size(context: context, size: 29),
         weight: FontWeight.w500,
         color: color,
         letterSpacing: letterSpacing,
@@ -19654,7 +21862,7 @@ class Text29w600 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 29,
+        size: size(context: context, size: 29),
         weight: FontWeight.w600,
         color: color,
         letterSpacing: letterSpacing,
@@ -19746,7 +21954,7 @@ class Text29w700 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 29,
+        size: size(context: context, size: 29),
         weight: FontWeight.w700,
         color: color,
         letterSpacing: letterSpacing,
@@ -19838,7 +22046,7 @@ class Text29w800 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 29,
+        size: size(context: context, size: 29),
         weight: FontWeight.w800,
         color: color,
         letterSpacing: letterSpacing,
@@ -19930,7 +22138,7 @@ class Text29w900 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 29,
+        size: size(context: context, size: 29),
         weight: FontWeight.w900,
         color: color,
         letterSpacing: letterSpacing,
@@ -19962,6 +22170,98 @@ class Text29w900 extends StatelessWidget {
 }
 
 // Text widgets for font size 30
+class Text30 extends StatelessWidget {
+  final String text;
+  final Color? color;
+  final double? letterSpacing;
+  final double? wordSpacing;
+  final TextBaseline? textBaseline;
+  final FontStyle? fontStyle;
+  final TextOverflow? overflow;
+  final int? maxLines;
+  final TextAlign? textAlign;
+  final TextDirection? textDirection;
+  final Locale? locale;
+  final bool? softWrap;
+  final StrutStyle? strutStyle;
+  final TextWidthBasis? textWidthBasis;
+  final TextHeightBehavior? textHeightBehavior;
+  final Paint? foreground;
+  final Paint? background;
+  final List<Shadow>? shadows;
+  final TextDecoration? decoration;
+  final double? decorationThickness;
+  final Color? decorationColor;
+  final TextDecorationStyle? decorationStyle;
+  final double? height;
+  final String? debugLabel;
+  final String? package;
+  final TextStyle? style;
+  final String? semanticsLabel;
+  const Text30(
+    this.text, {
+    Key? key,
+    this.color,
+    this.letterSpacing,
+    this.wordSpacing,
+    this.textBaseline,
+    this.fontStyle,
+    this.overflow,
+    this.maxLines,
+    this.textAlign,
+    this.textDirection,
+    this.locale,
+    this.softWrap,
+    this.strutStyle,
+    this.textWidthBasis,
+    this.textHeightBehavior,
+    this.foreground,
+    this.background,
+    this.shadows,
+    this.decoration,
+    this.decorationThickness,
+    this.decorationColor,
+    this.decorationStyle,
+    this.height,
+    this.debugLabel,
+    this.package,
+    this.style,
+    this.semanticsLabel,
+  }) : super(key: key);
+  @override
+  Widget build(BuildContext context) => _textVariant(
+        text,
+        size: size(context: context, size: 30),
+        weight: SimplifiedTextWidgetConfig.defaultFontWeight,
+        color: color,
+        letterSpacing: letterSpacing,
+        fontStyle: fontStyle,
+        overflow: overflow,
+        maxLines: maxLines,
+        textAlign: textAlign,
+        decoration: decoration,
+        decorationThickness: decorationThickness,
+        decorationColor: decorationColor,
+        decorationStyle: decorationStyle,
+        height: height,
+        wordSpacing: wordSpacing,
+        textBaseline: textBaseline,
+        textDirection: textDirection,
+        locale: locale,
+        softWrap: softWrap,
+        strutStyle: strutStyle,
+        textWidthBasis: textWidthBasis,
+        textHeightBehavior: textHeightBehavior,
+        foreground: foreground,
+        background: background,
+        shadows: shadows,
+        debugLabel: debugLabel,
+        package: package,
+        style: style,
+        semanticsLabel: semanticsLabel,
+      );
+}
+
 class Text30w100 extends StatelessWidget {
   final String text;
   final Color? color;
@@ -20023,7 +22323,7 @@ class Text30w100 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 30,
+        size: size(context: context, size: 30),
         weight: FontWeight.w100,
         color: color,
         letterSpacing: letterSpacing,
@@ -20115,7 +22415,7 @@ class Text30w200 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 30,
+        size: size(context: context, size: 30),
         weight: FontWeight.w200,
         color: color,
         letterSpacing: letterSpacing,
@@ -20207,7 +22507,7 @@ class Text30w300 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 30,
+        size: size(context: context, size: 30),
         weight: FontWeight.w300,
         color: color,
         letterSpacing: letterSpacing,
@@ -20299,7 +22599,7 @@ class Text30w400 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 30,
+        size: size(context: context, size: 30),
         weight: FontWeight.w400,
         color: color,
         letterSpacing: letterSpacing,
@@ -20391,7 +22691,7 @@ class Text30w500 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 30,
+        size: size(context: context, size: 30),
         weight: FontWeight.w500,
         color: color,
         letterSpacing: letterSpacing,
@@ -20483,7 +22783,7 @@ class Text30w600 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 30,
+        size: size(context: context, size: 30),
         weight: FontWeight.w600,
         color: color,
         letterSpacing: letterSpacing,
@@ -20575,7 +22875,7 @@ class Text30w700 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 30,
+        size: size(context: context, size: 30),
         weight: FontWeight.w700,
         color: color,
         letterSpacing: letterSpacing,
@@ -20667,7 +22967,7 @@ class Text30w800 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 30,
+        size: size(context: context, size: 30),
         weight: FontWeight.w800,
         color: color,
         letterSpacing: letterSpacing,
@@ -20759,7 +23059,7 @@ class Text30w900 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 30,
+        size: size(context: context, size: 30),
         weight: FontWeight.w900,
         color: color,
         letterSpacing: letterSpacing,
@@ -20791,6 +23091,98 @@ class Text30w900 extends StatelessWidget {
 }
 
 // Text widgets for font size 31
+class Text31 extends StatelessWidget {
+  final String text;
+  final Color? color;
+  final double? letterSpacing;
+  final double? wordSpacing;
+  final TextBaseline? textBaseline;
+  final FontStyle? fontStyle;
+  final TextOverflow? overflow;
+  final int? maxLines;
+  final TextAlign? textAlign;
+  final TextDirection? textDirection;
+  final Locale? locale;
+  final bool? softWrap;
+  final StrutStyle? strutStyle;
+  final TextWidthBasis? textWidthBasis;
+  final TextHeightBehavior? textHeightBehavior;
+  final Paint? foreground;
+  final Paint? background;
+  final List<Shadow>? shadows;
+  final TextDecoration? decoration;
+  final double? decorationThickness;
+  final Color? decorationColor;
+  final TextDecorationStyle? decorationStyle;
+  final double? height;
+  final String? debugLabel;
+  final String? package;
+  final TextStyle? style;
+  final String? semanticsLabel;
+  const Text31(
+    this.text, {
+    Key? key,
+    this.color,
+    this.letterSpacing,
+    this.wordSpacing,
+    this.textBaseline,
+    this.fontStyle,
+    this.overflow,
+    this.maxLines,
+    this.textAlign,
+    this.textDirection,
+    this.locale,
+    this.softWrap,
+    this.strutStyle,
+    this.textWidthBasis,
+    this.textHeightBehavior,
+    this.foreground,
+    this.background,
+    this.shadows,
+    this.decoration,
+    this.decorationThickness,
+    this.decorationColor,
+    this.decorationStyle,
+    this.height,
+    this.debugLabel,
+    this.package,
+    this.style,
+    this.semanticsLabel,
+  }) : super(key: key);
+  @override
+  Widget build(BuildContext context) => _textVariant(
+        text,
+        size: size(context: context, size: 31),
+        weight: SimplifiedTextWidgetConfig.defaultFontWeight,
+        color: color,
+        letterSpacing: letterSpacing,
+        fontStyle: fontStyle,
+        overflow: overflow,
+        maxLines: maxLines,
+        textAlign: textAlign,
+        decoration: decoration,
+        decorationThickness: decorationThickness,
+        decorationColor: decorationColor,
+        decorationStyle: decorationStyle,
+        height: height,
+        wordSpacing: wordSpacing,
+        textBaseline: textBaseline,
+        textDirection: textDirection,
+        locale: locale,
+        softWrap: softWrap,
+        strutStyle: strutStyle,
+        textWidthBasis: textWidthBasis,
+        textHeightBehavior: textHeightBehavior,
+        foreground: foreground,
+        background: background,
+        shadows: shadows,
+        debugLabel: debugLabel,
+        package: package,
+        style: style,
+        semanticsLabel: semanticsLabel,
+      );
+}
+
 class Text31w100 extends StatelessWidget {
   final String text;
   final Color? color;
@@ -20852,7 +23244,7 @@ class Text31w100 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 31,
+        size: size(context: context, size: 31),
         weight: FontWeight.w100,
         color: color,
         letterSpacing: letterSpacing,
@@ -20944,7 +23336,7 @@ class Text31w200 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 31,
+        size: size(context: context, size: 31),
         weight: FontWeight.w200,
         color: color,
         letterSpacing: letterSpacing,
@@ -21036,7 +23428,7 @@ class Text31w300 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 31,
+        size: size(context: context, size: 31),
         weight: FontWeight.w300,
         color: color,
         letterSpacing: letterSpacing,
@@ -21128,7 +23520,7 @@ class Text31w400 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 31,
+        size: size(context: context, size: 31),
         weight: FontWeight.w400,
         color: color,
         letterSpacing: letterSpacing,
@@ -21220,7 +23612,7 @@ class Text31w500 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 31,
+        size: size(context: context, size: 31),
         weight: FontWeight.w500,
         color: color,
         letterSpacing: letterSpacing,
@@ -21312,7 +23704,7 @@ class Text31w600 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 31,
+        size: size(context: context, size: 31),
         weight: FontWeight.w600,
         color: color,
         letterSpacing: letterSpacing,
@@ -21404,7 +23796,7 @@ class Text31w700 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 31,
+        size: size(context: context, size: 31),
         weight: FontWeight.w700,
         color: color,
         letterSpacing: letterSpacing,
@@ -21496,7 +23888,7 @@ class Text31w800 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 31,
+        size: size(context: context, size: 31),
         weight: FontWeight.w800,
         color: color,
         letterSpacing: letterSpacing,
@@ -21588,7 +23980,7 @@ class Text31w900 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 31,
+        size: size(context: context, size: 31),
         weight: FontWeight.w900,
         color: color,
         letterSpacing: letterSpacing,
@@ -21620,6 +24012,98 @@ class Text31w900 extends StatelessWidget {
 }
 
 // Text widgets for font size 32
+class Text32 extends StatelessWidget {
+  final String text;
+  final Color? color;
+  final double? letterSpacing;
+  final double? wordSpacing;
+  final TextBaseline? textBaseline;
+  final FontStyle? fontStyle;
+  final TextOverflow? overflow;
+  final int? maxLines;
+  final TextAlign? textAlign;
+  final TextDirection? textDirection;
+  final Locale? locale;
+  final bool? softWrap;
+  final StrutStyle? strutStyle;
+  final TextWidthBasis? textWidthBasis;
+  final TextHeightBehavior? textHeightBehavior;
+  final Paint? foreground;
+  final Paint? background;
+  final List<Shadow>? shadows;
+  final TextDecoration? decoration;
+  final double? decorationThickness;
+  final Color? decorationColor;
+  final TextDecorationStyle? decorationStyle;
+  final double? height;
+  final String? debugLabel;
+  final String? package;
+  final TextStyle? style;
+  final String? semanticsLabel;
+  const Text32(
+    this.text, {
+    Key? key,
+    this.color,
+    this.letterSpacing,
+    this.wordSpacing,
+    this.textBaseline,
+    this.fontStyle,
+    this.overflow,
+    this.maxLines,
+    this.textAlign,
+    this.textDirection,
+    this.locale,
+    this.softWrap,
+    this.strutStyle,
+    this.textWidthBasis,
+    this.textHeightBehavior,
+    this.foreground,
+    this.background,
+    this.shadows,
+    this.decoration,
+    this.decorationThickness,
+    this.decorationColor,
+    this.decorationStyle,
+    this.height,
+    this.debugLabel,
+    this.package,
+    this.style,
+    this.semanticsLabel,
+  }) : super(key: key);
+  @override
+  Widget build(BuildContext context) => _textVariant(
+        text,
+        size: size(context: context, size: 32),
+        weight: SimplifiedTextWidgetConfig.defaultFontWeight,
+        color: color,
+        letterSpacing: letterSpacing,
+        fontStyle: fontStyle,
+        overflow: overflow,
+        maxLines: maxLines,
+        textAlign: textAlign,
+        decoration: decoration,
+        decorationThickness: decorationThickness,
+        decorationColor: decorationColor,
+        decorationStyle: decorationStyle,
+        height: height,
+        wordSpacing: wordSpacing,
+        textBaseline: textBaseline,
+        textDirection: textDirection,
+        locale: locale,
+        softWrap: softWrap,
+        strutStyle: strutStyle,
+        textWidthBasis: textWidthBasis,
+        textHeightBehavior: textHeightBehavior,
+        foreground: foreground,
+        background: background,
+        shadows: shadows,
+        debugLabel: debugLabel,
+        package: package,
+        style: style,
+        semanticsLabel: semanticsLabel,
+      );
+}
+
 class Text32w100 extends StatelessWidget {
   final String text;
   final Color? color;
@@ -21681,7 +24165,7 @@ class Text32w100 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 32,
+        size: size(context: context, size: 32),
         weight: FontWeight.w100,
         color: color,
         letterSpacing: letterSpacing,
@@ -21773,7 +24257,7 @@ class Text32w200 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 32,
+        size: size(context: context, size: 32),
         weight: FontWeight.w200,
         color: color,
         letterSpacing: letterSpacing,
@@ -21865,7 +24349,7 @@ class Text32w300 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 32,
+        size: size(context: context, size: 32),
         weight: FontWeight.w300,
         color: color,
         letterSpacing: letterSpacing,
@@ -21957,7 +24441,7 @@ class Text32w400 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 32,
+        size: size(context: context, size: 32),
         weight: FontWeight.w400,
         color: color,
         letterSpacing: letterSpacing,
@@ -22049,7 +24533,7 @@ class Text32w500 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 32,
+        size: size(context: context, size: 32),
         weight: FontWeight.w500,
         color: color,
         letterSpacing: letterSpacing,
@@ -22141,7 +24625,7 @@ class Text32w600 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 32,
+        size: size(context: context, size: 32),
         weight: FontWeight.w600,
         color: color,
         letterSpacing: letterSpacing,
@@ -22233,7 +24717,7 @@ class Text32w700 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 32,
+        size: size(context: context, size: 32),
         weight: FontWeight.w700,
         color: color,
         letterSpacing: letterSpacing,
@@ -22325,7 +24809,7 @@ class Text32w800 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 32,
+        size: size(context: context, size: 32),
         weight: FontWeight.w800,
         color: color,
         letterSpacing: letterSpacing,
@@ -22417,8 +24901,101 @@ class Text32w900 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 32,
+        size: size(context: context, size: 32),
         weight: FontWeight.w900,
+        color: color,
+        letterSpacing: letterSpacing,
+        fontStyle: fontStyle,
+        overflow: overflow,
+        maxLines: maxLines,
+        textAlign: textAlign,
+        decoration: decoration,
+        decorationThickness: decorationThickness,
+        decorationColor: decorationColor,
+        decorationStyle: decorationStyle,
+        height: height,
+        wordSpacing: wordSpacing,
+        textBaseline: textBaseline,
+        textDirection: textDirection,
+        locale: locale,
+        softWrap: softWrap,
+        strutStyle: strutStyle,
+        textWidthBasis: textWidthBasis,
+        textHeightBehavior: textHeightBehavior,
+        foreground: foreground,
+        background: background,
+        shadows: shadows,
+        debugLabel: debugLabel,
+        package: package,
+        style: style,
+        semanticsLabel: semanticsLabel,
+      );
+}
+
+// Text widgets for font size 33
+class Text33 extends StatelessWidget {
+  final String text;
+  final Color? color;
+  final double? letterSpacing;
+  final double? wordSpacing;
+  final TextBaseline? textBaseline;
+  final FontStyle? fontStyle;
+  final TextOverflow? overflow;
+  final int? maxLines;
+  final TextAlign? textAlign;
+  final TextDirection? textDirection;
+  final Locale? locale;
+  final bool? softWrap;
+  final StrutStyle? strutStyle;
+  final TextWidthBasis? textWidthBasis;
+  final TextHeightBehavior? textHeightBehavior;
+  final Paint? foreground;
+  final Paint? background;
+  final List<Shadow>? shadows;
+  final TextDecoration? decoration;
+  final double? decorationThickness;
+  final Color? decorationColor;
+  final TextDecorationStyle? decorationStyle;
+  final double? height;
+  final String? debugLabel;
+  final String? package;
+  final TextStyle? style;
+  final String? semanticsLabel;
+  const Text33(
+    this.text, {
+    Key? key,
+    this.color,
+    this.letterSpacing,
+    this.wordSpacing,
+    this.textBaseline,
+    this.fontStyle,
+    this.overflow,
+    this.maxLines,
+    this.textAlign,
+    this.textDirection,
+    this.locale,
+    this.softWrap,
+    this.strutStyle,
+    this.textWidthBasis,
+    this.textHeightBehavior,
+    this.foreground,
+    this.background,
+    this.shadows,
+    this.decoration,
+    this.decorationThickness,
+    this.decorationColor,
+    this.decorationStyle,
+    this.height,
+    this.debugLabel,
+    this.package,
+    this.style,
+    this.semanticsLabel,
+  }) : super(key: key);
+  @override
+  Widget build(BuildContext context) => _textVariant(
+        text,
+        size: size(context: context, size: 33),
+        weight: SimplifiedTextWidgetConfig.defaultFontWeight,
         color: color,
         letterSpacing: letterSpacing,
         fontStyle: fontStyle,
@@ -22509,7 +25086,7 @@ class Text33w100 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 33,
+        size: size(context: context, size: 33),
         weight: FontWeight.w100,
         color: color,
         letterSpacing: letterSpacing,
@@ -22601,7 +25178,7 @@ class Text33w200 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 33,
+        size: size(context: context, size: 33),
         weight: FontWeight.w200,
         color: color,
         letterSpacing: letterSpacing,
@@ -22693,7 +25270,7 @@ class Text33w300 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 33,
+        size: size(context: context, size: 33),
         weight: FontWeight.w300,
         color: color,
         letterSpacing: letterSpacing,
@@ -22785,7 +25362,7 @@ class Text33w400 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 33,
+        size: size(context: context, size: 33),
         weight: FontWeight.w400,
         color: color,
         letterSpacing: letterSpacing,
@@ -22877,7 +25454,7 @@ class Text33w500 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 33,
+        size: size(context: context, size: 33),
         weight: FontWeight.w500,
         color: color,
         letterSpacing: letterSpacing,
@@ -22969,7 +25546,7 @@ class Text33w600 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 33,
+        size: size(context: context, size: 33),
         weight: FontWeight.w600,
         color: color,
         letterSpacing: letterSpacing,
@@ -23061,7 +25638,7 @@ class Text33w700 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 33,
+        size: size(context: context, size: 33),
         weight: FontWeight.w700,
         color: color,
         letterSpacing: letterSpacing,
@@ -23153,7 +25730,7 @@ class Text33w800 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 33,
+        size: size(context: context, size: 33),
         weight: FontWeight.w800,
         color: color,
         letterSpacing: letterSpacing,
@@ -23245,8 +25822,101 @@ class Text33w900 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 33,
+        size: size(context: context, size: 33),
         weight: FontWeight.w900,
+        color: color,
+        letterSpacing: letterSpacing,
+        fontStyle: fontStyle,
+        overflow: overflow,
+        maxLines: maxLines,
+        textAlign: textAlign,
+        decoration: decoration,
+        decorationThickness: decorationThickness,
+        decorationColor: decorationColor,
+        decorationStyle: decorationStyle,
+        height: height,
+        wordSpacing: wordSpacing,
+        textBaseline: textBaseline,
+        textDirection: textDirection,
+        locale: locale,
+        softWrap: softWrap,
+        strutStyle: strutStyle,
+        textWidthBasis: textWidthBasis,
+        textHeightBehavior: textHeightBehavior,
+        foreground: foreground,
+        background: background,
+        shadows: shadows,
+        debugLabel: debugLabel,
+        package: package,
+        style: style,
+        semanticsLabel: semanticsLabel,
+      );
+}
+
+// Text widgets for font size 34
+class Text34 extends StatelessWidget {
+  final String text;
+  final Color? color;
+  final double? letterSpacing;
+  final double? wordSpacing;
+  final TextBaseline? textBaseline;
+  final FontStyle? fontStyle;
+  final TextOverflow? overflow;
+  final int? maxLines;
+  final TextAlign? textAlign;
+  final TextDirection? textDirection;
+  final Locale? locale;
+  final bool? softWrap;
+  final StrutStyle? strutStyle;
+  final TextWidthBasis? textWidthBasis;
+  final TextHeightBehavior? textHeightBehavior;
+  final Paint? foreground;
+  final Paint? background;
+  final List<Shadow>? shadows;
+  final TextDecoration? decoration;
+  final double? decorationThickness;
+  final Color? decorationColor;
+  final TextDecorationStyle? decorationStyle;
+  final double? height;
+  final String? debugLabel;
+  final String? package;
+  final TextStyle? style;
+  final String? semanticsLabel;
+  const Text34(
+    this.text, {
+    Key? key,
+    this.color,
+    this.letterSpacing,
+    this.wordSpacing,
+    this.textBaseline,
+    this.fontStyle,
+    this.overflow,
+    this.maxLines,
+    this.textAlign,
+    this.textDirection,
+    this.locale,
+    this.softWrap,
+    this.strutStyle,
+    this.textWidthBasis,
+    this.textHeightBehavior,
+    this.foreground,
+    this.background,
+    this.shadows,
+    this.decoration,
+    this.decorationThickness,
+    this.decorationColor,
+    this.decorationStyle,
+    this.height,
+    this.debugLabel,
+    this.package,
+    this.style,
+    this.semanticsLabel,
+  }) : super(key: key);
+  @override
+  Widget build(BuildContext context) => _textVariant(
+        text,
+        size: size(context: context, size: 34),
+        weight: SimplifiedTextWidgetConfig.defaultFontWeight,
         color: color,
         letterSpacing: letterSpacing,
         fontStyle: fontStyle,
@@ -23337,7 +26007,7 @@ class Text34w100 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 34,
+        size: size(context: context, size: 34),
         weight: FontWeight.w100,
         color: color,
         letterSpacing: letterSpacing,
@@ -23429,7 +26099,7 @@ class Text34w200 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 34,
+        size: size(context: context, size: 34),
         weight: FontWeight.w200,
         color: color,
         letterSpacing: letterSpacing,
@@ -23521,7 +26191,7 @@ class Text34w300 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 34,
+        size: size(context: context, size: 34),
         weight: FontWeight.w300,
         color: color,
         letterSpacing: letterSpacing,
@@ -23613,7 +26283,7 @@ class Text34w400 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 34,
+        size: size(context: context, size: 34),
         weight: FontWeight.w400,
         color: color,
         letterSpacing: letterSpacing,
@@ -23705,7 +26375,7 @@ class Text34w500 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 34,
+        size: size(context: context, size: 34),
         weight: FontWeight.w500,
         color: color,
         letterSpacing: letterSpacing,
@@ -23797,7 +26467,7 @@ class Text34w600 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 34,
+        size: size(context: context, size: 34),
         weight: FontWeight.w600,
         color: color,
         letterSpacing: letterSpacing,
@@ -23889,7 +26559,7 @@ class Text34w700 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 34,
+        size: size(context: context, size: 34),
         weight: FontWeight.w700,
         color: color,
         letterSpacing: letterSpacing,
@@ -23981,7 +26651,7 @@ class Text34w800 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 34,
+        size: size(context: context, size: 34),
         weight: FontWeight.w800,
         color: color,
         letterSpacing: letterSpacing,
@@ -24073,8 +26743,101 @@ class Text34w900 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 34,
+        size: size(context: context, size: 34),
         weight: FontWeight.w900,
+        color: color,
+        letterSpacing: letterSpacing,
+        fontStyle: fontStyle,
+        overflow: overflow,
+        maxLines: maxLines,
+        textAlign: textAlign,
+        decoration: decoration,
+        decorationThickness: decorationThickness,
+        decorationColor: decorationColor,
+        decorationStyle: decorationStyle,
+        height: height,
+        wordSpacing: wordSpacing,
+        textBaseline: textBaseline,
+        textDirection: textDirection,
+        locale: locale,
+        softWrap: softWrap,
+        strutStyle: strutStyle,
+        textWidthBasis: textWidthBasis,
+        textHeightBehavior: textHeightBehavior,
+        foreground: foreground,
+        background: background,
+        shadows: shadows,
+        debugLabel: debugLabel,
+        package: package,
+        style: style,
+        semanticsLabel: semanticsLabel,
+      );
+}
+
+// Text widgets for font size 35
+class Text35 extends StatelessWidget {
+  final String text;
+  final Color? color;
+  final double? letterSpacing;
+  final double? wordSpacing;
+  final TextBaseline? textBaseline;
+  final FontStyle? fontStyle;
+  final TextOverflow? overflow;
+  final int? maxLines;
+  final TextAlign? textAlign;
+  final TextDirection? textDirection;
+  final Locale? locale;
+  final bool? softWrap;
+  final StrutStyle? strutStyle;
+  final TextWidthBasis? textWidthBasis;
+  final TextHeightBehavior? textHeightBehavior;
+  final Paint? foreground;
+  final Paint? background;
+  final List<Shadow>? shadows;
+  final TextDecoration? decoration;
+  final double? decorationThickness;
+  final Color? decorationColor;
+  final TextDecorationStyle? decorationStyle;
+  final double? height;
+  final String? debugLabel;
+  final String? package;
+  final TextStyle? style;
+  final String? semanticsLabel;
+  const Text35(
+    this.text, {
+    Key? key,
+    this.color,
+    this.letterSpacing,
+    this.wordSpacing,
+    this.textBaseline,
+    this.fontStyle,
+    this.overflow,
+    this.maxLines,
+    this.textAlign,
+    this.textDirection,
+    this.locale,
+    this.softWrap,
+    this.strutStyle,
+    this.textWidthBasis,
+    this.textHeightBehavior,
+    this.foreground,
+    this.background,
+    this.shadows,
+    this.decoration,
+    this.decorationThickness,
+    this.decorationColor,
+    this.decorationStyle,
+    this.height,
+    this.debugLabel,
+    this.package,
+    this.style,
+    this.semanticsLabel,
+  }) : super(key: key);
+  @override
+  Widget build(BuildContext context) => _textVariant(
+        text,
+        size: size(context: context, size: 35),
+        weight: SimplifiedTextWidgetConfig.defaultFontWeight,
         color: color,
         letterSpacing: letterSpacing,
         fontStyle: fontStyle,
@@ -24165,7 +26928,7 @@ class Text35w100 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 35,
+        size: size(context: context, size: 35),
         weight: FontWeight.w100,
         color: color,
         letterSpacing: letterSpacing,
@@ -24257,7 +27020,7 @@ class Text35w200 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 35,
+        size: size(context: context, size: 35),
         weight: FontWeight.w200,
         color: color,
         letterSpacing: letterSpacing,
@@ -24349,7 +27112,7 @@ class Text35w300 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 35,
+        size: size(context: context, size: 35),
         weight: FontWeight.w300,
         color: color,
         letterSpacing: letterSpacing,
@@ -24441,7 +27204,7 @@ class Text35w400 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 35,
+        size: size(context: context, size: 35),
         weight: FontWeight.w400,
         color: color,
         letterSpacing: letterSpacing,
@@ -24533,7 +27296,7 @@ class Text35w500 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 35,
+        size: size(context: context, size: 35),
         weight: FontWeight.w500,
         color: color,
         letterSpacing: letterSpacing,
@@ -24625,7 +27388,7 @@ class Text35w600 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 35,
+        size: size(context: context, size: 35),
         weight: FontWeight.w600,
         color: color,
         letterSpacing: letterSpacing,
@@ -24717,7 +27480,7 @@ class Text35w700 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 35,
+        size: size(context: context, size: 35),
         weight: FontWeight.w700,
         color: color,
         letterSpacing: letterSpacing,
@@ -24809,7 +27572,7 @@ class Text35w800 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 35,
+        size: size(context: context, size: 35),
         weight: FontWeight.w800,
         color: color,
         letterSpacing: letterSpacing,
@@ -24901,8 +27664,101 @@ class Text35w900 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 35,
+        size: size(context: context, size: 35),
         weight: FontWeight.w900,
+        color: color,
+        letterSpacing: letterSpacing,
+        fontStyle: fontStyle,
+        overflow: overflow,
+        maxLines: maxLines,
+        textAlign: textAlign,
+        decoration: decoration,
+        decorationThickness: decorationThickness,
+        decorationColor: decorationColor,
+        decorationStyle: decorationStyle,
+        height: height,
+        wordSpacing: wordSpacing,
+        textBaseline: textBaseline,
+        textDirection: textDirection,
+        locale: locale,
+        softWrap: softWrap,
+        strutStyle: strutStyle,
+        textWidthBasis: textWidthBasis,
+        textHeightBehavior: textHeightBehavior,
+        foreground: foreground,
+        background: background,
+        shadows: shadows,
+        debugLabel: debugLabel,
+        package: package,
+        style: style,
+        semanticsLabel: semanticsLabel,
+      );
+}
+
+// Text widgets for font size 36
+class Text36 extends StatelessWidget {
+  final String text;
+  final Color? color;
+  final double? letterSpacing;
+  final double? wordSpacing;
+  final TextBaseline? textBaseline;
+  final FontStyle? fontStyle;
+  final TextOverflow? overflow;
+  final int? maxLines;
+  final TextAlign? textAlign;
+  final TextDirection? textDirection;
+  final Locale? locale;
+  final bool? softWrap;
+  final StrutStyle? strutStyle;
+  final TextWidthBasis? textWidthBasis;
+  final TextHeightBehavior? textHeightBehavior;
+  final Paint? foreground;
+  final Paint? background;
+  final List<Shadow>? shadows;
+  final TextDecoration? decoration;
+  final double? decorationThickness;
+  final Color? decorationColor;
+  final TextDecorationStyle? decorationStyle;
+  final double? height;
+  final String? debugLabel;
+  final String? package;
+  final TextStyle? style;
+  final String? semanticsLabel;
+  const Text36(
+    this.text, {
+    Key? key,
+    this.color,
+    this.letterSpacing,
+    this.wordSpacing,
+    this.textBaseline,
+    this.fontStyle,
+    this.overflow,
+    this.maxLines,
+    this.textAlign,
+    this.textDirection,
+    this.locale,
+    this.softWrap,
+    this.strutStyle,
+    this.textWidthBasis,
+    this.textHeightBehavior,
+    this.foreground,
+    this.background,
+    this.shadows,
+    this.decoration,
+    this.decorationThickness,
+    this.decorationColor,
+    this.decorationStyle,
+    this.height,
+    this.debugLabel,
+    this.package,
+    this.style,
+    this.semanticsLabel,
+  }) : super(key: key);
+  @override
+  Widget build(BuildContext context) => _textVariant(
+        text,
+        size: size(context: context, size: 36),
+        weight: SimplifiedTextWidgetConfig.defaultFontWeight,
         color: color,
         letterSpacing: letterSpacing,
         fontStyle: fontStyle,
@@ -24993,7 +27849,7 @@ class Text36w100 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 36,
+        size: size(context: context, size: 36),
         weight: FontWeight.w100,
         color: color,
         letterSpacing: letterSpacing,
@@ -25085,7 +27941,7 @@ class Text36w200 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 36,
+        size: size(context: context, size: 36),
         weight: FontWeight.w200,
         color: color,
         letterSpacing: letterSpacing,
@@ -25177,7 +28033,7 @@ class Text36w300 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 36,
+        size: size(context: context, size: 36),
         weight: FontWeight.w300,
         color: color,
         letterSpacing: letterSpacing,
@@ -25269,7 +28125,7 @@ class Text36w400 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 36,
+        size: size(context: context, size: 36),
         weight: FontWeight.w400,
         color: color,
         letterSpacing: letterSpacing,
@@ -25361,7 +28217,7 @@ class Text36w500 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 36,
+        size: size(context: context, size: 36),
         weight: FontWeight.w500,
         color: color,
         letterSpacing: letterSpacing,
@@ -25453,7 +28309,7 @@ class Text36w600 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 36,
+        size: size(context: context, size: 36),
         weight: FontWeight.w600,
         color: color,
         letterSpacing: letterSpacing,
@@ -25545,7 +28401,7 @@ class Text36w700 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 36,
+        size: size(context: context, size: 36),
         weight: FontWeight.w700,
         color: color,
         letterSpacing: letterSpacing,
@@ -25637,7 +28493,7 @@ class Text36w800 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 36,
+        size: size(context: context, size: 36),
         weight: FontWeight.w800,
         color: color,
         letterSpacing: letterSpacing,
@@ -25729,8 +28585,101 @@ class Text36w900 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 36,
+        size: size(context: context, size: 36),
         weight: FontWeight.w900,
+        color: color,
+        letterSpacing: letterSpacing,
+        fontStyle: fontStyle,
+        overflow: overflow,
+        maxLines: maxLines,
+        textAlign: textAlign,
+        decoration: decoration,
+        decorationThickness: decorationThickness,
+        decorationColor: decorationColor,
+        decorationStyle: decorationStyle,
+        height: height,
+        wordSpacing: wordSpacing,
+        textBaseline: textBaseline,
+        textDirection: textDirection,
+        locale: locale,
+        softWrap: softWrap,
+        strutStyle: strutStyle,
+        textWidthBasis: textWidthBasis,
+        textHeightBehavior: textHeightBehavior,
+        foreground: foreground,
+        background: background,
+        shadows: shadows,
+        debugLabel: debugLabel,
+        package: package,
+        style: style,
+        semanticsLabel: semanticsLabel,
+      );
+}
+
+// Text widgets for font size 37
+class Text37 extends StatelessWidget {
+  final String text;
+  final Color? color;
+  final double? letterSpacing;
+  final double? wordSpacing;
+  final TextBaseline? textBaseline;
+  final FontStyle? fontStyle;
+  final TextOverflow? overflow;
+  final int? maxLines;
+  final TextAlign? textAlign;
+  final TextDirection? textDirection;
+  final Locale? locale;
+  final bool? softWrap;
+  final StrutStyle? strutStyle;
+  final TextWidthBasis? textWidthBasis;
+  final TextHeightBehavior? textHeightBehavior;
+  final Paint? foreground;
+  final Paint? background;
+  final List<Shadow>? shadows;
+  final TextDecoration? decoration;
+  final double? decorationThickness;
+  final Color? decorationColor;
+  final TextDecorationStyle? decorationStyle;
+  final double? height;
+  final String? debugLabel;
+  final String? package;
+  final TextStyle? style;
+  final String? semanticsLabel;
+  const Text37(
+    this.text, {
+    Key? key,
+    this.color,
+    this.letterSpacing,
+    this.wordSpacing,
+    this.textBaseline,
+    this.fontStyle,
+    this.overflow,
+    this.maxLines,
+    this.textAlign,
+    this.textDirection,
+    this.locale,
+    this.softWrap,
+    this.strutStyle,
+    this.textWidthBasis,
+    this.textHeightBehavior,
+    this.foreground,
+    this.background,
+    this.shadows,
+    this.decoration,
+    this.decorationThickness,
+    this.decorationColor,
+    this.decorationStyle,
+    this.height,
+    this.debugLabel,
+    this.package,
+    this.style,
+    this.semanticsLabel,
+  }) : super(key: key);
+  @override
+  Widget build(BuildContext context) => _textVariant(
+        text,
+        size: size(context: context, size: 37),
+        weight: SimplifiedTextWidgetConfig.defaultFontWeight,
         color: color,
         letterSpacing: letterSpacing,
         fontStyle: fontStyle,
@@ -25821,7 +28770,7 @@ class Text37w100 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 37,
+        size: size(context: context, size: 37),
         weight: FontWeight.w100,
         color: color,
         letterSpacing: letterSpacing,
@@ -25913,7 +28862,7 @@ class Text37w200 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 37,
+        size: size(context: context, size: 37),
         weight: FontWeight.w200,
         color: color,
         letterSpacing: letterSpacing,
@@ -26005,7 +28954,7 @@ class Text37w300 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 37,
+        size: size(context: context, size: 37),
         weight: FontWeight.w300,
         color: color,
         letterSpacing: letterSpacing,
@@ -26097,7 +29046,7 @@ class Text37w400 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 37,
+        size: size(context: context, size: 37),
         weight: FontWeight.w400,
         color: color,
         letterSpacing: letterSpacing,
@@ -26189,7 +29138,7 @@ class Text37w500 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 37,
+        size: size(context: context, size: 37),
         weight: FontWeight.w500,
         color: color,
         letterSpacing: letterSpacing,
@@ -26281,7 +29230,7 @@ class Text37w600 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 37,
+        size: size(context: context, size: 37),
         weight: FontWeight.w600,
         color: color,
         letterSpacing: letterSpacing,
@@ -26373,7 +29322,7 @@ class Text37w700 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 37,
+        size: size(context: context, size: 37),
         weight: FontWeight.w700,
         color: color,
         letterSpacing: letterSpacing,
@@ -26465,7 +29414,7 @@ class Text37w800 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 37,
+        size: size(context: context, size: 37),
         weight: FontWeight.w800,
         color: color,
         letterSpacing: letterSpacing,
@@ -26557,8 +29506,101 @@ class Text37w900 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 37,
+        size: size(context: context, size: 37),
         weight: FontWeight.w900,
+        color: color,
+        letterSpacing: letterSpacing,
+        fontStyle: fontStyle,
+        overflow: overflow,
+        maxLines: maxLines,
+        textAlign: textAlign,
+        decoration: decoration,
+        decorationThickness: decorationThickness,
+        decorationColor: decorationColor,
+        decorationStyle: decorationStyle,
+        height: height,
+        wordSpacing: wordSpacing,
+        textBaseline: textBaseline,
+        textDirection: textDirection,
+        locale: locale,
+        softWrap: softWrap,
+        strutStyle: strutStyle,
+        textWidthBasis: textWidthBasis,
+        textHeightBehavior: textHeightBehavior,
+        foreground: foreground,
+        background: background,
+        shadows: shadows,
+        debugLabel: debugLabel,
+        package: package,
+        style: style,
+        semanticsLabel: semanticsLabel,
+      );
+}
+
+// Text widgets for font size 38
+class Text38 extends StatelessWidget {
+  final String text;
+  final Color? color;
+  final double? letterSpacing;
+  final double? wordSpacing;
+  final TextBaseline? textBaseline;
+  final FontStyle? fontStyle;
+  final TextOverflow? overflow;
+  final int? maxLines;
+  final TextAlign? textAlign;
+  final TextDirection? textDirection;
+  final Locale? locale;
+  final bool? softWrap;
+  final StrutStyle? strutStyle;
+  final TextWidthBasis? textWidthBasis;
+  final TextHeightBehavior? textHeightBehavior;
+  final Paint? foreground;
+  final Paint? background;
+  final List<Shadow>? shadows;
+  final TextDecoration? decoration;
+  final double? decorationThickness;
+  final Color? decorationColor;
+  final TextDecorationStyle? decorationStyle;
+  final double? height;
+  final String? debugLabel;
+  final String? package;
+  final TextStyle? style;
+  final String? semanticsLabel;
+  const Text38(
+    this.text, {
+    Key? key,
+    this.color,
+    this.letterSpacing,
+    this.wordSpacing,
+    this.textBaseline,
+    this.fontStyle,
+    this.overflow,
+    this.maxLines,
+    this.textAlign,
+    this.textDirection,
+    this.locale,
+    this.softWrap,
+    this.strutStyle,
+    this.textWidthBasis,
+    this.textHeightBehavior,
+    this.foreground,
+    this.background,
+    this.shadows,
+    this.decoration,
+    this.decorationThickness,
+    this.decorationColor,
+    this.decorationStyle,
+    this.height,
+    this.debugLabel,
+    this.package,
+    this.style,
+    this.semanticsLabel,
+  }) : super(key: key);
+  @override
+  Widget build(BuildContext context) => _textVariant(
+        text,
+        size: size(context: context, size: 38),
+        weight: SimplifiedTextWidgetConfig.defaultFontWeight,
         color: color,
         letterSpacing: letterSpacing,
         fontStyle: fontStyle,
@@ -26649,7 +29691,7 @@ class Text38w100 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 38,
+        size: size(context: context, size: 38),
         weight: FontWeight.w100,
         color: color,
         letterSpacing: letterSpacing,
@@ -26741,7 +29783,7 @@ class Text38w200 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 38,
+        size: size(context: context, size: 38),
         weight: FontWeight.w200,
         color: color,
         letterSpacing: letterSpacing,
@@ -26833,7 +29875,7 @@ class Text38w300 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 38,
+        size: size(context: context, size: 38),
         weight: FontWeight.w300,
         color: color,
         letterSpacing: letterSpacing,
@@ -26925,7 +29967,7 @@ class Text38w400 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 38,
+        size: size(context: context, size: 38),
         weight: FontWeight.w400,
         color: color,
         letterSpacing: letterSpacing,
@@ -27017,7 +30059,7 @@ class Text38w500 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 38,
+        size: size(context: context, size: 38),
         weight: FontWeight.w500,
         color: color,
         letterSpacing: letterSpacing,
@@ -27109,7 +30151,7 @@ class Text38w600 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 38,
+        size: size(context: context, size: 38),
         weight: FontWeight.w600,
         color: color,
         letterSpacing: letterSpacing,
@@ -27201,7 +30243,7 @@ class Text38w700 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 38,
+        size: size(context: context, size: 38),
         weight: FontWeight.w700,
         color: color,
         letterSpacing: letterSpacing,
@@ -27293,7 +30335,7 @@ class Text38w800 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 38,
+        size: size(context: context, size: 38),
         weight: FontWeight.w800,
         color: color,
         letterSpacing: letterSpacing,
@@ -27385,8 +30427,101 @@ class Text38w900 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 38,
+        size: size(context: context, size: 38),
         weight: FontWeight.w900,
+        color: color,
+        letterSpacing: letterSpacing,
+        fontStyle: fontStyle,
+        overflow: overflow,
+        maxLines: maxLines,
+        textAlign: textAlign,
+        decoration: decoration,
+        decorationThickness: decorationThickness,
+        decorationColor: decorationColor,
+        decorationStyle: decorationStyle,
+        height: height,
+        wordSpacing: wordSpacing,
+        textBaseline: textBaseline,
+        textDirection: textDirection,
+        locale: locale,
+        softWrap: softWrap,
+        strutStyle: strutStyle,
+        textWidthBasis: textWidthBasis,
+        textHeightBehavior: textHeightBehavior,
+        foreground: foreground,
+        background: background,
+        shadows: shadows,
+        debugLabel: debugLabel,
+        package: package,
+        style: style,
+        semanticsLabel: semanticsLabel,
+      );
+}
+
+// Text widgets for font size 39
+class Text39 extends StatelessWidget {
+  final String text;
+  final Color? color;
+  final double? letterSpacing;
+  final double? wordSpacing;
+  final TextBaseline? textBaseline;
+  final FontStyle? fontStyle;
+  final TextOverflow? overflow;
+  final int? maxLines;
+  final TextAlign? textAlign;
+  final TextDirection? textDirection;
+  final Locale? locale;
+  final bool? softWrap;
+  final StrutStyle? strutStyle;
+  final TextWidthBasis? textWidthBasis;
+  final TextHeightBehavior? textHeightBehavior;
+  final Paint? foreground;
+  final Paint? background;
+  final List<Shadow>? shadows;
+  final TextDecoration? decoration;
+  final double? decorationThickness;
+  final Color? decorationColor;
+  final TextDecorationStyle? decorationStyle;
+  final double? height;
+  final String? debugLabel;
+  final String? package;
+  final TextStyle? style;
+  final String? semanticsLabel;
+  const Text39(
+    this.text, {
+    Key? key,
+    this.color,
+    this.letterSpacing,
+    this.wordSpacing,
+    this.textBaseline,
+    this.fontStyle,
+    this.overflow,
+    this.maxLines,
+    this.textAlign,
+    this.textDirection,
+    this.locale,
+    this.softWrap,
+    this.strutStyle,
+    this.textWidthBasis,
+    this.textHeightBehavior,
+    this.foreground,
+    this.background,
+    this.shadows,
+    this.decoration,
+    this.decorationThickness,
+    this.decorationColor,
+    this.decorationStyle,
+    this.height,
+    this.debugLabel,
+    this.package,
+    this.style,
+    this.semanticsLabel,
+  }) : super(key: key);
+  @override
+  Widget build(BuildContext context) => _textVariant(
+        text,
+        size: size(context: context, size: 39),
+        weight: SimplifiedTextWidgetConfig.defaultFontWeight,
         color: color,
         letterSpacing: letterSpacing,
         fontStyle: fontStyle,
@@ -27477,7 +30612,7 @@ class Text39w100 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 39,
+        size: size(context: context, size: 39),
         weight: FontWeight.w100,
         color: color,
         letterSpacing: letterSpacing,
@@ -27569,7 +30704,7 @@ class Text39w200 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 39,
+        size: size(context: context, size: 39),
         weight: FontWeight.w200,
         color: color,
         letterSpacing: letterSpacing,
@@ -27661,7 +30796,7 @@ class Text39w300 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 39,
+        size: size(context: context, size: 39),
         weight: FontWeight.w300,
         color: color,
         letterSpacing: letterSpacing,
@@ -27753,7 +30888,7 @@ class Text39w400 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 39,
+        size: size(context: context, size: 39),
         weight: FontWeight.w400,
         color: color,
         letterSpacing: letterSpacing,
@@ -27845,7 +30980,7 @@ class Text39w500 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 39,
+        size: size(context: context, size: 39),
         weight: FontWeight.w500,
         color: color,
         letterSpacing: letterSpacing,
@@ -27937,7 +31072,7 @@ class Text39w600 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 39,
+        size: size(context: context, size: 39),
         weight: FontWeight.w600,
         color: color,
         letterSpacing: letterSpacing,
@@ -28029,7 +31164,7 @@ class Text39w700 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 39,
+        size: size(context: context, size: 39),
         weight: FontWeight.w700,
         color: color,
         letterSpacing: letterSpacing,
@@ -28121,7 +31256,7 @@ class Text39w800 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 39,
+        size: size(context: context, size: 39),
         weight: FontWeight.w800,
         color: color,
         letterSpacing: letterSpacing,
@@ -28213,8 +31348,101 @@ class Text39w900 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 39,
+        size: size(context: context, size: 39),
         weight: FontWeight.w900,
+        color: color,
+        letterSpacing: letterSpacing,
+        fontStyle: fontStyle,
+        overflow: overflow,
+        maxLines: maxLines,
+        textAlign: textAlign,
+        decoration: decoration,
+        decorationThickness: decorationThickness,
+        decorationColor: decorationColor,
+        decorationStyle: decorationStyle,
+        height: height,
+        wordSpacing: wordSpacing,
+        textBaseline: textBaseline,
+        textDirection: textDirection,
+        locale: locale,
+        softWrap: softWrap,
+        strutStyle: strutStyle,
+        textWidthBasis: textWidthBasis,
+        textHeightBehavior: textHeightBehavior,
+        foreground: foreground,
+        background: background,
+        shadows: shadows,
+        debugLabel: debugLabel,
+        package: package,
+        style: style,
+        semanticsLabel: semanticsLabel,
+      );
+}
+
+// Text widgets for font size 40
+class Text40 extends StatelessWidget {
+  final String text;
+  final Color? color;
+  final double? letterSpacing;
+  final double? wordSpacing;
+  final TextBaseline? textBaseline;
+  final FontStyle? fontStyle;
+  final TextOverflow? overflow;
+  final int? maxLines;
+  final TextAlign? textAlign;
+  final TextDirection? textDirection;
+  final Locale? locale;
+  final bool? softWrap;
+  final StrutStyle? strutStyle;
+  final TextWidthBasis? textWidthBasis;
+  final TextHeightBehavior? textHeightBehavior;
+  final Paint? foreground;
+  final Paint? background;
+  final List<Shadow>? shadows;
+  final TextDecoration? decoration;
+  final double? decorationThickness;
+  final Color? decorationColor;
+  final TextDecorationStyle? decorationStyle;
+  final double? height;
+  final String? debugLabel;
+  final String? package;
+  final TextStyle? style;
+  final String? semanticsLabel;
+  const Text40(
+    this.text, {
+    Key? key,
+    this.color,
+    this.letterSpacing,
+    this.wordSpacing,
+    this.textBaseline,
+    this.fontStyle,
+    this.overflow,
+    this.maxLines,
+    this.textAlign,
+    this.textDirection,
+    this.locale,
+    this.softWrap,
+    this.strutStyle,
+    this.textWidthBasis,
+    this.textHeightBehavior,
+    this.foreground,
+    this.background,
+    this.shadows,
+    this.decoration,
+    this.decorationThickness,
+    this.decorationColor,
+    this.decorationStyle,
+    this.height,
+    this.debugLabel,
+    this.package,
+    this.style,
+    this.semanticsLabel,
+  }) : super(key: key);
+  @override
+  Widget build(BuildContext context) => _textVariant(
+        text,
+        size: size(context: context, size: 40),
+        weight: SimplifiedTextWidgetConfig.defaultFontWeight,
         color: color,
         letterSpacing: letterSpacing,
         fontStyle: fontStyle,
@@ -28305,7 +31533,7 @@ class Text40w100 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 40,
+        size: size(context: context, size: 40),
         weight: FontWeight.w100,
         color: color,
         letterSpacing: letterSpacing,
@@ -28397,7 +31625,7 @@ class Text40w200 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 40,
+        size: size(context: context, size: 40),
         weight: FontWeight.w200,
         color: color,
         letterSpacing: letterSpacing,
@@ -28489,7 +31717,7 @@ class Text40w300 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 40,
+        size: size(context: context, size: 40),
         weight: FontWeight.w300,
         color: color,
         letterSpacing: letterSpacing,
@@ -28581,7 +31809,7 @@ class Text40w400 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 40,
+        size: size(context: context, size: 40),
         weight: FontWeight.w400,
         color: color,
         letterSpacing: letterSpacing,
@@ -28673,7 +31901,7 @@ class Text40w500 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 40,
+        size: size(context: context, size: 40),
         weight: FontWeight.w500,
         color: color,
         letterSpacing: letterSpacing,
@@ -28765,7 +31993,7 @@ class Text40w600 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 40,
+        size: size(context: context, size: 40),
         weight: FontWeight.w600,
         color: color,
         letterSpacing: letterSpacing,
@@ -28857,7 +32085,7 @@ class Text40w700 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 40,
+        size: size(context: context, size: 40),
         weight: FontWeight.w700,
         color: color,
         letterSpacing: letterSpacing,
@@ -28949,7 +32177,7 @@ class Text40w800 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 40,
+        size: size(context: context, size: 40),
         weight: FontWeight.w800,
         color: color,
         letterSpacing: letterSpacing,
@@ -29041,8 +32269,101 @@ class Text40w900 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 40,
+        size: size(context: context, size: 40),
         weight: FontWeight.w900,
+        color: color,
+        letterSpacing: letterSpacing,
+        fontStyle: fontStyle,
+        overflow: overflow,
+        maxLines: maxLines,
+        textAlign: textAlign,
+        decoration: decoration,
+        decorationThickness: decorationThickness,
+        decorationColor: decorationColor,
+        decorationStyle: decorationStyle,
+        height: height,
+        wordSpacing: wordSpacing,
+        textBaseline: textBaseline,
+        textDirection: textDirection,
+        locale: locale,
+        softWrap: softWrap,
+        strutStyle: strutStyle,
+        textWidthBasis: textWidthBasis,
+        textHeightBehavior: textHeightBehavior,
+        foreground: foreground,
+        background: background,
+        shadows: shadows,
+        debugLabel: debugLabel,
+        package: package,
+        style: style,
+        semanticsLabel: semanticsLabel,
+      );
+}
+
+// Text widgets for font size 41
+class Text41 extends StatelessWidget {
+  final String text;
+  final Color? color;
+  final double? letterSpacing;
+  final double? wordSpacing;
+  final TextBaseline? textBaseline;
+  final FontStyle? fontStyle;
+  final TextOverflow? overflow;
+  final int? maxLines;
+  final TextAlign? textAlign;
+  final TextDirection? textDirection;
+  final Locale? locale;
+  final bool? softWrap;
+  final StrutStyle? strutStyle;
+  final TextWidthBasis? textWidthBasis;
+  final TextHeightBehavior? textHeightBehavior;
+  final Paint? foreground;
+  final Paint? background;
+  final List<Shadow>? shadows;
+  final TextDecoration? decoration;
+  final double? decorationThickness;
+  final Color? decorationColor;
+  final TextDecorationStyle? decorationStyle;
+  final double? height;
+  final String? debugLabel;
+  final String? package;
+  final TextStyle? style;
+  final String? semanticsLabel;
+  const Text41(
+    this.text, {
+    Key? key,
+    this.color,
+    this.letterSpacing,
+    this.wordSpacing,
+    this.textBaseline,
+    this.fontStyle,
+    this.overflow,
+    this.maxLines,
+    this.textAlign,
+    this.textDirection,
+    this.locale,
+    this.softWrap,
+    this.strutStyle,
+    this.textWidthBasis,
+    this.textHeightBehavior,
+    this.foreground,
+    this.background,
+    this.shadows,
+    this.decoration,
+    this.decorationThickness,
+    this.decorationColor,
+    this.decorationStyle,
+    this.height,
+    this.debugLabel,
+    this.package,
+    this.style,
+    this.semanticsLabel,
+  }) : super(key: key);
+  @override
+  Widget build(BuildContext context) => _textVariant(
+        text,
+        size: size(context: context, size: 41),
+        weight: SimplifiedTextWidgetConfig.defaultFontWeight,
         color: color,
         letterSpacing: letterSpacing,
         fontStyle: fontStyle,
@@ -29133,7 +32454,7 @@ class Text41w100 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 41,
+        size: size(context: context, size: 41),
         weight: FontWeight.w100,
         color: color,
         letterSpacing: letterSpacing,
@@ -29225,7 +32546,7 @@ class Text41w200 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 41,
+        size: size(context: context, size: 41),
         weight: FontWeight.w200,
         color: color,
         letterSpacing: letterSpacing,
@@ -29317,7 +32638,7 @@ class Text41w300 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 41,
+        size: size(context: context, size: 41),
         weight: FontWeight.w300,
         color: color,
         letterSpacing: letterSpacing,
@@ -29409,7 +32730,7 @@ class Text41w400 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 41,
+        size: size(context: context, size: 41),
         weight: FontWeight.w400,
         color: color,
         letterSpacing: letterSpacing,
@@ -29501,7 +32822,7 @@ class Text41w500 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 41,
+        size: size(context: context, size: 41),
         weight: FontWeight.w500,
         color: color,
         letterSpacing: letterSpacing,
@@ -29593,7 +32914,7 @@ class Text41w600 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 41,
+        size: size(context: context, size: 41),
         weight: FontWeight.w600,
         color: color,
         letterSpacing: letterSpacing,
@@ -29685,7 +33006,7 @@ class Text41w700 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 41,
+        size: size(context: context, size: 41),
         weight: FontWeight.w700,
         color: color,
         letterSpacing: letterSpacing,
@@ -29777,7 +33098,7 @@ class Text41w800 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 41,
+        size: size(context: context, size: 41),
         weight: FontWeight.w800,
         color: color,
         letterSpacing: letterSpacing,
@@ -29869,8 +33190,101 @@ class Text41w900 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 41,
+        size: size(context: context, size: 41),
         weight: FontWeight.w900,
+        color: color,
+        letterSpacing: letterSpacing,
+        fontStyle: fontStyle,
+        overflow: overflow,
+        maxLines: maxLines,
+        textAlign: textAlign,
+        decoration: decoration,
+        decorationThickness: decorationThickness,
+        decorationColor: decorationColor,
+        decorationStyle: decorationStyle,
+        height: height,
+        wordSpacing: wordSpacing,
+        textBaseline: textBaseline,
+        textDirection: textDirection,
+        locale: locale,
+        softWrap: softWrap,
+        strutStyle: strutStyle,
+        textWidthBasis: textWidthBasis,
+        textHeightBehavior: textHeightBehavior,
+        foreground: foreground,
+        background: background,
+        shadows: shadows,
+        debugLabel: debugLabel,
+        package: package,
+        style: style,
+        semanticsLabel: semanticsLabel,
+      );
+}
+
+// Text widgets for font size 42
+class Text42 extends StatelessWidget {
+  final String text;
+  final Color? color;
+  final double? letterSpacing;
+  final double? wordSpacing;
+  final TextBaseline? textBaseline;
+  final FontStyle? fontStyle;
+  final TextOverflow? overflow;
+  final int? maxLines;
+  final TextAlign? textAlign;
+  final TextDirection? textDirection;
+  final Locale? locale;
+  final bool? softWrap;
+  final StrutStyle? strutStyle;
+  final TextWidthBasis? textWidthBasis;
+  final TextHeightBehavior? textHeightBehavior;
+  final Paint? foreground;
+  final Paint? background;
+  final List<Shadow>? shadows;
+  final TextDecoration? decoration;
+  final double? decorationThickness;
+  final Color? decorationColor;
+  final TextDecorationStyle? decorationStyle;
+  final double? height;
+  final String? debugLabel;
+  final String? package;
+  final TextStyle? style;
+  final String? semanticsLabel;
+  const Text42(
+    this.text, {
+    Key? key,
+    this.color,
+    this.letterSpacing,
+    this.wordSpacing,
+    this.textBaseline,
+    this.fontStyle,
+    this.overflow,
+    this.maxLines,
+    this.textAlign,
+    this.textDirection,
+    this.locale,
+    this.softWrap,
+    this.strutStyle,
+    this.textWidthBasis,
+    this.textHeightBehavior,
+    this.foreground,
+    this.background,
+    this.shadows,
+    this.decoration,
+    this.decorationThickness,
+    this.decorationColor,
+    this.decorationStyle,
+    this.height,
+    this.debugLabel,
+    this.package,
+    this.style,
+    this.semanticsLabel,
+  }) : super(key: key);
+  @override
+  Widget build(BuildContext context) => _textVariant(
+        text,
+        size: size(context: context, size: 42),
+        weight: SimplifiedTextWidgetConfig.defaultFontWeight,
         color: color,
         letterSpacing: letterSpacing,
         fontStyle: fontStyle,
@@ -29961,7 +33375,7 @@ class Text42w100 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 42,
+        size: size(context: context, size: 42),
         weight: FontWeight.w100,
         color: color,
         letterSpacing: letterSpacing,
@@ -30053,7 +33467,7 @@ class Text42w200 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 42,
+        size: size(context: context, size: 42),
         weight: FontWeight.w200,
         color: color,
         letterSpacing: letterSpacing,
@@ -30145,7 +33559,7 @@ class Text42w300 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 42,
+        size: size(context: context, size: 42),
         weight: FontWeight.w300,
         color: color,
         letterSpacing: letterSpacing,
@@ -30237,7 +33651,7 @@ class Text42w400 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 42,
+        size: size(context: context, size: 42),
         weight: FontWeight.w400,
         color: color,
         letterSpacing: letterSpacing,
@@ -30329,7 +33743,7 @@ class Text42w500 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 42,
+        size: size(context: context, size: 42),
         weight: FontWeight.w500,
         color: color,
         letterSpacing: letterSpacing,
@@ -30421,7 +33835,7 @@ class Text42w600 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 42,
+        size: size(context: context, size: 42),
         weight: FontWeight.w600,
         color: color,
         letterSpacing: letterSpacing,
@@ -30513,7 +33927,7 @@ class Text42w700 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 42,
+        size: size(context: context, size: 42),
         weight: FontWeight.w700,
         color: color,
         letterSpacing: letterSpacing,
@@ -30605,7 +34019,7 @@ class Text42w800 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 42,
+        size: size(context: context, size: 42),
         weight: FontWeight.w800,
         color: color,
         letterSpacing: letterSpacing,
@@ -30697,8 +34111,101 @@ class Text42w900 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 42,
+        size: size(context: context, size: 42),
         weight: FontWeight.w900,
+        color: color,
+        letterSpacing: letterSpacing,
+        fontStyle: fontStyle,
+        overflow: overflow,
+        maxLines: maxLines,
+        textAlign: textAlign,
+        decoration: decoration,
+        decorationThickness: decorationThickness,
+        decorationColor: decorationColor,
+        decorationStyle: decorationStyle,
+        height: height,
+        wordSpacing: wordSpacing,
+        textBaseline: textBaseline,
+        textDirection: textDirection,
+        locale: locale,
+        softWrap: softWrap,
+        strutStyle: strutStyle,
+        textWidthBasis: textWidthBasis,
+        textHeightBehavior: textHeightBehavior,
+        foreground: foreground,
+        background: background,
+        shadows: shadows,
+        debugLabel: debugLabel,
+        package: package,
+        style: style,
+        semanticsLabel: semanticsLabel,
+      );
+}
+
+// Text widgets for font size 43
+class Text43 extends StatelessWidget {
+  final String text;
+  final Color? color;
+  final double? letterSpacing;
+  final double? wordSpacing;
+  final TextBaseline? textBaseline;
+  final FontStyle? fontStyle;
+  final TextOverflow? overflow;
+  final int? maxLines;
+  final TextAlign? textAlign;
+  final TextDirection? textDirection;
+  final Locale? locale;
+  final bool? softWrap;
+  final StrutStyle? strutStyle;
+  final TextWidthBasis? textWidthBasis;
+  final TextHeightBehavior? textHeightBehavior;
+  final Paint? foreground;
+  final Paint? background;
+  final List<Shadow>? shadows;
+  final TextDecoration? decoration;
+  final double? decorationThickness;
+  final Color? decorationColor;
+  final TextDecorationStyle? decorationStyle;
+  final double? height;
+  final String? debugLabel;
+  final String? package;
+  final TextStyle? style;
+  final String? semanticsLabel;
+  const Text43(
+    this.text, {
+    Key? key,
+    this.color,
+    this.letterSpacing,
+    this.wordSpacing,
+    this.textBaseline,
+    this.fontStyle,
+    this.overflow,
+    this.maxLines,
+    this.textAlign,
+    this.textDirection,
+    this.locale,
+    this.softWrap,
+    this.strutStyle,
+    this.textWidthBasis,
+    this.textHeightBehavior,
+    this.foreground,
+    this.background,
+    this.shadows,
+    this.decoration,
+    this.decorationThickness,
+    this.decorationColor,
+    this.decorationStyle,
+    this.height,
+    this.debugLabel,
+    this.package,
+    this.style,
+    this.semanticsLabel,
+  }) : super(key: key);
+  @override
+  Widget build(BuildContext context) => _textVariant(
+        text,
+        size: size(context: context, size: 43),
+        weight: SimplifiedTextWidgetConfig.defaultFontWeight,
         color: color,
         letterSpacing: letterSpacing,
         fontStyle: fontStyle,
@@ -30789,7 +34296,7 @@ class Text43w100 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 43,
+        size: size(context: context, size: 43),
         weight: FontWeight.w100,
         color: color,
         letterSpacing: letterSpacing,
@@ -30881,7 +34388,7 @@ class Text43w200 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 43,
+        size: size(context: context, size: 43),
         weight: FontWeight.w200,
         color: color,
         letterSpacing: letterSpacing,
@@ -30973,7 +34480,7 @@ class Text43w300 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 43,
+        size: size(context: context, size: 43),
         weight: FontWeight.w300,
         color: color,
         letterSpacing: letterSpacing,
@@ -31065,7 +34572,7 @@ class Text43w400 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 43,
+        size: size(context: context, size: 43),
         weight: FontWeight.w400,
         color: color,
         letterSpacing: letterSpacing,
@@ -31157,7 +34664,7 @@ class Text43w500 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 43,
+        size: size(context: context, size: 43),
         weight: FontWeight.w500,
         color: color,
         letterSpacing: letterSpacing,
@@ -31249,7 +34756,7 @@ class Text43w600 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 43,
+        size: size(context: context, size: 43),
         weight: FontWeight.w600,
         color: color,
         letterSpacing: letterSpacing,
@@ -31341,7 +34848,7 @@ class Text43w700 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 43,
+        size: size(context: context, size: 43),
         weight: FontWeight.w700,
         color: color,
         letterSpacing: letterSpacing,
@@ -31433,7 +34940,7 @@ class Text43w800 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 43,
+        size: size(context: context, size: 43),
         weight: FontWeight.w800,
         color: color,
         letterSpacing: letterSpacing,
@@ -31525,8 +35032,101 @@ class Text43w900 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 43,
+        size: size(context: context, size: 43),
         weight: FontWeight.w900,
+        color: color,
+        letterSpacing: letterSpacing,
+        fontStyle: fontStyle,
+        overflow: overflow,
+        maxLines: maxLines,
+        textAlign: textAlign,
+        decoration: decoration,
+        decorationThickness: decorationThickness,
+        decorationColor: decorationColor,
+        decorationStyle: decorationStyle,
+        height: height,
+        wordSpacing: wordSpacing,
+        textBaseline: textBaseline,
+        textDirection: textDirection,
+        locale: locale,
+        softWrap: softWrap,
+        strutStyle: strutStyle,
+        textWidthBasis: textWidthBasis,
+        textHeightBehavior: textHeightBehavior,
+        foreground: foreground,
+        background: background,
+        shadows: shadows,
+        debugLabel: debugLabel,
+        package: package,
+        style: style,
+        semanticsLabel: semanticsLabel,
+      );
+}
+
+// Text widgets for font size 44
+class Text44 extends StatelessWidget {
+  final String text;
+  final Color? color;
+  final double? letterSpacing;
+  final double? wordSpacing;
+  final TextBaseline? textBaseline;
+  final FontStyle? fontStyle;
+  final TextOverflow? overflow;
+  final int? maxLines;
+  final TextAlign? textAlign;
+  final TextDirection? textDirection;
+  final Locale? locale;
+  final bool? softWrap;
+  final StrutStyle? strutStyle;
+  final TextWidthBasis? textWidthBasis;
+  final TextHeightBehavior? textHeightBehavior;
+  final Paint? foreground;
+  final Paint? background;
+  final List<Shadow>? shadows;
+  final TextDecoration? decoration;
+  final double? decorationThickness;
+  final Color? decorationColor;
+  final TextDecorationStyle? decorationStyle;
+  final double? height;
+  final String? debugLabel;
+  final String? package;
+  final TextStyle? style;
+  final String? semanticsLabel;
+  const Text44(
+    this.text, {
+    Key? key,
+    this.color,
+    this.letterSpacing,
+    this.wordSpacing,
+    this.textBaseline,
+    this.fontStyle,
+    this.overflow,
+    this.maxLines,
+    this.textAlign,
+    this.textDirection,
+    this.locale,
+    this.softWrap,
+    this.strutStyle,
+    this.textWidthBasis,
+    this.textHeightBehavior,
+    this.foreground,
+    this.background,
+    this.shadows,
+    this.decoration,
+    this.decorationThickness,
+    this.decorationColor,
+    this.decorationStyle,
+    this.height,
+    this.debugLabel,
+    this.package,
+    this.style,
+    this.semanticsLabel,
+  }) : super(key: key);
+  @override
+  Widget build(BuildContext context) => _textVariant(
+        text,
+        size: size(context: context, size: 44),
+        weight: SimplifiedTextWidgetConfig.defaultFontWeight,
         color: color,
         letterSpacing: letterSpacing,
         fontStyle: fontStyle,
@@ -31617,7 +35217,7 @@ class Text44w100 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 44,
+        size: size(context: context, size: 44),
         weight: FontWeight.w100,
         color: color,
         letterSpacing: letterSpacing,
@@ -31709,7 +35309,7 @@ class Text44w200 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 44,
+        size: size(context: context, size: 44),
         weight: FontWeight.w200,
         color: color,
         letterSpacing: letterSpacing,
@@ -31801,7 +35401,7 @@ class Text44w300 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 44,
+        size: size(context: context, size: 44),
         weight: FontWeight.w300,
         color: color,
         letterSpacing: letterSpacing,
@@ -31893,7 +35493,7 @@ class Text44w400 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 44,
+        size: size(context: context, size: 44),
         weight: FontWeight.w400,
         color: color,
         letterSpacing: letterSpacing,
@@ -31985,7 +35585,7 @@ class Text44w500 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 44,
+        size: size(context: context, size: 44),
         weight: FontWeight.w500,
         color: color,
         letterSpacing: letterSpacing,
@@ -32077,7 +35677,7 @@ class Text44w600 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 44,
+        size: size(context: context, size: 44),
         weight: FontWeight.w600,
         color: color,
         letterSpacing: letterSpacing,
@@ -32169,7 +35769,7 @@ class Text44w700 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 44,
+        size: size(context: context, size: 44),
         weight: FontWeight.w700,
         color: color,
         letterSpacing: letterSpacing,
@@ -32261,7 +35861,7 @@ class Text44w800 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 44,
+        size: size(context: context, size: 44),
         weight: FontWeight.w800,
         color: color,
         letterSpacing: letterSpacing,
@@ -32353,8 +35953,101 @@ class Text44w900 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 44,
+        size: size(context: context, size: 44),
         weight: FontWeight.w900,
+        color: color,
+        letterSpacing: letterSpacing,
+        fontStyle: fontStyle,
+        overflow: overflow,
+        maxLines: maxLines,
+        textAlign: textAlign,
+        decoration: decoration,
+        decorationThickness: decorationThickness,
+        decorationColor: decorationColor,
+        decorationStyle: decorationStyle,
+        height: height,
+        wordSpacing: wordSpacing,
+        textBaseline: textBaseline,
+        textDirection: textDirection,
+        locale: locale,
+        softWrap: softWrap,
+        strutStyle: strutStyle,
+        textWidthBasis: textWidthBasis,
+        textHeightBehavior: textHeightBehavior,
+        foreground: foreground,
+        background: background,
+        shadows: shadows,
+        debugLabel: debugLabel,
+        package: package,
+        style: style,
+        semanticsLabel: semanticsLabel,
+      );
+}
+
+// Text widgets for font size 45
+class Text45 extends StatelessWidget {
+  final String text;
+  final Color? color;
+  final double? letterSpacing;
+  final double? wordSpacing;
+  final TextBaseline? textBaseline;
+  final FontStyle? fontStyle;
+  final TextOverflow? overflow;
+  final int? maxLines;
+  final TextAlign? textAlign;
+  final TextDirection? textDirection;
+  final Locale? locale;
+  final bool? softWrap;
+  final StrutStyle? strutStyle;
+  final TextWidthBasis? textWidthBasis;
+  final TextHeightBehavior? textHeightBehavior;
+  final Paint? foreground;
+  final Paint? background;
+  final List<Shadow>? shadows;
+  final TextDecoration? decoration;
+  final double? decorationThickness;
+  final Color? decorationColor;
+  final TextDecorationStyle? decorationStyle;
+  final double? height;
+  final String? debugLabel;
+  final String? package;
+  final TextStyle? style;
+  final String? semanticsLabel;
+  const Text45(
+    this.text, {
+    Key? key,
+    this.color,
+    this.letterSpacing,
+    this.wordSpacing,
+    this.textBaseline,
+    this.fontStyle,
+    this.overflow,
+    this.maxLines,
+    this.textAlign,
+    this.textDirection,
+    this.locale,
+    this.softWrap,
+    this.strutStyle,
+    this.textWidthBasis,
+    this.textHeightBehavior,
+    this.foreground,
+    this.background,
+    this.shadows,
+    this.decoration,
+    this.decorationThickness,
+    this.decorationColor,
+    this.decorationStyle,
+    this.height,
+    this.debugLabel,
+    this.package,
+    this.style,
+    this.semanticsLabel,
+  }) : super(key: key);
+  @override
+  Widget build(BuildContext context) => _textVariant(
+        text,
+        size: size(context: context, size: 45),
+        weight: SimplifiedTextWidgetConfig.defaultFontWeight,
         color: color,
         letterSpacing: letterSpacing,
         fontStyle: fontStyle,
@@ -32445,7 +36138,7 @@ class Text45w100 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 45,
+        size: size(context: context, size: 45),
         weight: FontWeight.w100,
         color: color,
         letterSpacing: letterSpacing,
@@ -32537,7 +36230,7 @@ class Text45w200 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 45,
+        size: size(context: context, size: 45),
         weight: FontWeight.w200,
         color: color,
         letterSpacing: letterSpacing,
@@ -32629,7 +36322,7 @@ class Text45w300 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 45,
+        size: size(context: context, size: 45),
         weight: FontWeight.w300,
         color: color,
         letterSpacing: letterSpacing,
@@ -32721,7 +36414,7 @@ class Text45w400 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 45,
+        size: size(context: context, size: 45),
         weight: FontWeight.w400,
         color: color,
         letterSpacing: letterSpacing,
@@ -32813,7 +36506,7 @@ class Text45w500 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 45,
+        size: size(context: context, size: 45),
         weight: FontWeight.w500,
         color: color,
         letterSpacing: letterSpacing,
@@ -32905,7 +36598,7 @@ class Text45w600 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 45,
+        size: size(context: context, size: 45),
         weight: FontWeight.w600,
         color: color,
         letterSpacing: letterSpacing,
@@ -32997,7 +36690,7 @@ class Text45w700 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 45,
+        size: size(context: context, size: 45),
         weight: FontWeight.w700,
         color: color,
         letterSpacing: letterSpacing,
@@ -33089,7 +36782,7 @@ class Text45w800 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 45,
+        size: size(context: context, size: 45),
         weight: FontWeight.w800,
         color: color,
         letterSpacing: letterSpacing,
@@ -33181,8 +36874,101 @@ class Text45w900 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 45,
+        size: size(context: context, size: 45),
         weight: FontWeight.w900,
+        color: color,
+        letterSpacing: letterSpacing,
+        fontStyle: fontStyle,
+        overflow: overflow,
+        maxLines: maxLines,
+        textAlign: textAlign,
+        decoration: decoration,
+        decorationThickness: decorationThickness,
+        decorationColor: decorationColor,
+        decorationStyle: decorationStyle,
+        height: height,
+        wordSpacing: wordSpacing,
+        textBaseline: textBaseline,
+        textDirection: textDirection,
+        locale: locale,
+        softWrap: softWrap,
+        strutStyle: strutStyle,
+        textWidthBasis: textWidthBasis,
+        textHeightBehavior: textHeightBehavior,
+        foreground: foreground,
+        background: background,
+        shadows: shadows,
+        debugLabel: debugLabel,
+        package: package,
+        style: style,
+        semanticsLabel: semanticsLabel,
+      );
+}
+
+// Text widgets for font size 46
+class Text46 extends StatelessWidget {
+  final String text;
+  final Color? color;
+  final double? letterSpacing;
+  final double? wordSpacing;
+  final TextBaseline? textBaseline;
+  final FontStyle? fontStyle;
+  final TextOverflow? overflow;
+  final int? maxLines;
+  final TextAlign? textAlign;
+  final TextDirection? textDirection;
+  final Locale? locale;
+  final bool? softWrap;
+  final StrutStyle? strutStyle;
+  final TextWidthBasis? textWidthBasis;
+  final TextHeightBehavior? textHeightBehavior;
+  final Paint? foreground;
+  final Paint? background;
+  final List<Shadow>? shadows;
+  final TextDecoration? decoration;
+  final double? decorationThickness;
+  final Color? decorationColor;
+  final TextDecorationStyle? decorationStyle;
+  final double? height;
+  final String? debugLabel;
+  final String? package;
+  final TextStyle? style;
+  final String? semanticsLabel;
+  const Text46(
+    this.text, {
+    Key? key,
+    this.color,
+    this.letterSpacing,
+    this.wordSpacing,
+    this.textBaseline,
+    this.fontStyle,
+    this.overflow,
+    this.maxLines,
+    this.textAlign,
+    this.textDirection,
+    this.locale,
+    this.softWrap,
+    this.strutStyle,
+    this.textWidthBasis,
+    this.textHeightBehavior,
+    this.foreground,
+    this.background,
+    this.shadows,
+    this.decoration,
+    this.decorationThickness,
+    this.decorationColor,
+    this.decorationStyle,
+    this.height,
+    this.debugLabel,
+    this.package,
+    this.style,
+    this.semanticsLabel,
+  }) : super(key: key);
+  @override
+  Widget build(BuildContext context) => _textVariant(
+        text,
+        size: size(context: context, size: 46),
+        weight: SimplifiedTextWidgetConfig.defaultFontWeight,
         color: color,
         letterSpacing: letterSpacing,
         fontStyle: fontStyle,
@@ -33273,7 +37059,7 @@ class Text46w100 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 46,
+        size: size(context: context, size: 46),
         weight: FontWeight.w100,
         color: color,
         letterSpacing: letterSpacing,
@@ -33365,7 +37151,7 @@ class Text46w200 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 46,
+        size: size(context: context, size: 46),
         weight: FontWeight.w200,
         color: color,
         letterSpacing: letterSpacing,
@@ -33457,7 +37243,7 @@ class Text46w300 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 46,
+        size: size(context: context, size: 46),
         weight: FontWeight.w300,
         color: color,
         letterSpacing: letterSpacing,
@@ -33549,7 +37335,7 @@ class Text46w400 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 46,
+        size: size(context: context, size: 46),
         weight: FontWeight.w400,
         color: color,
         letterSpacing: letterSpacing,
@@ -33641,7 +37427,7 @@ class Text46w500 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 46,
+        size: size(context: context, size: 46),
         weight: FontWeight.w500,
         color: color,
         letterSpacing: letterSpacing,
@@ -33733,7 +37519,7 @@ class Text46w600 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 46,
+        size: size(context: context, size: 46),
         weight: FontWeight.w600,
         color: color,
         letterSpacing: letterSpacing,
@@ -33825,7 +37611,7 @@ class Text46w700 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 46,
+        size: size(context: context, size: 46),
         weight: FontWeight.w700,
         color: color,
         letterSpacing: letterSpacing,
@@ -33917,7 +37703,7 @@ class Text46w800 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 46,
+        size: size(context: context, size: 46),
         weight: FontWeight.w800,
         color: color,
         letterSpacing: letterSpacing,
@@ -34009,8 +37795,101 @@ class Text46w900 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 46,
+        size: size(context: context, size: 46),
         weight: FontWeight.w900,
+        color: color,
+        letterSpacing: letterSpacing,
+        fontStyle: fontStyle,
+        overflow: overflow,
+        maxLines: maxLines,
+        textAlign: textAlign,
+        decoration: decoration,
+        decorationThickness: decorationThickness,
+        decorationColor: decorationColor,
+        decorationStyle: decorationStyle,
+        height: height,
+        wordSpacing: wordSpacing,
+        textBaseline: textBaseline,
+        textDirection: textDirection,
+        locale: locale,
+        softWrap: softWrap,
+        strutStyle: strutStyle,
+        textWidthBasis: textWidthBasis,
+        textHeightBehavior: textHeightBehavior,
+        foreground: foreground,
+        background: background,
+        shadows: shadows,
+        debugLabel: debugLabel,
+        package: package,
+        style: style,
+        semanticsLabel: semanticsLabel,
+      );
+}
+
+// Text widgets for font size 47
+class Text47 extends StatelessWidget {
+  final String text;
+  final Color? color;
+  final double? letterSpacing;
+  final double? wordSpacing;
+  final TextBaseline? textBaseline;
+  final FontStyle? fontStyle;
+  final TextOverflow? overflow;
+  final int? maxLines;
+  final TextAlign? textAlign;
+  final TextDirection? textDirection;
+  final Locale? locale;
+  final bool? softWrap;
+  final StrutStyle? strutStyle;
+  final TextWidthBasis? textWidthBasis;
+  final TextHeightBehavior? textHeightBehavior;
+  final Paint? foreground;
+  final Paint? background;
+  final List<Shadow>? shadows;
+  final TextDecoration? decoration;
+  final double? decorationThickness;
+  final Color? decorationColor;
+  final TextDecorationStyle? decorationStyle;
+  final double? height;
+  final String? debugLabel;
+  final String? package;
+  final TextStyle? style;
+  final String? semanticsLabel;
+  const Text47(
+    this.text, {
+    Key? key,
+    this.color,
+    this.letterSpacing,
+    this.wordSpacing,
+    this.textBaseline,
+    this.fontStyle,
+    this.overflow,
+    this.maxLines,
+    this.textAlign,
+    this.textDirection,
+    this.locale,
+    this.softWrap,
+    this.strutStyle,
+    this.textWidthBasis,
+    this.textHeightBehavior,
+    this.foreground,
+    this.background,
+    this.shadows,
+    this.decoration,
+    this.decorationThickness,
+    this.decorationColor,
+    this.decorationStyle,
+    this.height,
+    this.debugLabel,
+    this.package,
+    this.style,
+    this.semanticsLabel,
+  }) : super(key: key);
+  @override
+  Widget build(BuildContext context) => _textVariant(
+        text,
+        size: size(context: context, size: 47),
+        weight: SimplifiedTextWidgetConfig.defaultFontWeight,
         color: color,
         letterSpacing: letterSpacing,
         fontStyle: fontStyle,
@@ -34101,7 +37980,7 @@ class Text47w100 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 47,
+        size: size(context: context, size: 47),
         weight: FontWeight.w100,
         color: color,
         letterSpacing: letterSpacing,
@@ -34193,7 +38072,7 @@ class Text47w200 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 47,
+        size: size(context: context, size: 47),
         weight: FontWeight.w200,
         color: color,
         letterSpacing: letterSpacing,
@@ -34285,7 +38164,7 @@ class Text47w300 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 47,
+        size: size(context: context, size: 47),
         weight: FontWeight.w300,
         color: color,
         letterSpacing: letterSpacing,
@@ -34377,7 +38256,7 @@ class Text47w400 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 47,
+        size: size(context: context, size: 47),
         weight: FontWeight.w400,
         color: color,
         letterSpacing: letterSpacing,
@@ -34469,7 +38348,7 @@ class Text47w500 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 47,
+        size: size(context: context, size: 47),
         weight: FontWeight.w500,
         color: color,
         letterSpacing: letterSpacing,
@@ -34561,7 +38440,7 @@ class Text47w600 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 47,
+        size: size(context: context, size: 47),
         weight: FontWeight.w600,
         color: color,
         letterSpacing: letterSpacing,
@@ -34653,7 +38532,7 @@ class Text47w700 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 47,
+        size: size(context: context, size: 47),
         weight: FontWeight.w700,
         color: color,
         letterSpacing: letterSpacing,
@@ -34745,7 +38624,7 @@ class Text47w800 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 47,
+        size: size(context: context, size: 47),
         weight: FontWeight.w800,
         color: color,
         letterSpacing: letterSpacing,
@@ -34837,8 +38716,101 @@ class Text47w900 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 47,
+        size: size(context: context, size: 47),
         weight: FontWeight.w900,
+        color: color,
+        letterSpacing: letterSpacing,
+        fontStyle: fontStyle,
+        overflow: overflow,
+        maxLines: maxLines,
+        textAlign: textAlign,
+        decoration: decoration,
+        decorationThickness: decorationThickness,
+        decorationColor: decorationColor,
+        decorationStyle: decorationStyle,
+        height: height,
+        wordSpacing: wordSpacing,
+        textBaseline: textBaseline,
+        textDirection: textDirection,
+        locale: locale,
+        softWrap: softWrap,
+        strutStyle: strutStyle,
+        textWidthBasis: textWidthBasis,
+        textHeightBehavior: textHeightBehavior,
+        foreground: foreground,
+        background: background,
+        shadows: shadows,
+        debugLabel: debugLabel,
+        package: package,
+        style: style,
+        semanticsLabel: semanticsLabel,
+      );
+}
+
+// Text widgets for font size 48
+class Text48 extends StatelessWidget {
+  final String text;
+  final Color? color;
+  final double? letterSpacing;
+  final double? wordSpacing;
+  final TextBaseline? textBaseline;
+  final FontStyle? fontStyle;
+  final TextOverflow? overflow;
+  final int? maxLines;
+  final TextAlign? textAlign;
+  final TextDirection? textDirection;
+  final Locale? locale;
+  final bool? softWrap;
+  final StrutStyle? strutStyle;
+  final TextWidthBasis? textWidthBasis;
+  final TextHeightBehavior? textHeightBehavior;
+  final Paint? foreground;
+  final Paint? background;
+  final List<Shadow>? shadows;
+  final TextDecoration? decoration;
+  final double? decorationThickness;
+  final Color? decorationColor;
+  final TextDecorationStyle? decorationStyle;
+  final double? height;
+  final String? debugLabel;
+  final String? package;
+  final TextStyle? style;
+  final String? semanticsLabel;
+  const Text48(
+    this.text, {
+    Key? key,
+    this.color,
+    this.letterSpacing,
+    this.wordSpacing,
+    this.textBaseline,
+    this.fontStyle,
+    this.overflow,
+    this.maxLines,
+    this.textAlign,
+    this.textDirection,
+    this.locale,
+    this.softWrap,
+    this.strutStyle,
+    this.textWidthBasis,
+    this.textHeightBehavior,
+    this.foreground,
+    this.background,
+    this.shadows,
+    this.decoration,
+    this.decorationThickness,
+    this.decorationColor,
+    this.decorationStyle,
+    this.height,
+    this.debugLabel,
+    this.package,
+    this.style,
+    this.semanticsLabel,
+  }) : super(key: key);
+  @override
+  Widget build(BuildContext context) => _textVariant(
+        text,
+        size: size(context: context, size: 48),
+        weight: SimplifiedTextWidgetConfig.defaultFontWeight,
         color: color,
         letterSpacing: letterSpacing,
         fontStyle: fontStyle,
@@ -34929,7 +38901,7 @@ class Text48w100 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 48,
+        size: size(context: context, size: 48),
         weight: FontWeight.w100,
         color: color,
         letterSpacing: letterSpacing,
@@ -35021,7 +38993,7 @@ class Text48w200 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 48,
+        size: size(context: context, size: 48),
         weight: FontWeight.w200,
         color: color,
         letterSpacing: letterSpacing,
@@ -35113,7 +39085,7 @@ class Text48w300 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 48,
+        size: size(context: context, size: 48),
         weight: FontWeight.w300,
         color: color,
         letterSpacing: letterSpacing,
@@ -35205,7 +39177,7 @@ class Text48w400 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 48,
+        size: size(context: context, size: 48),
         weight: FontWeight.w400,
         color: color,
         letterSpacing: letterSpacing,
@@ -35297,7 +39269,7 @@ class Text48w500 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 48,
+        size: size(context: context, size: 48),
         weight: FontWeight.w500,
         color: color,
         letterSpacing: letterSpacing,
@@ -35389,7 +39361,7 @@ class Text48w600 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 48,
+        size: size(context: context, size: 48),
         weight: FontWeight.w600,
         color: color,
         letterSpacing: letterSpacing,
@@ -35481,7 +39453,7 @@ class Text48w700 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 48,
+        size: size(context: context, size: 48),
         weight: FontWeight.w700,
         color: color,
         letterSpacing: letterSpacing,
@@ -35573,7 +39545,7 @@ class Text48w800 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 48,
+        size: size(context: context, size: 48),
         weight: FontWeight.w800,
         color: color,
         letterSpacing: letterSpacing,
@@ -35665,7 +39637,7 @@ class Text48w900 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _textVariant(
         text,
-        size: 48,
+        size: size(context: context, size: 48),
         weight: FontWeight.w900,
         color: color,
         letterSpacing: letterSpacing,
