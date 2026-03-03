@@ -1,9 +1,13 @@
 library simplified_text_widget;
 
+import 'package:simplified_text_widget/configuration.dart';
 import 'package:simplified_text_widget/font_config.dart';
 import 'package:flutter/material.dart';
 
 export 'src/text_variants.dart';
+export 'configuration.dart';
+export 'colors.dart';
+export 'responsive_size_calculator.dart';
 
 class CustomText extends StatelessWidget {
   final String text;
@@ -78,7 +82,7 @@ class CustomText extends StatelessWidget {
       style: style ??
           TextStyle(
             fontSize: size,
-            color: color ?? Colors.black,
+            color: color ?? SimplifiedTextWidgetConfig.defaultColor,
             letterSpacing: letterSpacing,
             wordSpacing: wordSpacing,
             textBaseline: textBaseline,

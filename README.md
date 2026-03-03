@@ -19,6 +19,74 @@ With Flutter:
  flutter pub add simplified_text_widget
 ```
 
+## 🚀 Getting Started
+
+> [!IMPORTANT]
+>
+> ## ⚙️ Configuration
+>
+> Before using the widgets, you **must** initialize the `SimplifiedTextWidgetConfig` in your `main()` function. This class controls the global behavior, responsiveness, and default styles for all text variants.
+
+```dart
+import 'package:simplified_text_widget/simplified_text_widget.dart';
+
+void main() {
+  SimplifiedTextWidgetConfig.config(
+    responsiveFonts: bool, **required** // Enable/Disable font responsiveness globally
+    maxSizeMultiplier: double, (optional) // Max font scale factor (Default: 1.5)
+    baseScreenWidth: double, (optional) // Design width for calculation (Default: 375)
+    defaultFontWeight: FontWeight, (optional) // Default weight for Text[size] variants
+    defaultColor: Color (optional) // Default color for all widgets (Default: Color(0xFF000000))
+  );
+  runApp(const MyApp());
+}
+```
+
+### Configuration Options
+
+| Property            | Type                | Default             | Description                                                     |
+| ------------------- | ------------------- | ------------------- | --------------------------------------------------------------- |
+| `responsiveFonts`   | `bool`              | `required`          | Whether fonts should scale based on screen width.               |
+| `maxSizeMultiplier` | `double`            | `1.5`               | Limits how large the font can grow on large screens.            |
+| `baseScreenWidth`   | `double`            | `375`               | The screen width (in logical pixels) your UI was designed for.  |
+| `defaultFontWeight` | `DefaultFontWeight` | `w500`              | The weight used by base `Text[size]` variants (e.g., `Text14`). |
+| `defaultColor`      | `Color`             | `Color(0xFF000000)` | The fallback color if no color is provided to a widget.         |
+
+## 📐 How Responsiveness Works
+
+When `responsiveFonts` is set to `true`, the font size is calculated dynamically based on the current screen width.
+
+### Example Calculations
+
+Assuming `baseScreenWidth: 375` (Default):
+
+| Initial Size | Current Width   | Multiplier | Resulting Size               |
+| :----------- | :-------------- | :--------- | :--------------------------- |
+| **14px**     | 375px (Mobile)  | 1.5x       | **14.0px**                   |
+| **14px**     | 562px (Tablet)  | 1.5x       | **21.0px**                   |
+| **14px**     | 750px (Desktop) | 1.5x       | **21.0px** (Clamped by 1.5x) |
+| **14px**     | 750px (Desktop) | **2.0x**   | **28.0px**                   |
+
+## Features
+
+- **Centrally Managed Configuration**: Introducing `SimplifiedTextWidgetConfig` to control global defaults like color and font weight across your entire app.
+- **Smart Responsiveness**: Effortlessly scale your typography based on `baseScreenWidth` with built-in `maxSizeMultiplier` guards to ensure readability on cross platform.
+- **Rich Debug Logging**: Get instant visibility into your global setup with beautifully formatted console logs, featuring color previews for your `defaultColor`.
+- **Global Default Color**: Declare a fallback `defaultColor` (e.g., `Colors.navy`) during initialization to maintain brand consistency without repeating color parameters.
+- **Base Variants**: Simplified usage with `Text[size]` (e.g., `Text14`) which dynamically inherits your globally configured font weight.
+
+> [!IMPORTANT]
+> If migrating from an older version, add this in `main()` to avoid any error.
+
+```dart
+import 'package:simplified_text_widget/simplified_text_widget.dart';
+
+
+  SimplifiedTextWidgetConfig.config(
+    responsiveFonts: false // false if you don't need responsiveness
+);
+```
+
 ## 🛠️ Setup Your Font
 
 ### 1. Add Font Files
@@ -51,12 +119,22 @@ flutter pub get
 
 ## 🎯 Basic Usage
 
+The library provides two types of variants for every size:
+
+1. **Base Variants (`Text[size]`)**: Uses the global default weight (e.g., `Text14`).
+2. **Weight Variants (`Text[size]w[weight]`)**: Uses a specific weight (e.g., `Text14w700`).
+
 ```dart
 import 'package:simplified_text_widget/simplified_text_widget.dart';
 
-_// Available variants: Text[Size]w[Weight]_
+// 1. Base Variants (uses configured default weight)
+Text14('Consistent 14px text');
+Text20('Consistent 20px title');
+
+// 2. Weight-Specific Variants (100-900)
 Text14w400('Regular 14px text');
 Text16w700('Bold 16px text', color: Colors.blue);
+Text24w900('Heavy 24px title');
 ```
 
 ## ✨ All Customization Options
@@ -76,7 +154,7 @@ Text18w500(
 
 | Size | Weights Available | Example      |
 | ---- | ----------------- | ------------ |
-| 10   | 100-900           | `Text10w400` |
+| 6    | 100-900           | `Text6w400`  |
 | 12   | 100-900           | `Text12w700` |
 | 14   | 100-900           | `Text14w500` |
 | ...  | ...               | ...          |
@@ -92,7 +170,7 @@ To boost your productivity and ensure consistency, we've included a set of VS Co
 1. Open VS Code
 2. Go to `Preferences` → `Configure Snippets`
 3. Choose `dart.json` (or create if it doesn't exist)
-4. Copy contents from the provided `dart.json` file (available in package github)
+4. Copy contents from the root `dart.json` file in this package
 5. Save and restart VS Code
 ```
 
